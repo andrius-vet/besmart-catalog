@@ -1,15 +1,6 @@
 {
   "mapping": [
-    {
-      "categoryId": "mokslas",
-      "itemIds": [
-        "YaEf5BA5Qf8",
-        "PLIhvC56v63ILPDA2DQBv0IKzqsWTZxCkp"
-      ]
-    },
-    {
-      "categoryId": "zaidimai",
-      "itemIds": ["YaEf5BA5Qf8"]
-    }
+    { "categoryId": "mokslas", "itemIds": ["YaEf5BA5Qf8","PLIhvC56v63ILPDA2DQBv0IKzqsWTZxCkp"] },
+    { "categoryId": "zaidimai", "itemIds": ["YaEf5BA5Qf8"] }
   ]
 }
