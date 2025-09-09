@@ -5,6 +5,8 @@ backend:
 media_folder: "static/uploads"
 public_folder: "/static/uploads"
 
+local_backend: true
+
 collections:
   - name: "index"
     label: "Manifestas (index.json)"
