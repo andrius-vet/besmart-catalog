@@ -1,0 +1,86 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "static/uploads"
+public_folder: "/static/uploads"
+
+local_backend: true
+
+collections:
+  - name: "index"
+    label: "Manifestas (index.json)"
+    format: "json"
+    files:
+      - label: "Index JSON"
+        name: "index"
+        file: "catalog/index.json"
+        format: "json"
+        fields:
+          - { label: "version", name: "version", widget: "number" }
+          - { label: "updatedAt", name: "updatedAt", widget: "datetime" }
+          - label: "files"
+            name: "files"
+            widget: "object"
+            fields:
+              - { label: "videos", name: "videos", widget: "string" }
+              - { label: "categories", name: "categories", widget: "string" }
+              - { label: "categoryItems", name: "categoryItems", widget: "string" }
+
+  - name: "videos"
+    label: "Įrašai (videos.json)"
+    format: "json"
+    identifier_field: "id"
+    files:
+      - label: "Visi įrašai"
+        name: "videos"
+        file: "catalog/videos.json"
+        format: "json"
+        fields:
+          - label: "Items"
+            name: "items"
+            widget: "list"
+            fields:
+              - { label: "id", name: "id", widget: "string" }
+              - { label: "type", name: "type", widget: "select", options: ["youtube_video","youtube_playlist","mp4"] }
+              - { label: "url", name: "url", widget: "string" }
+              - { label: "title", name: "title", widget: "string" }
+              - { label: "thumbnail", name: "thumbnail", widget: "string", required: false }
+              - { label: "tags", name: "tags", widget: "list", required: false }
+              - { label: "lang", name: "lang", widget: "string", required: false }
+
+  - name: "categories"
+    label: "Kategorijos (categories.json)"
+    format: "json"
+    identifier_field: "id"
+    files:
+      - label: "Kategorijos"
+        name: "categories"
+        file: "catalog/categories.json"
+        format: "json"
+        fields:
+          - label: "Items"
+            name: "items"
+            widget: "list"
+            fields:
+              - { label: "id", name: "id", widget: "string" }
+              - { label: "title", name: "title", widget: "string" }
+
+  - name: "categoryItems"
+    label: "Kategorijų sudėtis (category_items.json)"
+    format: "json"
+    files:
+      - label: "Priskyrimai"
+        name: "category_items"
+        file: "catalog/category_items.json"
+        format: "json"
+        fields:
+          - label: "Mapping"
+            name: "mapping"
+            widget: "list"
+            fields:
+              - { label: "categoryId", name: "categoryId", widget: "string" }
+              - label: "itemIds"
+                name: "itemIds"
+                widget: "list"
+                field: { label: "id", name: "id", widget: "string" }
