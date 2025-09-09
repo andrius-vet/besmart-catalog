@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "updatedAt": "2025-09-08T08:00:00Z",
+  "files": {
+    "videos": "videos.json",
+    "categories": "categories.json",
+    "categoryItems": "category_items.json"
+  }
+}
