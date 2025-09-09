@@ -1,8 +1,7 @@
 [build]
-publish = "."
-command = ""
+  publish = "."
 
-[[redirects]]
-  from = "/admin"
-  to = "/admin/index.html"
-  status = 200
+[[headers]]
+  for = "/*"
+  [headers.values]
+  Cache-Control = "no-store, no-cache, must-revalidate, max-age=0"

@@ -6,11 +6,7 @@
       "url": "https://www.youtube.com/watch?v=YaEf5BA5Qf8",
       "title": "Big Buck Bunny",
       "thumbnail": "https://i.ytimg.com/vi/z6Solk2XQcY/hqdefault.jpg",
-      "tags": [
-        "sport",
-        "bunny",
-        "fun"
-      ],
+      "tags": ["sport", "bunny", "fun"],
       "lang": "lt"
     },
     {
@@ -19,10 +15,7 @@
       "url": "https://www.youtube.com/playlist?list=PLIhvC56v63ILPDA2DQBv0IKzqsWTZxCkp",
       "title": "Physics Playlist",
       "thumbnail": "https://picsum.photos/seed/physics/640/360.jpg",
-      "tags": [
-        "physics",
-        "science"
-      ],
+      "tags": ["physics", "science"],
       "lang": "en"
     }
   ]

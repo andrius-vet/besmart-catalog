@@ -2,18 +2,20 @@ backend:
   name: git-gateway
   branch: main
 
-local_backend: true
-
 media_folder: "static/uploads"
 public_folder: "/static/uploads"
+
+local_backend: true
 
 collections:
   - name: "index"
     label: "Manifestas (index.json)"
+    format: "json"
     files:
       - label: "Index JSON"
         name: "index"
         file: "catalog/index.json"
+        format: "json"
         fields:
           - { label: "version", name: "version", widget: "number" }
           - { label: "updatedAt", name: "updatedAt", widget: "datetime" }
@@ -27,12 +29,15 @@ collections:
 
   - name: "videos"
     label: "Įrašai (videos.json)"
+    format: "json"
+    identifier_field: "id"
     files:
       - label: "Visi įrašai"
         name: "videos"
         file: "catalog/videos.json"
+        format: "json"
         fields:
-          - label: "items"
+          - label: "Items"
             name: "items"
             widget: "list"
             fields:
@@ -46,12 +51,15 @@ collections:
 
   - name: "categories"
     label: "Kategorijos (categories.json)"
+    format: "json"
+    identifier_field: "id"
     files:
       - label: "Kategorijos"
         name: "categories"
         file: "catalog/categories.json"
+        format: "json"
         fields:
-          - label: "items"
+          - label: "Items"
             name: "items"
             widget: "list"
             fields:
@@ -60,12 +68,14 @@ collections:
 
   - name: "categoryItems"
     label: "Kategorijų sudėtis (category_items.json)"
+    format: "json"
     files:
       - label: "Priskyrimai"
         name: "category_items"
         file: "catalog/category_items.json"
+        format: "json"
         fields:
-          - label: "mapping"
+          - label: "Mapping"
             name: "mapping"
             widget: "list"
             fields:

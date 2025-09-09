@@ -4,30 +4,9 @@
   <meta charset="utf-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <title>BeSmart Catalog</title>
-  <style>
-    html,body{height:100%;margin:0;background:#0b0f14;color:#e6e6e6;font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,"Helvetica Neue",Arial}
-    .wrap{height:100%;display:grid;place-items:center}
-    .card{max-width:560px;text-align:center;line-height:1.6}
-    a{color:#9ad1ff}
-  </style>
 </head>
 <body>
-  <div class="wrap">
-    <div class="card">
-      <h1>BeSmart</h1>
-      <p>Redirecting to the admin…</p>
-      <p>If the redirect does not happen automatically, <a id="link" href="/admin/">click here</a>.</p>
-    </div>
-  </div>
-  <script>
-    // Preserve the invite hash from Netlify Identity, e.g. #invite_token=...
-    (function() {
-      var dest = "/admin/";
-      if (location.hash) dest += location.hash;
-      document.getElementById("link").setAttribute("href", dest);
-      // pushState avoids another round-trip with some hosts
-      location.replace(dest);
-    })();
-  </script>
+  <h1>BeSmart</h1>
+  <p><a href="/admin/">Eiti į Admin</a></p>
 </body>
 </html>

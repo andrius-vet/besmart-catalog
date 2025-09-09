@@ -1,16 +1,7 @@
 {
   "items": [
-    {
-      "id": "mokslas",
-      "title": "Mokslas"
-    },
-    {
-      "id": "zaidimai",
-      "title": "Žaidimai"
-    },
-    {
-      "id": "sport",
-      "title": "Sport"
-    }
+    { "id": "mokslas", "title": "Mokslas" },
+    { "id": "zaidimai", "title": "Žaidimai" },
+    { "id": "sport", "title": "Sport" }
   ]
 }

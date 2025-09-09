@@ -2,8 +2,6 @@ backend:
   name: git-gateway
   branch: main
 
-local_backend: true
-
 media_folder: "static/uploads"
 public_folder: "/static/uploads"
 
@@ -32,7 +30,7 @@ collections:
         name: "videos"
         file: "catalog/videos.json"
         fields:
-          - label: "items"
+          - label: "Items"
             name: "items"
             widget: "list"
             fields:
@@ -51,7 +49,7 @@ collections:
         name: "categories"
         file: "catalog/categories.json"
         fields:
-          - label: "items"
+          - label: "Items"
             name: "items"
             widget: "list"
             fields:
@@ -65,7 +63,7 @@ collections:
         name: "category_items"
         file: "catalog/category_items.json"
         fields:
-          - label: "mapping"
+          - label: "Mapping"
             name: "mapping"
             widget: "list"
             fields:
