@@ -1,22 +1,31 @@
 <!doctype html>
 <html>
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
     <title>BeSmart Admin</title>
-    <link rel="stylesheet" href="https://unpkg.com/@picocss/pico@2.0.6/css/pico.min.css">
-    <style>
-      body { background:#0b0f14; color:#e6e6e6; }
-      .container { padding: 1rem; }
-    </style>
+    <link rel="stylesheet" href="https://unpkg.com/@picocss/pico@2.0.6/css/pico.min.css" />
+    <style>body{background:#0b0f14;color:#e6e6e6}</style>
   </head>
   <body>
-    <div class="container">
-      <h3>BeSmart Admin</h3>
+    <main class="container">
+      <h2>BeSmart Admin</h2>
       <div id="cms"></div>
-    </div>
+    </main>
+
+    <!-- Netlify Identity (login modal) -->
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
-    <script> if (window.netlifyIdentity) { window.netlifyIdentity.on('init', user => { if (!user) { window.netlifyIdentity.on('login', () => { document.location.href = '/admin/'; }); } }); } </script>
+    <script>
+      if (window.netlifyIdentity) {
+        window.netlifyIdentity.on('init', user => {
+          if (!user) {
+            window.netlifyIdentity.on('login', () => document.location.reload());
+          }
+        });
+      }
+    </script>
+
+    <!-- Decap CMS -->
     <script src="https://unpkg.com/decap-cms@3.0.11/dist/decap-cms.js"></script>
   </body>
 </html>
