@@ -1,11 +1,23 @@
 <!doctype html>
 <html>
   <head>
-    <meta charset="utf-8"/>
-    <meta name="robots" content="noindex"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
     <title>BeSmart Admin</title>
-    <script src="https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/@picocss/pico@2.0.6/css/pico.min.css">
+    <style>
+      body { background:#0b0f14; color:#e6e6e6; }
+      .container { padding: 1rem; }
+    </style>
   </head>
-  <body></body>
+  <body>
+    <div class="container">
+      <h3>BeSmart Admin</h3>
+      <div id="cms"></div>
+    </div>
+    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+    <script> if (window.netlifyIdentity) { window.netlifyIdentity.on('init', user => { if (!user) { window.netlifyIdentity.on('login', () => { document.location.href = '/admin/'; }); } }); } </script>
+    <script src="https://unpkg.com/decap-cms@3.0.11/dist/decap-cms.js"></script>
+    <script src="config.js"></script>
+  </body>
 </html>
