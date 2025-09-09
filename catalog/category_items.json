@@ -9,7 +9,15 @@
     },
     {
       "categoryId": "zaidimai",
-      "itemIds": ["YaEf5BA5Qf8"]
+      "itemIds": [
+        "YaEf5BA5Qf8"
+      ]
+    },
+    {
+      "categoryId": "dyi",
+      "itemIds": [
+        "PLeaWSP905wkbgTcbyoifbXHJ5cW-fYpqE"
+      ]
     }
   ]
 }
