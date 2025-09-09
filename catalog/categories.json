@@ -11,6 +11,10 @@
     {
       "id": "sport",
       "title": "Sport"
+    },
+    {
+      "id": "dyi",
+      "title": "DYI"
     }
   ]
 }
