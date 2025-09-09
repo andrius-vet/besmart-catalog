@@ -26,15 +26,15 @@
       "lang": "en"
     },
     {
-      "url": "https://www.youtube.com/watch?v=KBM-o0hPOec&list=PLeaWSP905wkbgTcbyoifbXHJ5cW-fYpqE",
-      "id": "PLeaWSP905wkbgTcbyoifbXHJ5cW-fYpqE",
-      "type": "youtube_playlist",
-      "title": "DYI",
+      "url": "https://www.youtube.com/watch?v=b-DR0fVXOug",
+      "id": "b-DR0fVXOug",
+      "type": "youtube_video",
+      "title": "test",
+      "lang": "lt",
       "tags": [
         "dyi"
-      ],
-      "lang": "en",
-      "thumbnail": ""
+      ]
+
     }
   ]
 }
