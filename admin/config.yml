@@ -20,9 +20,7 @@ collections:
             widget: "object"
             fields:
               - { label: "videos", name: "videos", widget: "string" }
-              # categories / categoryItems čia NEBEREIKIA
-              # - { label: "categories", name: "categories", widget: "string" }
-              # - { label: "categoryItems", name: "categoryItems", widget: "string" }
+              # categories/categoryItems šiame manifeste nebereikia
 
   - name: "videos"
     label: "Įrašai (videos.json)"
@@ -36,14 +34,30 @@ collections:
             widget: "list"
             fields:
               - { label: "id", name: "id", widget: "string" }
-              - { label: "type", name: "type", widget: "select", options: [ "youtube_video","youtube_playlist","mp4" ] }
+              - { label: "type", name: "type", widget: "select", options: ["youtube_video","youtube_playlist","mp4"] }
               - { label: "url", name: "url", widget: "string" }
               - { label: "title (optional)", name: "title", widget: "string", required: false, hint: "Palik tuščią – programėlė paims iš YouTube" }
               - { label: "thumbnail (optional)", name: "thumbnail", widget: "string", required: false }
+
+              # <-- ČIA NAUJAS LAUKAS: paprastas kategorijų sąrašas (string'ai)
               - label: "categories (optional)"
                 name: "categories"
                 widget: "list"
                 required: false
                 hint: "Pvz.: Mokslas, DIY (gali pridėti kelias kategorijas)"
-              - { label: "tags (optional)", name: "tags", widget: "list", required: false }
+                field:
+                  label: "category"
+                  name: "category"
+                  widget: "string"
+
+              # (pasirinktinai – suvienodinam su categories, kad būtų aiškiau)
+              - label: "tags (optional)"
+                name: "tags"
+                widget: "list"
+                required: false
+                field:
+                  label: "tag"
+                  name: "tag"
+                  widget: "string"
+
               - { label: "lang (optional)", name: "lang", widget: "string", required: false }
