@@ -46,8 +46,9 @@
       "url": "https://www.youtube.com/watch?v=_pGBT9D3cpM",
       "id": "_pGBT9D3cpM",
       "categories": [
-        "DYI"
-      ]
+        "dyi"
+      ],
+      "type": "youtube_video"
     }
   ]
 }
