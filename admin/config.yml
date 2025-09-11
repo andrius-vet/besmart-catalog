@@ -21,7 +21,8 @@ collections:
             fields:
               - { label: "videos", name: "videos", widget: "string" }
               - { label: "categories", name: "categories", widget: "string" }
-              - { label: "categoryItems", name: "categoryItems", widget: "string" }
+              # categoryItems NEBENAUDOJAM – išimta iš manifest
+              # - { label: "categoryItems", name: "categoryItems", widget: "string" }
 
   - name: "videos"
     label: "Įrašai (videos.json)"
@@ -37,11 +38,20 @@ collections:
               - { label: "id", name: "id", widget: "string" }
               - { label: "type", name: "type", widget: "select", options: ["youtube_video","youtube_playlist","mp4"] }
               - { label: "url", name: "url", widget: "string" }
-              # <-- PADARYTA NEPRIVALOMA
-              - { label: "title", name: "title", widget: "string", required: false, hint: "Palik tuščią – programėlė paims pavadinimą iš YouTube" }
-              - { label: "thumbnail", name: "thumbnail", widget: "string", required: false }
-              - { label: "tags", name: "tags", widget: "list", required: false }
-              - { label: "lang", name: "lang", widget: "string", required: false }
+              - { label: "title (optional)", name: "title", widget: "string", required: false, hint: "Palik tuščią – programėlė paims pavadinimą iš YouTube" }
+              - { label: "thumbnail (optional)", name: "thumbnail", widget: "string", required: false }
+              - label: "categories"
+                name: "categories"
+                widget: "relation"
+                collection: "categories"
+                search_fields: ["items.*.title", "items.*.id"]
+                value_field: "items.*.id"
+                display_fields: ["items.*.title"]
+                multiple: true
+                required: false
+                hint: "Pasirink kelias kategorijas (nebūtina)"
+              - { label: "tags (optional)", name: "tags", widget: "list", required: false }
+              - { label: "lang (optional)", name: "lang", widget: "string", required: false }
 
   - name: "categories"
     label: "Kategorijos (categories.json)"
@@ -57,19 +67,4 @@ collections:
               - { label: "id", name: "id", widget: "string" }
               - { label: "title", name: "title", widget: "string" }
 
-  - name: "categoryItems"
-    label: "Kategorijų sudėtis (category_items.json)"
-    files:
-      - label: "Priskyrimai"
-        name: "category_items"
-        file: "catalog/category_items.json"
-        fields:
-          - label: "Mapping"
-            name: "mapping"
-            widget: "list"
-            fields:
-              - { label: "categoryId", name: "categoryId", widget: "string" }
-              - label: "itemIds"
-                name: "itemIds"
-                widget: "list"
-                field: { label: "id", name: "id", widget: "string" }
+  # categoryItems kolekcijos NĖRA – nuo šiol priskyrimas vyksta tiesiog videos.items[].categories
