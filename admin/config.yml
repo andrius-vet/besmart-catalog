@@ -20,8 +20,8 @@ collections:
             widget: "object"
             fields:
               - { label: "videos", name: "videos", widget: "string" }
-              - { label: "categories", name: "categories", widget: "string" }
-              # categoryItems NEBENAUDOJAM – išimta iš manifest
+              # categories / categoryItems čia NEBEREIKIA
+              # - { label: "categories", name: "categories", widget: "string" }
               # - { label: "categoryItems", name: "categoryItems", widget: "string" }
 
   - name: "videos"
@@ -38,33 +38,17 @@ collections:
               - { label: "id", name: "id", widget: "string" }
               - { label: "type", name: "type", widget: "select", options: ["youtube_video","youtube_playlist","mp4"] }
               - { label: "url", name: "url", widget: "string" }
-              - { label: "title (optional)", name: "title", widget: "string", required: false, hint: "Palik tuščią – programėlė paims pavadinimą iš YouTube" }
+              - { label: "title (optional)", name: "title", widget: "string", required: false, hint: "Palik tuščią – programėlė paims iš YouTube" }
               - { label: "thumbnail (optional)", name: "thumbnail", widget: "string", required: false }
-              - label: "categories"
+              - label: "categories (optional)"
                 name: "categories"
-                widget: "relation"
-                collection: "categories"
-                search_fields: ["items.*.title", "items.*.id"]
-                value_field: "items.*.id"
-                display_fields: ["items.*.title"]
-                multiple: true
+                widget: "list"
+                field: { label: "category", name: "category", widget: "string" }
                 required: false
-                hint: "Pasirink kelias kategorijas (nebūtina)"
+                hint: "Pvz.: Mokslas, DIY (gali pridėti kelias)"
               - { label: "tags (optional)", name: "tags", widget: "list", required: false }
               - { label: "lang (optional)", name: "lang", widget: "string", required: false }
 
-  - name: "categories"
-    label: "Kategorijos (categories.json)"
-    files:
-      - label: "Kategorijos"
-        name: "categories"
-        file: "catalog/categories.json"
-        fields:
-          - label: "Items"
-            name: "items"
-            widget: "list"
-            fields:
-              - { label: "id", name: "id", widget: "string" }
-              - { label: "title", name: "title", widget: "string" }
-
-  # categoryItems kolekcijos NĖRA – nuo šiol priskyrimas vyksta tiesiog videos.items[].categories
+  # Šitą kolekciją gali VISAI išimti arba palikti tik jei dar kur nors naudosi:
+  # - name: "categories" ...
+  # - name: "categoryItems" ...
