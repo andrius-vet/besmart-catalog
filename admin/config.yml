@@ -36,19 +36,14 @@ collections:
             widget: "list"
             fields:
               - { label: "id", name: "id", widget: "string" }
-              - { label: "type", name: "type", widget: "select", options: ["youtube_video","youtube_playlist","mp4"] }
+              - { label: "type", name: "type", widget: "select", options: [ "youtube_video","youtube_playlist","mp4" ] }
               - { label: "url", name: "url", widget: "string" }
               - { label: "title (optional)", name: "title", widget: "string", required: false, hint: "Palik tuščią – programėlė paims iš YouTube" }
               - { label: "thumbnail (optional)", name: "thumbnail", widget: "string", required: false }
               - label: "categories (optional)"
                 name: "categories"
                 widget: "list"
-                field: { label: "category", name: "category", widget: "string" }
                 required: false
-                hint: "Pvz.: Mokslas, DIY (gali pridėti kelias)"
+                hint: "Pvz.: Mokslas, DIY (gali pridėti kelias kategorijas)"
               - { label: "tags (optional)", name: "tags", widget: "list", required: false }
               - { label: "lang (optional)", name: "lang", widget: "string", required: false }
-
-  # Šitą kolekciją gali VISAI išimti arba palikti tik jei dar kur nors naudosi:
-  # - name: "categories" ...
-  # - name: "categoryItems" ...
