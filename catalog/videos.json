@@ -47,6 +47,31 @@
         "DYI"
       ],
       "type": "youtube_video"
+    },
+    {
+      "url": "https://www.youtube.com/@N-2/shorts",
+      "categories": [
+        "EKSPERIMENTAI"
+      ],
+      "id": "N-2_shorts",
+      "type": "youtube_channel_shorts"
+    },
+    {
+      "type": "youtube_channel_playlists",
+      "url": "https://www.youtube.com/@matematikalt/playlists",
+      "id": "matematikalt_palylist",
+      "categories": [
+        "MATEMATIKA"
+      ]
+    },
+    {
+      "url": "https://www.youtube.com/playlist?list=",
+      "id": "PL8dPuuaLjXtPkACD-BkU-oM6PUotjdCEk",
+      "type": "youtube_channel_playlists",
+      "categories": [
+        "SCIENCE"
+      ],
+      "title": "Outbreak Science"
     }
   ]
 }
