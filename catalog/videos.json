@@ -47,6 +47,13 @@
         "DYI"
       ],
       "type": "youtube_video"
+    },
+    {
+      "url": "https://www.youtube.com/@N-2/shorts",
+      "categories": [
+        "EKSPERIMENTAI"
+      ],
+      "id": "N-2_shorts"
     }
   ]
 }
