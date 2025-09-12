@@ -69,7 +69,7 @@
     {
       "url": "https://www.youtube.com/playlist?list=PL8dPuuaLjXtPkACD-BkU-oM6PUotjdCEk",
       "id": "PL8dPuuaLjXtPkACD-BkU-oM6PUotjdCEk",
-      "type": "youtube_channel_playlists",
+      "type": "youtube_playlist",
       "categories": [
         "SCIENCE"
       ],
