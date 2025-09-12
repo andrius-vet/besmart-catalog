@@ -20,7 +20,6 @@ collections:
             widget: "object"
             fields:
               - { label: "videos", name: "videos", widget: "string" }
-              # categories/categoryItems čia nebereikia
 
   - name: "videos"
     label: "Įrašai (videos.json)"
@@ -37,10 +36,13 @@ collections:
               - { label: "type", name: "type", widget: "select",
                   options: [ "youtube_video","youtube_playlist","youtube_channel_playlists","youtube_channel_shorts","mp4" ] }
               - { label: "url", name: "url", widget: "string" }
-              - { label: "title (optional)", name: "title", widget: "string", required: false, hint: "Gali palikti tuščią – programėlė paims iš YouTube" }
+
+              # >>> NAUJAS LAUKAS – ranka įvedamas UC... channelId
+              - { label: "channelId (optional, UC…)", name: "channelId", widget: "string", required: false, hint: "Pvz.: UC7RZRFCrN0p7U1a7F8Jc9cw. Naudojamas kanalų playlists/shorts puslapiams be brangių search.list" }
+
+              - { label: "title (optional)", name: "title", widget: "string", required: false, hint: "Gali palikti tuščią – paimsim iš cache/YT (pigus call) kai reikia" }
               - { label: "thumbnail (optional)", name: "thumbnail", widget: "string", required: false }
 
-              # <-- ŠITAS LAUKAS turi atsirasti formoje
               - label: "categories (optional)"
                 name: "categories"
                 widget: "list"
