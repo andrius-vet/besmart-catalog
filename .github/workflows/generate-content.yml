@@ -1,0 +1,38 @@
+name: Generate catalog JSON (yt-dlp)
+
+on:
+  workflow_dispatch: {}
+  schedule:
+    - cron: "0 */12 * * *"   # kas 12 val. (keisk pagal poreikį)
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write   # leidimas commit'inti atgal į repo
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install deps
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Generate JSON
+        run: |
+          python scripts/generate_content.py
+
+      - name: Commit & push if changed
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: update generated playlist/shorts json"
+          file_pattern: |
+            catalog/playlists/*.json
+            catalog/shorts/*.json
