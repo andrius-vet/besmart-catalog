@@ -34,7 +34,8 @@ collections:
             widget: "list"
             fields:
               - { label: "id", name: "id", widget: "string" }
-              - { label: "type", name: "type", widget: "select", options: ["youtube_video","youtube_playlist","mp4"] }
+              - { label: "type", name: "type", widget: "select",
+                  options: [ "youtube_video","youtube_playlist","youtube_channel_playlists","youtube_channel_shorts","mp4" ] }
               - { label: "url", name: "url", widget: "string" }
               - { label: "title (optional)", name: "title", widget: "string", required: false, hint: "Gali palikti tuščią – programėlė paims iš YouTube" }
               - { label: "thumbnail (optional)", name: "thumbnail", widget: "string", required: false }
