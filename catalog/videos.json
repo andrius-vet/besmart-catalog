@@ -63,6 +63,15 @@
       "categories": [
         "MATEMATIKA"
       ]
+    },
+    {
+      "url": "https://www.youtube.com/playlist?list=",
+      "id": "PL8dPuuaLjXtPkACD-BkU-oM6PUotjdCEk",
+      "type": "youtube_channel_playlists",
+      "categories": [
+        "SCIENCE"
+      ],
+      "title": "Outbreak Science"
     }
   ]
 }
