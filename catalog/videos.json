@@ -23,7 +23,11 @@
         "physics",
         "science"
       ],
-      "lang": "en"
+      "lang": "en",
+      "categories": [
+        "Mokslas",
+        "DYI"
+      ]
     },
     {
       "url": "https://www.youtube.com/watch?v=b-DR0fVXOug",
@@ -31,9 +35,18 @@
       "type": "youtube_video",
       "title": "",
       "lang": "lt",
-      "tags": [
-        "dyi"
+      "tags": [],
+      "categories": [
+        "Mokslas"
       ]
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=_pGBT9D3cpM",
+      "id": "_pGBT9D3cpM",
+      "categories": [
+        "DYI"
+      ],
+      "type": "youtube_video"
     }
   ]
 }
