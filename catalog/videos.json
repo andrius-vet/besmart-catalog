@@ -54,7 +54,8 @@
         "EKSPERIMENTAI"
       ],
       "id": "N-2_shorts",
-      "type": "youtube_channel_shorts"
+      "type": "youtube_channel_shorts",
+      "channelId": "UCx1P_UgSr1xUbYwujdhxO4g"
     },
     {
       "type": "youtube_channel_playlists",
@@ -62,16 +63,18 @@
       "id": "matematikalt_palylist",
       "categories": [
         "MATEMATIKA"
-      ]
+      ],
+      "channelId": "UCFIZFdFowQM2NnQc7euq19w"
     },
     {
-      "url": "https://www.youtube.com/playlist?list=",
+      "url": "https://www.youtube.com/playlist?list=PL8dPuuaLjXtPkACD-BkU-oM6PUotjdCEk",
       "id": "PL8dPuuaLjXtPkACD-BkU-oM6PUotjdCEk",
       "type": "youtube_channel_playlists",
       "categories": [
         "SCIENCE"
       ],
-      "title": "Outbreak Science"
+      "title": "Outbreak Science",
+      "channelId": "UCX6b17PVsYBQ0ip5gyeme-Q"
     }
   ]
 }
