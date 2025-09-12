@@ -25,6 +25,13 @@ def ensure_dirs():
     PLAYLISTS_DIR.mkdir(parents=True, exist_ok=True)
     SHORTS_DIR.mkdir(parents=True, exist_ok=True)
 
+def clean_dir(dir_path: Path):
+    for p in dir_path.glob("*.json"):
+        try:
+            p.unlink()
+        except Exception as ex:
+            print(f"[WARN] Cannot remove {p}: {ex}")
+
 def write_json(path: Path, obj: dict):
     path.parent.mkdir(parents=True, exist_ok=True)
     tmp = path.with_suffix(".json.tmp")
@@ -34,55 +41,46 @@ def write_json(path: Path, obj: dict):
 
 def collect_with_ytdlp(channel_id: str, what: str) -> list:
     """
-    what == 'playlists' => list channel playlists
-    what == 'shorts'    => recent short videos (duration <= 60s)
-    Uses yt-dlp. If yt-dlp is not available or fails, returns empty.
+    what == 'playlists' -> channel playlists
+    what == 'shorts'    -> channel shorts feed
     """
     try:
-        # base args
         base = ["yt-dlp", "--flat-playlist", "-J"]
         if what == "playlists":
             url = f"https://www.youtube.com/channel/{channel_id}/playlists"
-        else:
-            # we’ll list uploads and filter by duration later
-            url = f"https://www.youtube.com/channel/{channel_id}/videos"
+        else:  # shorts
+            url = f"https://www.youtube.com/channel/{channel_id}/shorts"
 
         print(f"[INFO] yt-dlp {what} for {channel_id}")
         out = subprocess.check_output(base + [url], text=True)
         data = json.loads(out)
-
         entries = data.get("entries", []) or []
-        # normalize minimal schema we need in app
+
         results = []
         for e in entries:
-            # playlists have 'id' = PL..., videos have 'id' = videoId
             eid = e.get("id") or ""
-            title = e.get("title") or ""
-            # thumbnails may be list
+            title = (e.get("title") or "").strip()
             thumb = None
             thumbs = e.get("thumbnails") or []
             if isinstance(thumbs, list) and thumbs:
-                # pick last (usually largest)
                 thumb = thumbs[-1].get("url")
 
             if what == "playlists":
                 if eid.startswith("PL"):
                     results.append({
                         "id": eid,
-                        "title": title,
+                        "title": title or f"Playlist {eid}",
                         "url": f"https://www.youtube.com/playlist?list={eid}",
                         "thumbnail": thumb,
                         "type": "youtube_playlist",
                         "categories": [],
                         "lang": None
                     })
-            else:
-                # we don’t have duration in flat mode; keep as “candidate shorts”
-                # (If you want strict shorts, run another yt-dlp per video, but that costs time.)
+            else:  # shorts -> video ids
                 if eid:
                     results.append({
                         "id": eid,
-                        "title": title,
+                        "title": title or f"Video {eid}",
                         "url": f"https://www.youtube.com/watch?v={eid}",
                         "thumbnail": thumb,
                         "type": "youtube_video",
@@ -90,26 +88,39 @@ def collect_with_ytdlp(channel_id: str, what: str) -> list:
                         "lang": None
                     })
         return results
+    except subprocess.CalledProcessError as ex:
+        print(f"[WARN] yt-dlp failed for {channel_id} ({what}): {ex}", file=sys.stderr)
+        return []
     except Exception as ex:
-        print(f"[WARN] yt-dlp failed for {channel_id} ({what}): {ex}")
+        print(f"[WARN] Unexpected error for {channel_id} ({what}): {ex}", file=sys.stderr)
         return []
 
 def main():
     ensure_dirs()
+
     items = load_videos()
 
-    channels = []
-    for it in items:
-        ch = it.get("channelId")
-        if ch:
-            channels.append(ch)
+    # Filtruojame kanalus pagal tipą
+    playlist_channels = sorted({
+        it.get("channelId") for it in items
+        if (it.get("type") == "youtube_channel_playlists" and it.get("channelId"))
+    })
+    shorts_channels = sorted({
+        it.get("channelId") for it in items
+        if (it.get("type") == "youtube_channel_shorts" and it.get("channelId"))
+    })
 
-    channels = sorted(set(channels))
-    print(f"[INFO] Found {len(channels)} channelId(s): {channels}")
+    print(f"[INFO] playlist channels: {playlist_channels}")
+    print(f"[INFO] shorts channels:   {shorts_channels}")
+
+    # Išvalome senus failus, kad neliktų nebereikalingų
+    clean_dir(PLAYLISTS_DIR)
+    clean_dir(SHORTS_DIR)
 
     written = 0
-    for ch in channels:
-        # PLAYLISTS
+
+    # PLAYLISTS
+    for ch in playlist_channels:
         playlists = collect_with_ytdlp(ch, "playlists")
         path_pl = PLAYLISTS_DIR / f"{ch}.json"
         write_json(path_pl, {
@@ -120,7 +131,8 @@ def main():
         print(f"[OK] Wrote {path_pl} with {len(playlists)} items")
         written += 1
 
-        # SHORTS (candidate list from uploads)
+    # SHORTS
+    for ch in shorts_channels:
         shorts = collect_with_ytdlp(ch, "shorts")
         path_sh = SHORTS_DIR / f"{ch}.json"
         write_json(path_sh, {
@@ -132,7 +144,9 @@ def main():
         written += 1
 
     if written == 0:
-        print("[ERROR] No files were generated. Check your videos.json (need channelId fields).", file=sys.stderr)
+        print("[ERROR] No files were generated. Ensure videos.json has items with "
+              "'type': 'youtube_channel_playlists' or 'youtube_channel_shorts' and valid 'channelId'.",
+              file=sys.stderr)
         sys.exit(2)
     else:
         print(f"[DONE] Generated {written} JSON files.")
