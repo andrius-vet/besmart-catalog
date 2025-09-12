@@ -55,6 +55,14 @@
       ],
       "id": "N-2_shorts",
       "type": "youtube_channel_shorts"
+    },
+    {
+      "type": "youtube_channel_playlists",
+      "url": "https://www.youtube.com/@matematikalt/playlists",
+      "id": "matematikalt_palylist",
+      "categories": [
+        "MATEMATIKA"
+      ]
     }
   ]
 }
