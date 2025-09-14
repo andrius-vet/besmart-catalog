@@ -44,4 +44,7 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "chore: update generated playlists/shorts JSON"
-          file_pattern: "catalog/playlists/*.json catalog/shorts/*.json"
+          file_pattern: |
+            catalog/playlists/*.json
+            catalog/shorts/*.json
+            catalog/playlist_meta/*.json
