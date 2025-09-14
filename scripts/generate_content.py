@@ -1,11 +1,17 @@
 #!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
 import json
 import sys
+import time
+import urllib.request
+import urllib.error
 import subprocess
 from pathlib import Path
 from datetime import datetime
+from typing import List, Dict, Optional
 
-# -------- Paths --------
+# ---------- Paths ----------
 ROOT = Path(__file__).resolve().parents[1]
 CATALOG = ROOT / "catalog"
 VIDEOS_JSON = CATALOG / "videos.json"
@@ -13,42 +19,35 @@ PLAYLISTS_DIR = CATALOG / "playlists"
 SHORTS_DIR = CATALOG / "shorts"
 PLAYLIST_META_DIR = CATALOG / "playlist_meta"
 
-# -------- Limits / timeouts --------
-TIMEOUT_SEC = 20                 # max trukmė vienam yt-dlp kvietimui (s)
-MAX_ITEMS_PER_LIST = 80          # max elementų iš kanalų sąrašų
+# ---------- Tuning ----------
+TIMEOUT_SEC = 20          # default per-command timeout
+MAX_ITEMS_PER_LIST = 80   # max items pulled from channel pages
 
-# -------- Helpers --------
-def _run_json(cmd: list[str], timeout_sec: int = TIMEOUT_SEC) -> dict:
-    """Paleidžia komandą, grąžina JSON (arba išmeta klaidą)."""
-    cp = subprocess.run(cmd, text=True, capture_output=True, timeout=timeout_sec)
-    if cp.returncode != 0:
-        raise RuntimeError(cp.stderr.strip() or cp.stdout.strip())
-    return json.loads(cp.stdout)
+# ---------- Small helpers ----------
 
-def _pick_thumb_list(thumbs) -> str | None:
-    """Ima paskutinį (dažniausiai didžiausią) URL iš yt-dlp thumbnails sąrašo."""
+def _run_json(cmd: List[str], timeout_sec: int = TIMEOUT_SEC) -> Dict:
+    p = subprocess.run(cmd, text=True, capture_output=True, timeout=timeout_sec)
+    if p.returncode != 0:
+        raise RuntimeError(p.stderr.strip() or p.stdout.strip())
+    return json.loads(p.stdout)
+
+def _pick_thumb_from_list(thumbs) -> Optional[str]:
     if not isinstance(thumbs, list) or not thumbs:
         return None
     for t in reversed(thumbs):
-        url = (t or {}).get("url")
-        if url:
-            return url
+        u = (t or {}).get("url")
+        if u:
+            return u
     return None
 
-def _pick_thumb_any(obj: dict, keys: list[str]) -> str | None:
-    """Iš kelių laukų ('channel_thumbnails', 'thumbnails', ...) parenka geriausią."""
+def _pick_thumb_any(obj: Dict, keys: List[str]) -> Optional[str]:
     for k in keys:
-        url = _pick_thumb_list(obj.get(k))
-        if url:
-            return url
+        u = _pick_thumb_from_list(obj.get(k))
+        if u:
+            return u
     return None
 
-def ensure_dirs():
-    PLAYLISTS_DIR.mkdir(parents=True, exist_ok=True)
-    SHORTS_DIR.mkdir(parents=True, exist_ok=True)
-    PLAYLIST_META_DIR.mkdir(parents=True, exist_ok=True)
-
-def load_videos() -> list[dict]:
+def load_videos() -> List[Dict]:
     if not VIDEOS_JSON.exists():
         print(f"[ERROR] Missing {VIDEOS_JSON}", file=sys.stderr)
         sys.exit(1)
@@ -58,19 +57,25 @@ def load_videos() -> list[dict]:
     print(f"[INFO] Loaded videos.json with {len(items)} items")
     return items
 
-def write_json(path: Path, obj: dict):
+def ensure_dirs() -> None:
+    PLAYLISTS_DIR.mkdir(parents=True, exist_ok=True)
+    SHORTS_DIR.mkdir(parents=True, exist_ok=True)
+    PLAYLIST_META_DIR.mkdir(parents=True, exist_ok=True)
+
+def write_json(path: Path, obj: Dict) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
-    tmp = path.with_suffix(path.suffix + ".tmp")
+    tmp = path.with_suffix(".json.tmp")
     with tmp.open("w", encoding="utf-8") as f:
         json.dump(obj, f, ensure_ascii=False, indent=2)
     tmp.replace(path)
 
-# -------- Avatars / metadata --------
-def fetch_channel_avatar(channel_id: str) -> str | None:
+# ---------- Collectors (no official API) ----------
+
+def fetch_channel_avatar(channel_id: str) -> Optional[str]:
     """
-    Be YouTube API:
-      1) /about -> channel_thumbnails
-      2) /videos (tik 1 įrašas) -> uploader_thumbnails
+    Get channel avatar without the official API by probing:
+      1) /about → channel_thumbnails or thumbnails
+      2) /videos (first item) → uploader_thumbnails
     """
     print(f"[AVATAR] {channel_id} …", flush=True)
 
@@ -84,7 +89,7 @@ def fetch_channel_avatar(channel_id: str) -> str | None:
     except Exception as ex:
         print(f"[AVATAR] /about failed: {ex}", flush=True)
 
-    # 2) /videos (pirmas įrašas)
+    # 2) /videos first item
     try:
         j = _run_json([
             "yt-dlp", "-J", "--playlist-items", "1",
@@ -104,8 +109,7 @@ def fetch_channel_avatar(channel_id: str) -> str | None:
     print(f"[AVATAR] fallback: none", flush=True)
     return None
 
-def collect_playlists(channel_id: str) -> list[dict]:
-    """Kanalų PLAYLIST'ai (PL...)."""
+def collect_playlists(channel_id: str) -> List[Dict]:
     url = f"https://www.youtube.com/channel/{channel_id}/playlists"
     print(f"[LIST] playlists {channel_id} …", flush=True)
     try:
@@ -114,13 +118,13 @@ def collect_playlists(channel_id: str) -> list[dict]:
             "--playlist-end", str(MAX_ITEMS_PER_LIST),
             url
         ])
-        out: list[dict] = []
+        out: List[Dict] = []
         for e in (j.get("entries") or []):
             eid = (e or {}).get("id") or ""
             if not eid.startswith("PL"):
                 continue
             title = (e or {}).get("title") or ""
-            thumb = _pick_thumb_list((e or {}).get("thumbnails"))
+            thumb = _pick_thumb_from_list((e or {}).get("thumbnails"))
             out.append({
                 "id": eid,
                 "title": title,
@@ -136,8 +140,7 @@ def collect_playlists(channel_id: str) -> list[dict]:
         print(f"[WARN] playlists fail {channel_id}: {ex}", flush=True)
         return []
 
-def collect_channel_videos(channel_id: str) -> list[dict]:
-    """Kanalų VIDEO (kandidatų į shorts) sąrašas."""
+def collect_channel_videos(channel_id: str) -> List[Dict]:
     url = f"https://www.youtube.com/channel/{channel_id}/videos"
     print(f"[LIST] shorts(candidates) {channel_id} …", flush=True)
     try:
@@ -146,13 +149,13 @@ def collect_channel_videos(channel_id: str) -> list[dict]:
             "--playlist-end", str(MAX_ITEMS_PER_LIST),
             url
         ])
-        out: list[dict] = []
+        out: List[Dict] = []
         for e in (j.get("entries") or []):
             eid = (e or {}).get("id") or ""
             if not eid:
                 continue
             title = (e or {}).get("title") or ""
-            thumb = _pick_thumb_list((e or {}).get("thumbnails"))
+            thumb = _pick_thumb_from_list((e or {}).get("thumbnails"))
             out.append({
                 "id": eid,
                 "title": title,
@@ -168,44 +171,68 @@ def collect_channel_videos(channel_id: str) -> list[dict]:
         print(f"[WARN] shorts fail {channel_id}: {ex}", flush=True)
         return []
 
-def _extract_pl_id(it: dict) -> str | None:
-    """Iš videos.json įrašo ištraukia playlistId (iš id arba url)."""
-    idv = str(it.get("id") or "")
-    if idv.startswith("PL"):
-        return idv
-    url = str(it.get("url") or "")
-    if "playlist?list=" in url:
-        return url.split("playlist?list=")[-1].split("&")[0]
-    return None
+# ---------- Playlist meta (oEmbed first, yt-dlp fallback) ----------
 
-def fetch_playlist_meta(pl_id: str, retries: int = 3) -> dict | None:
+def _oembed_playlist(pl_id: str, timeout_sec: int = 12) -> Optional[Dict]:
+    """Fetch title + thumbnail via YouTube's oEmbed (no cookies needed)."""
+    url = f"https://www.youtube.com/oembed?url=https://www.youtube.com/playlist?list={pl_id}&format=json"
+    req = urllib.request.Request(
+        url,
+        headers={
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 "
+                          "(KHTML, like Gecko) Chrome/125.0 Safari/537.36"
+        },
+    )
+    try:
+        with urllib.request.urlopen(req, timeout=timeout_sec) as r:
+            data = json.loads(r.read().decode("utf-8"))
+        # data contains: title, author_name, thumbnail_url, etc.
+        title = (data.get("title") or "").strip()
+        thumb = data.get("thumbnail_url")
+        if thumb:
+            return {
+                "playlistId": pl_id,
+                "title": title,
+                "thumbnail": thumb,
+                "generatedAt": datetime.utcnow().isoformat() + "Z",
+                "source": "oembed",
+            }
+        return None
+    except urllib.error.HTTPError as e:
+        # 404 for some private/invalid lists, otherwise fine to fall back
+        print(f"[OEMBED] {pl_id} HTTP {e.code}")
+        return None
+    except Exception as ex:
+        print(f"[OEMBED] {pl_id} failed: {ex}")
+        return None
+
+def fetch_playlist_meta(pl_id: str, retries: int = 1, timeout_sec: int = 40) -> Optional[Dict]:
     """
-    Greitas ir patikimas būdas gauti playlist'o pavadinimą + thumbnail:
-    - naudoti --flat-playlist ir --playlist-items 1 (tik pirmas įrašas)
-    - paimti pavadinimą iš šaknies, miniatiūrą iš pirmo įrašo (arba iš šaknies, jei yra)
-    Su retry + ilgesniu timeout, nes YouTube kartais lėtas.
+    Try oEmbed first (works headlessly). If that fails, *then* try yt-dlp -J.
     """
+    meta = _oembed_playlist(pl_id)
+    if meta:
+        print(f"[META] {pl_id} via oEmbed")
+        return meta
+
     url = f"https://www.youtube.com/playlist?list={pl_id}"
     for attempt in range(1, retries + 1):
         try:
-            j = _run_json([
-                "yt-dlp", "-J",
-                "--flat-playlist",
-                "--playlist-items", "1",
-                "--socket-timeout", "15",
-                url
-            ], timeout_sec=max(TIMEOUT_SEC, 60))  # šitam kvietimui duodam daugiau laiko
+            p = subprocess.run(
+                ["yt-dlp", "-J", "--no-warnings", "--no-call-home", url],
+                text=True, capture_output=True, timeout=timeout_sec
+            )
+            if p.returncode != 0:
+                raise RuntimeError(p.stderr.strip() or p.stdout.strip())
+            j = json.loads(p.stdout)
 
             title = (j.get("title") or "").strip()
-            # thumb: pirmo entry thumbnails -> jei nėra, imame iš šaknies
-            entries = j.get("entries") or []
-            thumb = None
-            if entries:
-                thumb = _pick_thumb_any(entries[0] or {}, ["thumbnails"])
+            thumb = _pick_thumb_from_list(j.get("thumbnails"))
             if not thumb:
-                thumb = _pick_thumb_any(j, ["thumbnails"])
-
-            if not title and not thumb:
+                entries = j.get("entries") or []
+                if entries:
+                    thumb = _pick_thumb_from_list((entries[0] or {}).get("thumbnails"))
+            if not thumb:
                 return None
 
             return {
@@ -213,21 +240,20 @@ def fetch_playlist_meta(pl_id: str, retries: int = 3) -> dict | None:
                 "title": title,
                 "thumbnail": thumb,
                 "generatedAt": datetime.utcnow().isoformat() + "Z",
+                "source": "yt-dlp",
             }
-
         except Exception as ex:
-            if attempt >= retries:
-                print(f"[WARN] fetch_playlist_meta failed for {pl_id} (attempt {attempt}/{retries}): {ex}", flush=True)
-                return None
-            else:
-                print(f"[INFO] retry fetch_playlist_meta {pl_id} (attempt {attempt}/{retries}) …", flush=True)
+            print(f"[WARN] fetch_playlist_meta {pl_id} (attempt {attempt}) failed: {ex}")
+            if attempt < retries:
+                time.sleep(3)
+    return None
 
-# -------- Main --------
-def main():
+# ---------- Main ----------
+
+def main() -> None:
     ensure_dirs()
     items = load_videos()
 
-    # Kanalai: kurie rodomi kaip "playlists" ir kurie kaip "shorts"
     ch_for_playlists = sorted({
         it.get("channelId") for it in items
         if it.get("type") == "youtube_channel_playlists" and it.get("channelId")
@@ -242,7 +268,6 @@ def main():
 
     written = 0
 
-    # 1) PLAYLISTS JSON
     for ch in ch_for_playlists:
         avatar = fetch_channel_avatar(ch)
         playlists = collect_playlists(ch)
@@ -256,7 +281,6 @@ def main():
         print(f"[OK] wrote {path} ({len(playlists)} items)", flush=True)
         written += 1
 
-    # 2) SHORTS JSON (iš /videos; app’as jei norės – filtruos <60s)
     for ch in ch_for_shorts:
         avatar = fetch_channel_avatar(ch)
         vids = collect_channel_videos(ch)
@@ -270,29 +294,19 @@ def main():
         print(f"[OK] wrote {path} ({len(vids)} items)", flush=True)
         written += 1
 
-    # 3) Atskirų playlistų miniatiūrų meta (videos.json įrašams su tuščiu thumbnail)
-    to_fill: list[str] = []
-    for it in items:
-        if it.get("type") == "youtube_playlist":
-            thumb = str(it.get("thumbnail") or "").strip()
-            if not thumb:
-                pl = _extract_pl_id(it)
-                if pl:
-                    to_fill.append(pl)
-    to_fill = sorted(set(to_fill))
-    print(f"[INFO] Playlists needing thumbnails: {to_fill}")
-
-    for pl in to_fill:
-        meta_path = PLAYLIST_META_DIR / f"{pl}.json"
-        # Jei nori visada atnaujinti – nuimk šį if
-        if meta_path.exists():
-            print(f"[SKIP] {meta_path.name} exists")
-            continue
+    # Always generate playlist meta for youtube_playlist entries in videos.json
+    pl_ids = [it["id"] for it in items if it.get("type") == "youtube_playlist" and it.get("id")]
+    if pl_ids:
+        print(f"[INFO] Playlists declared in videos.json: {pl_ids}")
+    for pl in pl_ids:
         meta = fetch_playlist_meta(pl)
         if meta:
-            write_json(meta_path, meta)
-            print(f"[OK] wrote {meta_path}", flush=True)
+            path = PLAYLIST_META_DIR / f"{pl}.json"
+            write_json(path, meta)
+            print(f"[OK] wrote {path}")
             written += 1
+        else:
+            print(f"[WARN] no meta for {pl}")
 
     if written == 0:
         print("[ERROR] Nothing written. Check videos.json channelId/type fields.", file=sys.stderr)
