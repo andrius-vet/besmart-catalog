@@ -4,6 +4,8 @@
 import json
 import sys
 import time
+import urllib.request
+import urllib.error
 import subprocess
 from pathlib import Path
 from datetime import datetime
@@ -21,17 +23,15 @@ PLAYLIST_META_DIR = CATALOG / "playlist_meta"
 TIMEOUT_SEC = 20          # default per-command timeout
 MAX_ITEMS_PER_LIST = 80   # max items pulled from channel pages
 
-# ---------- Helpers ----------
+# ---------- Small helpers ----------
 
 def _run_json(cmd: List[str], timeout_sec: int = TIMEOUT_SEC) -> Dict:
-    """Run a process and parse stdout as JSON, erroring if non-zero exit."""
     p = subprocess.run(cmd, text=True, capture_output=True, timeout=timeout_sec)
     if p.returncode != 0:
         raise RuntimeError(p.stderr.strip() or p.stdout.strip())
     return json.loads(p.stdout)
 
 def _pick_thumb_from_list(thumbs) -> Optional[str]:
-    """Pick the 'largest' thumbnail (last item in a list of dicts)."""
     if not isinstance(thumbs, list) or not thumbs:
         return None
     for t in reversed(thumbs):
@@ -41,7 +41,6 @@ def _pick_thumb_from_list(thumbs) -> Optional[str]:
     return None
 
 def _pick_thumb_any(obj: Dict, keys: List[str]) -> Optional[str]:
-    """Try multiple keys that may hold thumbnail lists."""
     for k in keys:
         u = _pick_thumb_from_list(obj.get(k))
         if u:
@@ -70,7 +69,7 @@ def write_json(path: Path, obj: Dict) -> None:
         json.dump(obj, f, ensure_ascii=False, indent=2)
     tmp.replace(path)
 
-# ---------- Data collectors (no YouTube API) ----------
+# ---------- Collectors (no official API) ----------
 
 def fetch_channel_avatar(channel_id: str) -> Optional[str]:
     """
@@ -111,7 +110,6 @@ def fetch_channel_avatar(channel_id: str) -> Optional[str]:
     return None
 
 def collect_playlists(channel_id: str) -> List[Dict]:
-    """List channel playlists (flat mode) and keep only PL… IDs."""
     url = f"https://www.youtube.com/channel/{channel_id}/playlists"
     print(f"[LIST] playlists {channel_id} …", flush=True)
     try:
@@ -143,7 +141,6 @@ def collect_playlists(channel_id: str) -> List[Dict]:
         return []
 
 def collect_channel_videos(channel_id: str) -> List[Dict]:
-    """List channel videos (flat). App can later filter by duration if needed."""
     url = f"https://www.youtube.com/channel/{channel_id}/videos"
     print(f"[LIST] shorts(candidates) {channel_id} …", flush=True)
     try:
@@ -174,11 +171,50 @@ def collect_channel_videos(channel_id: str) -> List[Dict]:
         print(f"[WARN] shorts fail {channel_id}: {ex}", flush=True)
         return []
 
-def fetch_playlist_meta(pl_id: str, retries: int = 2, timeout_sec: int = 40) -> Optional[Dict]:
+# ---------- Playlist meta (oEmbed first, yt-dlp fallback) ----------
+
+def _oembed_playlist(pl_id: str, timeout_sec: int = 12) -> Optional[Dict]:
+    """Fetch title + thumbnail via YouTube's oEmbed (no cookies needed)."""
+    url = f"https://www.youtube.com/oembed?url=https://www.youtube.com/playlist?list={pl_id}&format=json"
+    req = urllib.request.Request(
+        url,
+        headers={
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 "
+                          "(KHTML, like Gecko) Chrome/125.0 Safari/537.36"
+        },
+    )
+    try:
+        with urllib.request.urlopen(req, timeout=timeout_sec) as r:
+            data = json.loads(r.read().decode("utf-8"))
+        # data contains: title, author_name, thumbnail_url, etc.
+        title = (data.get("title") or "").strip()
+        thumb = data.get("thumbnail_url")
+        if thumb:
+            return {
+                "playlistId": pl_id,
+                "title": title,
+                "thumbnail": thumb,
+                "generatedAt": datetime.utcnow().isoformat() + "Z",
+                "source": "oembed",
+            }
+        return None
+    except urllib.error.HTTPError as e:
+        # 404 for some private/invalid lists, otherwise fine to fall back
+        print(f"[OEMBED] {pl_id} HTTP {e.code}")
+        return None
+    except Exception as ex:
+        print(f"[OEMBED] {pl_id} failed: {ex}")
+        return None
+
+def fetch_playlist_meta(pl_id: str, retries: int = 1, timeout_sec: int = 40) -> Optional[Dict]:
     """
-    Fetch playlist title & a usable thumbnail from the playlist page,
-    retrying to avoid transient rate/anti-bot hiccups.
+    Try oEmbed first (works headlessly). If that fails, *then* try yt-dlp -J.
     """
+    meta = _oembed_playlist(pl_id)
+    if meta:
+        print(f"[META] {pl_id} via oEmbed")
+        return meta
+
     url = f"https://www.youtube.com/playlist?list={pl_id}"
     for attempt in range(1, retries + 1):
         try:
@@ -204,6 +240,7 @@ def fetch_playlist_meta(pl_id: str, retries: int = 2, timeout_sec: int = 40) -> 
                 "title": title,
                 "thumbnail": thumb,
                 "generatedAt": datetime.utcnow().isoformat() + "Z",
+                "source": "yt-dlp",
             }
         except Exception as ex:
             print(f"[WARN] fetch_playlist_meta {pl_id} (attempt {attempt}) failed: {ex}")
@@ -211,13 +248,12 @@ def fetch_playlist_meta(pl_id: str, retries: int = 2, timeout_sec: int = 40) -> 
                 time.sleep(3)
     return None
 
-# ---------- Main flow ----------
+# ---------- Main ----------
 
 def main() -> None:
     ensure_dirs()
     items = load_videos()
 
-    # Channels split by type
     ch_for_playlists = sorted({
         it.get("channelId") for it in items
         if it.get("type") == "youtube_channel_playlists" and it.get("channelId")
@@ -232,7 +268,6 @@ def main() -> None:
 
     written = 0
 
-    # Generate channel playlists
     for ch in ch_for_playlists:
         avatar = fetch_channel_avatar(ch)
         playlists = collect_playlists(ch)
@@ -246,7 +281,6 @@ def main() -> None:
         print(f"[OK] wrote {path} ({len(playlists)} items)", flush=True)
         written += 1
 
-    # Generate channel shorts (video candidates)
     for ch in ch_for_shorts:
         avatar = fetch_channel_avatar(ch)
         vids = collect_channel_videos(ch)
@@ -260,7 +294,7 @@ def main() -> None:
         print(f"[OK] wrote {path} ({len(vids)} items)", flush=True)
         written += 1
 
-    # Always generate playlist meta JSON for youtube_playlist entries in videos.json
+    # Always generate playlist meta for youtube_playlist entries in videos.json
     pl_ids = [it["id"] for it in items if it.get("type") == "youtube_playlist" and it.get("id")]
     if pl_ids:
         print(f"[INFO] Playlists declared in videos.json: {pl_ids}")
