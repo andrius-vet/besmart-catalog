@@ -49,3 +49,4 @@ jobs:
             catalog/playlists/*.json
             catalog/shorts/*.json
             catalog/playlist_meta/*.json
+            catalog/playlist_items/*.json
