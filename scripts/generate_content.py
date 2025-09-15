@@ -18,10 +18,12 @@ VIDEOS_JSON = CATALOG / "videos.json"
 PLAYLISTS_DIR = CATALOG / "playlists"
 SHORTS_DIR = CATALOG / "shorts"
 PLAYLIST_META_DIR = CATALOG / "playlist_meta"
+PLAYLIST_ITEMS_DIR = CATALOG / "playlist_items"
 
 # ---------- Tuning ----------
 TIMEOUT_SEC = 20          # default per-command timeout
 MAX_ITEMS_PER_LIST = 80   # max items pulled from channel pages
+MAX_ITEMS_PER_PLAYLIST = 500  # kiek daugiausiai video imam iš PL
 
 # ---------- Small helpers ----------
 
@@ -61,6 +63,7 @@ def ensure_dirs() -> None:
     PLAYLISTS_DIR.mkdir(parents=True, exist_ok=True)
     SHORTS_DIR.mkdir(parents=True, exist_ok=True)
     PLAYLIST_META_DIR.mkdir(parents=True, exist_ok=True)
+    PLAYLIST_ITEMS_DIR.mkdir(parents=True, exist_ok=True)
 
 def write_json(path: Path, obj: Dict) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
@@ -248,6 +251,43 @@ def fetch_playlist_meta(pl_id: str, retries: int = 1, timeout_sec: int = 40) -> 
                 time.sleep(3)
     return None
 
+# ---------- Playlist items (flat, no per-video API) ----------
+
+def collect_playlist_items_flat(pl_id: str, limit: int = MAX_ITEMS_PER_PLAYLIST) -> List[Dict]:
+    """
+    Naudojam tik --flat-playlist, be per-video parse.
+    Titulas iš yt-dlp 'title', thumb generuojam iš i.ytimg.com.
+    """
+    url = f"https://www.youtube.com/playlist?list={pl_id}"
+    print(f"[PL-ITEMS] {pl_id} …", flush=True)
+    try:
+        j = _run_json([
+            "yt-dlp", "--flat-playlist", "-J",
+            "--playlist-end", str(limit),
+            url
+        ], timeout_sec=max(TIMEOUT_SEC, 30))
+        out: List[Dict] = []
+        for e in (j.get("entries") or []):
+            vid = (e or {}).get("id") or ""
+            if not vid:
+                continue
+            title = (e or {}).get("title") or ""
+            thumb = f"https://i.ytimg.com/vi/{vid}/hqdefault.jpg"
+            out.append({
+                "id": vid,
+                "title": title,
+                "url": f"https://www.youtube.com/watch?v={vid}",
+                "thumbnail": thumb,
+                "type": "youtube_video",
+                "categories": [],
+                "lang": None
+            })
+        print(f"[PL-ITEMS] {pl_id}: {len(out)} items", flush=True)
+        return out
+    except Exception as ex:
+        print(f"[WARN] playlist_items flat fail {pl_id}: {ex}")
+        return []
+
 # ---------- Main ----------
 
 def main() -> None:
@@ -268,6 +308,7 @@ def main() -> None:
 
     written = 0
 
+    # CHANNEL PLAYLISTS
     for ch in ch_for_playlists:
         avatar = fetch_channel_avatar(ch)
         playlists = collect_playlists(ch)
@@ -281,6 +322,7 @@ def main() -> None:
         print(f"[OK] wrote {path} ({len(playlists)} items)", flush=True)
         written += 1
 
+    # CHANNEL SHORTS (candidate videos)
     for ch in ch_for_shorts:
         avatar = fetch_channel_avatar(ch)
         vids = collect_channel_videos(ch)
@@ -294,19 +336,32 @@ def main() -> None:
         print(f"[OK] wrote {path} ({len(vids)} items)", flush=True)
         written += 1
 
-    # Always generate playlist meta for youtube_playlist entries in videos.json
+    # Playlists declared explicitly in videos.json: generate META + ITEMS
     pl_ids = [it["id"] for it in items if it.get("type") == "youtube_playlist" and it.get("id")]
     if pl_ids:
         print(f"[INFO] Playlists declared in videos.json: {pl_ids}")
+
     for pl in pl_ids:
+        # META
         meta = fetch_playlist_meta(pl)
         if meta:
-            path = PLAYLIST_META_DIR / f"{pl}.json"
-            write_json(path, meta)
-            print(f"[OK] wrote {path}")
+            path_meta = PLAYLIST_META_DIR / f"{pl}.json"
+            write_json(path_meta, meta)
+            print(f"[OK] wrote {path_meta}")
             written += 1
         else:
             print(f"[WARN] no meta for {pl}")
+
+        # ITEMS (flat)
+        items_flat = collect_playlist_items_flat(pl)
+        path_items = PLAYLIST_ITEMS_DIR / f"{pl}.json"
+        write_json(path_items, {
+            "playlistId": pl,
+            "generatedAt": datetime.utcnow().isoformat() + "Z",
+            "items": items_flat
+        })
+        print(f"[OK] wrote {path_items} ({len(items_flat)} items)")
+        written += 1
 
     if written == 0:
         print("[ERROR] Nothing written. Check videos.json channelId/type fields.", file=sys.stderr)
