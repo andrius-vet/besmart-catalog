@@ -23,7 +23,7 @@ PLAYLIST_ITEMS_DIR = CATALOG / "playlist_items"
 # ---------- Tuning ----------
 TIMEOUT_SEC = 20          # default per-command timeout
 MAX_ITEMS_PER_LIST = 80   # max items pulled from channel pages
-MAX_ITEMS_PER_PLAYLIST = 500  # kiek daugiausiai video imam iš PL
+MAX_ITEMS_PER_PLAYLIST = 500  # max videos per playlist when dumping items
 
 # ---------- Small helpers ----------
 
@@ -36,6 +36,7 @@ def _run_json(cmd: List[str], timeout_sec: int = TIMEOUT_SEC) -> Dict:
 def _pick_thumb_from_list(thumbs) -> Optional[str]:
     if not isinstance(thumbs, list) or not thumbs:
         return None
+    # imame paskutinę/„geriausią“ jei sąrašas didėjančios kokybės
     for t in reversed(thumbs):
         u = (t or {}).get("url")
         if u:
@@ -72,7 +73,7 @@ def write_json(path: Path, obj: Dict) -> None:
         json.dump(obj, f, ensure_ascii=False, indent=2)
     tmp.replace(path)
 
-# ---------- Collectors (no official API) ----------
+# ---------- Collectors (NO official API) ----------
 
 def fetch_channel_avatar(channel_id: str) -> Optional[str]:
     """
@@ -189,7 +190,6 @@ def _oembed_playlist(pl_id: str, timeout_sec: int = 12) -> Optional[Dict]:
     try:
         with urllib.request.urlopen(req, timeout=timeout_sec) as r:
             data = json.loads(r.read().decode("utf-8"))
-        # data contains: title, author_name, thumbnail_url, etc.
         title = (data.get("title") or "").strip()
         thumb = data.get("thumbnail_url")
         if thumb:
@@ -202,7 +202,6 @@ def _oembed_playlist(pl_id: str, timeout_sec: int = 12) -> Optional[Dict]:
             }
         return None
     except urllib.error.HTTPError as e:
-        # 404 for some private/invalid lists, otherwise fine to fall back
         print(f"[OEMBED] {pl_id} HTTP {e.code}")
         return None
     except Exception as ex:
@@ -251,28 +250,27 @@ def fetch_playlist_meta(pl_id: str, retries: int = 1, timeout_sec: int = 40) -> 
                 time.sleep(3)
     return None
 
-# ---------- Playlist items (flat, no per-video API) ----------
+# ---------- NEW: dump playlist_items for each playlist ----------
 
-def collect_playlist_items_flat(pl_id: str, limit: int = MAX_ITEMS_PER_PLAYLIST) -> List[Dict]:
+def collect_playlist_items(pl_id: str, max_items: int = MAX_ITEMS_PER_PLAYLIST) -> List[Dict]:
     """
-    Naudojam tik --flat-playlist, be per-video parse.
-    Titulas iš yt-dlp 'title', thumb generuojam iš i.ytimg.com.
+    Dump all videos in PL… playlist as a flat list (no official API).
     """
     url = f"https://www.youtube.com/playlist?list={pl_id}"
-    print(f"[PL-ITEMS] {pl_id} …", flush=True)
+    print(f"[ITEMS] playlist {pl_id} …", flush=True)
     try:
         j = _run_json([
             "yt-dlp", "--flat-playlist", "-J",
-            "--playlist-end", str(limit),
+            "--playlist-end", str(max_items),
             url
-        ], timeout_sec=max(TIMEOUT_SEC, 30))
+        ])
         out: List[Dict] = []
         for e in (j.get("entries") or []):
             vid = (e or {}).get("id") or ""
             if not vid:
                 continue
             title = (e or {}).get("title") or ""
-            thumb = f"https://i.ytimg.com/vi/{vid}/hqdefault.jpg"
+            thumb = _pick_thumb_from_list((e or {}).get("thumbnails"))
             out.append({
                 "id": vid,
                 "title": title,
@@ -282,10 +280,10 @@ def collect_playlist_items_flat(pl_id: str, limit: int = MAX_ITEMS_PER_PLAYLIST)
                 "categories": [],
                 "lang": None
             })
-        print(f"[PL-ITEMS] {pl_id}: {len(out)} items", flush=True)
+        print(f"[ITEMS] playlist {pl_id}: {len(out)} items", flush=True)
         return out
     except Exception as ex:
-        print(f"[WARN] playlist_items flat fail {pl_id}: {ex}")
+        print(f"[WARN] items fail {pl_id}: {ex}", flush=True)
         return []
 
 # ---------- Main ----------
@@ -308,10 +306,12 @@ def main() -> None:
 
     written = 0
 
-    # CHANNEL PLAYLISTS
+    # --- Channels → playlists + playlist_items
     for ch in ch_for_playlists:
         avatar = fetch_channel_avatar(ch)
         playlists = collect_playlists(ch)
+
+        # 1) channel playlists JSON
         path = PLAYLISTS_DIR / f"{ch}.json"
         write_json(path, {
             "channelId": ch,
@@ -322,7 +322,22 @@ def main() -> None:
         print(f"[OK] wrote {path} ({len(playlists)} items)", flush=True)
         written += 1
 
-    # CHANNEL SHORTS (candidate videos)
+        # 2) playlist_items for every playlist in that channel
+        for p in playlists:
+            pl_id = (p or {}).get("id") or ""
+            if not pl_id:
+                continue
+            items_list = collect_playlist_items(pl_id)
+            pi_path = PLAYLIST_ITEMS_DIR / f"{pl_id}.json"
+            write_json(pi_path, {
+                "playlistId": pl_id,
+                "generatedAt": datetime.utcnow().isoformat() + "Z",
+                "items": items_list
+            })
+            print(f"[OK] wrote {pi_path} ({len(items_list)} items)", flush=True)
+            written += 1
+
+    # --- Channels → shorts (video candidates)
     for ch in ch_for_shorts:
         avatar = fetch_channel_avatar(ch)
         vids = collect_channel_videos(ch)
@@ -336,31 +351,31 @@ def main() -> None:
         print(f"[OK] wrote {path} ({len(vids)} items)", flush=True)
         written += 1
 
-    # Playlists declared explicitly in videos.json: generate META + ITEMS
+    # --- Playlists declared directly in videos.json
     pl_ids = [it["id"] for it in items if it.get("type") == "youtube_playlist" and it.get("id")]
     if pl_ids:
         print(f"[INFO] Playlists declared in videos.json: {pl_ids}")
 
     for pl in pl_ids:
-        # META
+        # meta
         meta = fetch_playlist_meta(pl)
         if meta:
-            path_meta = PLAYLIST_META_DIR / f"{pl}.json"
-            write_json(path_meta, meta)
-            print(f"[OK] wrote {path_meta}")
+            path = PLAYLIST_META_DIR / f"{pl}.json"
+            write_json(path, meta)
+            print(f"[OK] wrote {path}", flush=True)
             written += 1
         else:
-            print(f"[WARN] no meta for {pl}")
+            print(f"[WARN] no meta for {pl}", flush=True)
 
-        # ITEMS (flat)
-        items_flat = collect_playlist_items_flat(pl)
-        path_items = PLAYLIST_ITEMS_DIR / f"{pl}.json"
-        write_json(path_items, {
+        # items
+        items_list = collect_playlist_items(pl)
+        pi_path = PLAYLIST_ITEMS_DIR / f"{pl}.json"
+        write_json(pi_path, {
             "playlistId": pl,
             "generatedAt": datetime.utcnow().isoformat() + "Z",
-            "items": items_flat
+            "items": items_list
         })
-        print(f"[OK] wrote {path_items} ({len(items_flat)} items)")
+        print(f"[OK] wrote {pi_path} ({len(items_list)} items)", flush=True)
         written += 1
 
     if written == 0:
