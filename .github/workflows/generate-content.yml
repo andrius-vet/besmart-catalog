@@ -44,9 +44,5 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "chore: update generated JSON"
-          add_options: '-A'                       # <-- nauja: pridės ir naujus failus
-          file_pattern: |
-            catalog/playlists/*.json
-            catalog/shorts/*.json
-            catalog/playlist_meta/*.json
-            catalog/playlist_items/*.json
+          add_options: "-A"   # įtrauks visus naujus ir pakeistus failus
+          # jokių file_pattern čia nebėra
