@@ -67,6 +67,24 @@
       "channelId": "UCFIZFdFowQM2NnQc7euq19w"
     },
     {
+      "type": "youtube_channel_playlists",
+      "url": "https://www.youtube.com/@thestellarguitarist/playlists",
+      "id": "thestellarguitarist_palylist",
+      "categories": [
+        "GITARA"
+      ],
+      "channelId": "UCJiOA2TcDbINn8x66X_hmFQ"
+    },
+    {
+      "type": "youtube_channel_playlists",
+      "url": "https://www.youtube.com/@MartyMusic/playlists",
+      "id": "MartyMusic_palylist",
+      "categories": [
+        "GITARA"
+      ],
+      "channelId": "UCmnlTWVJysjWPFiZhQ5uudg"
+    },
+    {
       "url": "https://www.youtube.com/playlist?list=PL8dPuuaLjXtPkACD-BkU-oM6PUotjdCEk",
       "id": "PL8dPuuaLjXtPkACD-BkU-oM6PUotjdCEk",
       "type": "youtube_playlist",
