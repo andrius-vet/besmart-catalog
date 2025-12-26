@@ -1,0 +1,33 @@
+{
+  "playlistId": "PLP3kvqg_Ut86PFpWW3orO3DXiIpK-B-GI",
+  "generatedAt": "2025-12-26T10:00:10.411307Z",
+  "items": [
+    {
+      "id": "y_p4cSklyik",
+      "title": "Beginner Bass Lesson 1 - Your Very First Bass Lesson",
+      "url": "https://www.youtube.com/watch?v=y_p4cSklyik",
+      "thumbnail": "https://i.ytimg.com/vi/y_p4cSklyik/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCVKQfxVZkPiPWP6q9Rvk5spKOblA",
+      "type": "youtube_video",
+      "categories": [],
+      "lang": null
+    },
+    {
+      "id": "Z8tPJMXc1jU",
+      "title": "Beginner Bass Lesson 2 - 12 Bar Blues",
+      "url": "https://www.youtube.com/watch?v=Z8tPJMXc1jU",
+      "thumbnail": "https://i.ytimg.com/vi/Z8tPJMXc1jU/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD3Hgsfgis1duid2F6MREfTuQqDvg",
+      "type": "youtube_video",
+      "categories": [],
+      "lang": null
+    },
+    {
+      "id": "bJ4bi78ZHVU",
+      "title": "Beginner Bass Lesson 3: Walking the bass",
+      "url": "https://www.youtube.com/watch?v=bJ4bi78ZHVU",
+      "thumbnail": "https://i.ytimg.com/vi/bJ4bi78ZHVU/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCq8z1Yt9OEV-gzKcxeJAACQd6U0w",
+      "type": "youtube_video",
+      "categories": [],
+      "lang": null
+    }
+  ]
+}
