@@ -1,7 +1,16 @@
 {
   "playlistId": "PLP3kvqg_Ut87kgRbk2ItZr7d74ktMEmLN",
-  "generatedAt": "2025-12-26T12:37:08.339391Z",
+  "generatedAt": "2025-12-27T01:21:55.621938Z",
   "items": [
+    {
+      "id": "2qPNamSo2gg",
+      "title": "The Heavy Power Chord Trick You Should Know...",
+      "url": "https://www.youtube.com/watch?v=2qPNamSo2gg",
+      "thumbnail": "https://i.ytimg.com/vi/2qPNamSo2gg/hqdefault.jpg?sqp=-oaymwE2CNACELwBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgBtgiAAoAPigIMCAAQARhDIFcoZTAP&rs=AOn4CLArb-uoUXMNXtcfJadvQi0j4oUKeQ",
+      "type": "youtube_video",
+      "categories": [],
+      "lang": null
+    },
     {
       "id": "rGTUJTv0Qz0",
       "title": "Stop Memorizing Scales. Do This Instead.",
@@ -231,15 +240,6 @@
       "id": "fvn9UeLuUNU",
       "title": "[Private video]",
       "url": "https://www.youtube.com/watch?v=fvn9UeLuUNU",
-      "thumbnail": "https://i.ytimg.com/img/no_thumbnail.jpg",
-      "type": "youtube_video",
-      "categories": [],
-      "lang": null
-    },
-    {
-      "id": "2qPNamSo2gg",
-      "title": "[Private video]",
-      "url": "https://www.youtube.com/watch?v=2qPNamSo2gg",
       "thumbnail": "https://i.ytimg.com/img/no_thumbnail.jpg",
       "type": "youtube_video",
       "categories": [],
