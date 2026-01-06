@@ -1,7 +1,16 @@
 {
   "playlistId": "PLP3kvqg_Ut87kgRbk2ItZr7d74ktMEmLN",
-  "generatedAt": "2026-01-05T12:41:01.343652Z",
+  "generatedAt": "2026-01-06T01:25:36.818472Z",
   "items": [
+    {
+      "id": "XiCL1HVtFkY",
+      "title": "The Blues Trick Inside Zeppelin’s “Custard Pie”",
+      "url": "https://www.youtube.com/watch?v=XiCL1HVtFkY",
+      "thumbnail": "https://i.ytimg.com/vi/XiCL1HVtFkY/hqdefault.jpg?sqp=-oaymwE2CNACELwBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgBtgiAAoAPigIMCAAQARhlIEkoRTAP&rs=AOn4CLAle0g1gn24ONzUvyY9XZrFwYIiIg",
+      "type": "youtube_video",
+      "categories": [],
+      "lang": null
+    },
     {
       "id": "43ZQDAnsKrk",
       "title": "Hendrix Technique That FEELS Like a Pedal Steel",
@@ -285,15 +294,6 @@
       "id": "jZXSKoWHyws",
       "title": "[Private video]",
       "url": "https://www.youtube.com/watch?v=jZXSKoWHyws",
-      "thumbnail": "https://i.ytimg.com/img/no_thumbnail.jpg",
-      "type": "youtube_video",
-      "categories": [],
-      "lang": null
-    },
-    {
-      "id": "XiCL1HVtFkY",
-      "title": "[Private video]",
-      "url": "https://www.youtube.com/watch?v=XiCL1HVtFkY",
       "thumbnail": "https://i.ytimg.com/img/no_thumbnail.jpg",
       "type": "youtube_video",
       "categories": [],
