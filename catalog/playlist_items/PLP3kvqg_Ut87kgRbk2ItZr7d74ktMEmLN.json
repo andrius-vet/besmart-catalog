@@ -1,7 +1,16 @@
 {
   "playlistId": "PLP3kvqg_Ut87kgRbk2ItZr7d74ktMEmLN",
-  "generatedAt": "2026-01-06T12:39:47.266249Z",
+  "generatedAt": "2026-01-07T01:25:52.894040Z",
   "items": [
+    {
+      "id": "jZXSKoWHyws",
+      "title": "How to Play \"Can't Find My Way Home\" (Drop D!)",
+      "url": "https://www.youtube.com/watch?v=jZXSKoWHyws",
+      "thumbnail": "https://i.ytimg.com/vi/jZXSKoWHyws/hqdefault.jpg?sqp=-oaymwE2CNACELwBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgBtgiAAoAPigIMCAAQARg8IFIocjAP&rs=AOn4CLCnmOsSYKY5HEAjkf1ODcKPwrSLjg",
+      "type": "youtube_video",
+      "categories": [],
+      "lang": null
+    },
     {
       "id": "XiCL1HVtFkY",
       "title": "The Blues Trick Inside Zeppelin’s “Custard Pie”",
@@ -285,15 +294,6 @@
       "id": "hwvCfQwMgfw",
       "title": "[Private video]",
       "url": "https://www.youtube.com/watch?v=hwvCfQwMgfw",
-      "thumbnail": "https://i.ytimg.com/img/no_thumbnail.jpg",
-      "type": "youtube_video",
-      "categories": [],
-      "lang": null
-    },
-    {
-      "id": "jZXSKoWHyws",
-      "title": "[Private video]",
-      "url": "https://www.youtube.com/watch?v=jZXSKoWHyws",
       "thumbnail": "https://i.ytimg.com/img/no_thumbnail.jpg",
       "type": "youtube_video",
       "categories": [],
