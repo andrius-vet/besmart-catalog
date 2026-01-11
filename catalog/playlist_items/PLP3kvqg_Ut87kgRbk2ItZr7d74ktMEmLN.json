@@ -1,16 +1,7 @@
 {
   "playlistId": "PLP3kvqg_Ut87kgRbk2ItZr7d74ktMEmLN",
-  "generatedAt": "2026-01-10T12:35:26.647849Z",
+  "generatedAt": "2026-01-11T01:42:57.934114Z",
   "items": [
-    {
-      "id": "hwvCfQwMgfw",
-      "title": "The Secret Sauce in LED ZEPPELIN “Heartbreaker”",
-      "url": "https://www.youtube.com/watch?v=hwvCfQwMgfw",
-      "thumbnail": null,
-      "type": "youtube_video",
-      "categories": [],
-      "lang": null
-    },
     {
       "id": "jZXSKoWHyws",
       "title": "How to Play \"Can't Find My Way Home\" (Drop D!)",
@@ -294,6 +285,15 @@
       "id": "IwGkuzj4OgE",
       "title": "EASY Guitar Method Makes Metallica's Enter Sandman Sound EPIC",
       "url": "https://www.youtube.com/watch?v=IwGkuzj4OgE",
+      "thumbnail": null,
+      "type": "youtube_video",
+      "categories": [],
+      "lang": null
+    },
+    {
+      "id": "hwvCfQwMgfw",
+      "title": "The Secret Sauce in LED ZEPPELIN “Heartbreaker”",
+      "url": "https://www.youtube.com/watch?v=hwvCfQwMgfw",
       "thumbnail": null,
       "type": "youtube_video",
       "categories": [],
