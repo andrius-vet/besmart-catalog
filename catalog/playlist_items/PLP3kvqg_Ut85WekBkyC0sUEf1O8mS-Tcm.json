@@ -1,6 +1,6 @@
 {
   "playlistId": "PLP3kvqg_Ut85WekBkyC0sUEf1O8mS-Tcm",
-  "generatedAt": "2026-01-21T12:44:47.537774Z",
+  "generatedAt": "2026-01-22T01:29:42.751843Z",
   "items": [
     {
       "id": "KmrT04VwdsE",
@@ -1033,6 +1033,15 @@
       "title": "Jack White Lazaretto Guitar Lesson + Tutorial",
       "url": "https://www.youtube.com/watch?v=ebo8xPoLVnM",
       "thumbnail": "https://i.ytimg.com/vi/ebo8xPoLVnM/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAhqZuRJ660oyO0UchmvVijAy7jXQ",
+      "type": "youtube_video",
+      "categories": [],
+      "lang": null
+    },
+    {
+      "id": "v2NxtZqJga4",
+      "title": "The Shins Simple Song Guitar Lesson + Tutorial",
+      "url": "https://www.youtube.com/watch?v=v2NxtZqJga4",
+      "thumbnail": "https://i.ytimg.com/vi/v2NxtZqJga4/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBqm3b-QA4jGTIcaL7AbOOyyr05rw",
       "type": "youtube_video",
       "categories": [],
       "lang": null
