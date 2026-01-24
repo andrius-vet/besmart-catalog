@@ -1,6 +1,6 @@
 {
   "playlistId": "PLP3kvqg_Ut84WwiWnJLFJAGQSEQVRs_5G",
-  "generatedAt": "2026-01-23T12:41:35.630398Z",
+  "generatedAt": "2026-01-24T01:24:30.175745Z",
   "items": [
     {
       "id": "YJ1XPIHZMcQ",
@@ -295,6 +295,15 @@
       "title": "The Story of Kat Hasty & Her Songwriting Secrets",
       "url": "https://www.youtube.com/watch?v=r6c5AI-9NAA",
       "thumbnail": "https://i.ytimg.com/vi/r6c5AI-9NAA/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDacgxdtTDlBt1uPRWCzp_SFiYWtA",
+      "type": "youtube_video",
+      "categories": [],
+      "lang": null
+    },
+    {
+      "id": "T4d65REHSXI",
+      "title": "Metallica Masterclass: Breaking Down Kirk Hammett's Iconic Solos feat. @JamieSlays",
+      "url": "https://www.youtube.com/watch?v=T4d65REHSXI",
+      "thumbnail": "https://i.ytimg.com/vi/T4d65REHSXI/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBk8mCzf7ensmYTd_9HO2XEHBvzLg",
       "type": "youtube_video",
       "categories": [],
       "lang": null

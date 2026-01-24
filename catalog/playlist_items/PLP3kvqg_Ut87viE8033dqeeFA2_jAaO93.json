@@ -1,6 +1,6 @@
 {
   "playlistId": "PLP3kvqg_Ut87viE8033dqeeFA2_jAaO93",
-  "generatedAt": "2026-01-23T12:42:41.812827Z",
+  "generatedAt": "2026-01-24T01:25:34.443341Z",
   "items": [
     {
       "id": "lfHXSdBPVBM",
@@ -817,6 +817,24 @@
       "title": "Crosby, Stills, Nash & Young Teach Your Children Guitar Lesson + Tutorial",
       "url": "https://www.youtube.com/watch?v=x8jPE7-Gs2I",
       "thumbnail": "https://i.ytimg.com/vi/x8jPE7-Gs2I/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDZIsWfUoIj_8_H7aZ9Oh_wXrFcOA",
+      "type": "youtube_video",
+      "categories": [],
+      "lang": null
+    },
+    {
+      "id": "_IdAIr_QJQI",
+      "title": "The Beatles Back in the U.S.S.R. Guitar Lesson + Tutorial",
+      "url": "https://www.youtube.com/watch?v=_IdAIr_QJQI",
+      "thumbnail": "https://i.ytimg.com/vi/_IdAIr_QJQI/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLA7gEuN0kGVPrenIhDCkEHJ-515Ig",
+      "type": "youtube_video",
+      "categories": [],
+      "lang": null
+    },
+    {
+      "id": "iRT34Jsh4ek",
+      "title": "The Beach Boys Surfin' USA Guitar Lesson + Tutorial",
+      "url": "https://www.youtube.com/watch?v=iRT34Jsh4ek",
+      "thumbnail": "https://i.ytimg.com/vi/iRT34Jsh4ek/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLB5AVeKd7P2liNazxJUZZm32mT5GA",
       "type": "youtube_video",
       "categories": [],
       "lang": null

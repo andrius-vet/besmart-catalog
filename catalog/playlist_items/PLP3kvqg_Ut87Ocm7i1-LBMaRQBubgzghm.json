@@ -1,6 +1,6 @@
 {
   "playlistId": "PLP3kvqg_Ut87Ocm7i1-LBMaRQBubgzghm",
-  "generatedAt": "2026-01-23T12:42:40.310903Z",
+  "generatedAt": "2026-01-24T01:25:33.085911Z",
   "items": [
     {
       "id": "Ag5ptbIJ_3g",
@@ -2050,6 +2050,15 @@
       "title": "Foghat Slow Ride Guitar Lesson + Tutorial",
       "url": "https://www.youtube.com/watch?v=-V1HEtv3mLI",
       "thumbnail": "https://i.ytimg.com/vi/-V1HEtv3mLI/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCWpiv9PsCtZinHoV5P32gf3WbSfA",
+      "type": "youtube_video",
+      "categories": [],
+      "lang": null
+    },
+    {
+      "id": "u6wUstWNeWU",
+      "title": "Lynyrd Skynyrd Simple Man Guitar Lesson + Tutorial",
+      "url": "https://www.youtube.com/watch?v=u6wUstWNeWU",
+      "thumbnail": "https://i.ytimg.com/vi/u6wUstWNeWU/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAVOst9J1S4f4Xk0SagolnQAXyZbg",
       "type": "youtube_video",
       "categories": [],
       "lang": null

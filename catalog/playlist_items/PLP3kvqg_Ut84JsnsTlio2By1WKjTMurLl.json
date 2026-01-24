@@ -1,6 +1,6 @@
 {
   "playlistId": "PLP3kvqg_Ut84JsnsTlio2By1WKjTMurLl",
-  "generatedAt": "2026-01-23T12:41:32.952895Z",
+  "generatedAt": "2026-01-24T01:24:27.709311Z",
   "items": [
     {
       "id": "sea3jTzwaOI",
@@ -1141,6 +1141,51 @@
       "title": "The BEST Minor Pentatonic Soloing Techniques",
       "url": "https://www.youtube.com/watch?v=MWo7co59qJQ",
       "thumbnail": "https://i.ytimg.com/vi/MWo7co59qJQ/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLB24AMmFlHRcqisuYy7-rO3Aju82Q",
+      "type": "youtube_video",
+      "categories": [],
+      "lang": null
+    },
+    {
+      "id": "b3wUxlFY-Cs",
+      "title": "Play Like Hendrix Using The CAGED System!",
+      "url": "https://www.youtube.com/watch?v=b3wUxlFY-Cs",
+      "thumbnail": "https://i.ytimg.com/vi/b3wUxlFY-Cs/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAXN1-0DWhjADt1Xq3JVQUhr_deNA",
+      "type": "youtube_video",
+      "categories": [],
+      "lang": null
+    },
+    {
+      "id": "qIP9rHmBTmk",
+      "title": "The Black Keys Gold On The Ceiling Guitar Lesson + Tutorial",
+      "url": "https://www.youtube.com/watch?v=qIP9rHmBTmk",
+      "thumbnail": "https://i.ytimg.com/vi/qIP9rHmBTmk/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDpRsn1YmuZXRAFn6PiFXGwergJtw",
+      "type": "youtube_video",
+      "categories": [],
+      "lang": null
+    },
+    {
+      "id": "u6wUstWNeWU",
+      "title": "Lynyrd Skynyrd Simple Man Guitar Lesson + Tutorial",
+      "url": "https://www.youtube.com/watch?v=u6wUstWNeWU",
+      "thumbnail": "https://i.ytimg.com/vi/u6wUstWNeWU/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAVOst9J1S4f4Xk0SagolnQAXyZbg",
+      "type": "youtube_video",
+      "categories": [],
+      "lang": null
+    },
+    {
+      "id": "iRT34Jsh4ek",
+      "title": "The Beach Boys Surfin' USA Guitar Lesson + Tutorial",
+      "url": "https://www.youtube.com/watch?v=iRT34Jsh4ek",
+      "thumbnail": "https://i.ytimg.com/vi/iRT34Jsh4ek/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLB5AVeKd7P2liNazxJUZZm32mT5GA",
+      "type": "youtube_video",
+      "categories": [],
+      "lang": null
+    },
+    {
+      "id": "_IdAIr_QJQI",
+      "title": "The Beatles Back in the U.S.S.R. Guitar Lesson + Tutorial",
+      "url": "https://www.youtube.com/watch?v=_IdAIr_QJQI",
+      "thumbnail": "https://i.ytimg.com/vi/_IdAIr_QJQI/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLA7gEuN0kGVPrenIhDCkEHJ-515Ig",
       "type": "youtube_video",
       "categories": [],
       "lang": null

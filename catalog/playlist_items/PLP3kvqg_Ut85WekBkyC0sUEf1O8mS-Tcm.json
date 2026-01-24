@@ -1,6 +1,6 @@
 {
   "playlistId": "PLP3kvqg_Ut85WekBkyC0sUEf1O8mS-Tcm",
-  "generatedAt": "2026-01-23T12:42:33.118325Z",
+  "generatedAt": "2026-01-24T01:25:25.952501Z",
   "items": [
     {
       "id": "KmrT04VwdsE",
@@ -1042,6 +1042,15 @@
       "title": "The Shins Simple Song Guitar Lesson + Tutorial",
       "url": "https://www.youtube.com/watch?v=v2NxtZqJga4",
       "thumbnail": "https://i.ytimg.com/vi/v2NxtZqJga4/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBqm3b-QA4jGTIcaL7AbOOyyr05rw",
+      "type": "youtube_video",
+      "categories": [],
+      "lang": null
+    },
+    {
+      "id": "qIP9rHmBTmk",
+      "title": "The Black Keys Gold On The Ceiling Guitar Lesson + Tutorial",
+      "url": "https://www.youtube.com/watch?v=qIP9rHmBTmk",
+      "thumbnail": "https://i.ytimg.com/vi/qIP9rHmBTmk/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDpRsn1YmuZXRAFn6PiFXGwergJtw",
       "type": "youtube_video",
       "categories": [],
       "lang": null

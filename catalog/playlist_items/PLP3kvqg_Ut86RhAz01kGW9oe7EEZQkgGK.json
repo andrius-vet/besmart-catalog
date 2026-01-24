@@ -1,6 +1,6 @@
 {
   "playlistId": "PLP3kvqg_Ut86RhAz01kGW9oe7EEZQkgGK",
-  "generatedAt": "2026-01-23T12:41:53.117765Z",
+  "generatedAt": "2026-01-24T01:24:47.180916Z",
   "items": [
     {
       "id": "RY3AvEGKfZ0",
@@ -43,6 +43,15 @@
       "title": "Beginner Electric Guitar Lesson 4 - Open Chords",
       "url": "https://www.youtube.com/watch?v=WDolhKCZGTQ",
       "thumbnail": "https://i.ytimg.com/vi/WDolhKCZGTQ/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCD3NeFfQCseUtkJqIrgU3oKqC-SA",
+      "type": "youtube_video",
+      "categories": [],
+      "lang": null
+    },
+    {
+      "id": "m3dYOsXbWII",
+      "title": "Easy Electric Guitar Songs EVERYONE Should Know How to Play!",
+      "url": "https://www.youtube.com/watch?v=m3dYOsXbWII",
+      "thumbnail": "https://i.ytimg.com/vi/m3dYOsXbWII/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAgutpVKz6OPd0axWeRsMFvMh3uUw",
       "type": "youtube_video",
       "categories": [],
       "lang": null
