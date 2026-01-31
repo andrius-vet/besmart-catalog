@@ -1,7 +1,16 @@
 {
   "playlistId": "PLJ9pJMZ_ZCLdZVOxa9fuEP-2794dlNJGP",
-  "generatedAt": "2026-01-30T12:49:57.228017Z",
+  "generatedAt": "2026-01-31T01:46:00.274207Z",
   "items": [
+    {
+      "id": "ihoMEXX0Wvo",
+      "title": "[Private video]",
+      "url": "https://www.youtube.com/watch?v=ihoMEXX0Wvo",
+      "thumbnail": "https://i.ytimg.com/img/no_thumbnail.jpg",
+      "type": "youtube_video",
+      "categories": [],
+      "lang": null
+    },
     {
       "id": "T_zS894YqAY",
       "title": "Play Me - Neil Diamond Fingerpicking Guitar Lesson [Guitar Tutorial & Full Play Along]",
