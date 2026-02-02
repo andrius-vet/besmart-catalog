@@ -1,6 +1,6 @@
 {
   "playlistId": "PLP3kvqg_Ut84JsnsTlio2By1WKjTMurLl",
-  "generatedAt": "2026-02-01T12:42:58.838670Z",
+  "generatedAt": "2026-02-02T01:57:24.951252Z",
   "items": [
     {
       "id": "sea3jTzwaOI",
@@ -1393,6 +1393,15 @@
       "title": "How To Play EVERY F Chord (CAGED SYSTEM) on Guitar With Diagrams!",
       "url": "https://www.youtube.com/watch?v=IZIaFHmDGzE",
       "thumbnail": "https://i.ytimg.com/vi/IZIaFHmDGzE/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDryHxeCsjktyAZ2rxJF82H7-Nv2Q",
+      "type": "youtube_video",
+      "categories": [],
+      "lang": null
+    },
+    {
+      "id": "ftCdcnySO24",
+      "title": "[Private video]",
+      "url": "https://www.youtube.com/watch?v=ftCdcnySO24",
+      "thumbnail": "https://i.ytimg.com/img/no_thumbnail.jpg",
       "type": "youtube_video",
       "categories": [],
       "lang": null
