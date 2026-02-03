@@ -1,7 +1,16 @@
 {
   "playlistId": "PLP3kvqg_Ut84JsnsTlio2By1WKjTMurLl",
-  "generatedAt": "2026-02-02T12:54:18.199790Z",
+  "generatedAt": "2026-02-03T01:56:02.556720Z",
   "items": [
+    {
+      "id": "ftCdcnySO24",
+      "title": "Beautiful Guitar Trick Inside Jeff Buckley’s Playing",
+      "url": "https://www.youtube.com/watch?v=ftCdcnySO24",
+      "thumbnail": "https://i.ytimg.com/vi/ftCdcnySO24/hqdefault.jpg?sqp=-oaymwE2CNACELwBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgBtgiAAoAPigIMCAAQARgTIEMofzAP&rs=AOn4CLC9sXP0yaWEQh3WUzR5KK5O4vU6oQ",
+      "type": "youtube_video",
+      "categories": [],
+      "lang": null
+    },
     {
       "id": "sea3jTzwaOI",
       "title": "5 Easy G Major Guitar Licks to Build Your Solo Vocabulary",
@@ -1393,15 +1402,6 @@
       "title": "How To Play EVERY F Chord (CAGED SYSTEM) on Guitar With Diagrams!",
       "url": "https://www.youtube.com/watch?v=IZIaFHmDGzE",
       "thumbnail": "https://i.ytimg.com/vi/IZIaFHmDGzE/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDryHxeCsjktyAZ2rxJF82H7-Nv2Q",
-      "type": "youtube_video",
-      "categories": [],
-      "lang": null
-    },
-    {
-      "id": "ftCdcnySO24",
-      "title": "[Private video]",
-      "url": "https://www.youtube.com/watch?v=ftCdcnySO24",
-      "thumbnail": "https://i.ytimg.com/img/no_thumbnail.jpg",
       "type": "youtube_video",
       "categories": [],
       "lang": null
