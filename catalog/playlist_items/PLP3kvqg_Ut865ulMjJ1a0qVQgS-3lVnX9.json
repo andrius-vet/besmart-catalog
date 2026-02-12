@@ -1,6 +1,6 @@
 {
   "playlistId": "PLP3kvqg_Ut865ulMjJ1a0qVQgS-3lVnX9",
-  "generatedAt": "2026-02-11T13:04:25.494040Z",
+  "generatedAt": "2026-02-12T01:59:16.010383Z",
   "items": [
     {
       "id": "fHC5KZtcljo",
@@ -1447,6 +1447,15 @@
       "title": "Oasis - Wonderwall Cover - Marty Schwartz",
       "url": "https://www.youtube.com/watch?v=S4wBe1sdZeA",
       "thumbnail": "https://i.ytimg.com/vi/S4wBe1sdZeA/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBCj24ouwTXe3GqQ0KiOLqDMkQqYw",
+      "type": "youtube_video",
+      "categories": [],
+      "lang": null
+    },
+    {
+      "id": "c2WPRihQ4bY",
+      "title": "The Smashing Pumpkins Bullet with Butterfly Wings Guitar Lesson + Tutorial",
+      "url": "https://www.youtube.com/watch?v=c2WPRihQ4bY",
+      "thumbnail": "https://i.ytimg.com/vi/c2WPRihQ4bY/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD6OhGyf-sKX-F0RkLngOM95OQ--w",
       "type": "youtube_video",
       "categories": [],
       "lang": null

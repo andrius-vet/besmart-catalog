@@ -1,6 +1,6 @@
 {
   "playlistId": "PLP3kvqg_Ut87Ocm7i1-LBMaRQBubgzghm",
-  "generatedAt": "2026-02-11T13:04:28.425869Z",
+  "generatedAt": "2026-02-12T01:59:19.127149Z",
   "items": [
     {
       "id": "Ag5ptbIJ_3g",
@@ -2059,6 +2059,15 @@
       "title": "Lynyrd Skynyrd Simple Man Guitar Lesson + Tutorial",
       "url": "https://www.youtube.com/watch?v=u6wUstWNeWU",
       "thumbnail": "https://i.ytimg.com/vi/u6wUstWNeWU/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAVOst9J1S4f4Xk0SagolnQAXyZbg",
+      "type": "youtube_video",
+      "categories": [],
+      "lang": null
+    },
+    {
+      "id": "KERvEjnwKDo",
+      "title": "Bob Seger Old Time Rock & Roll Guitar Lesson + Tutorial",
+      "url": "https://www.youtube.com/watch?v=KERvEjnwKDo",
+      "thumbnail": "https://i.ytimg.com/vi/KERvEjnwKDo/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDe_mH7-gCwUD4xM_ov4kLZKqq2Jg",
       "type": "youtube_video",
       "categories": [],
       "lang": null
