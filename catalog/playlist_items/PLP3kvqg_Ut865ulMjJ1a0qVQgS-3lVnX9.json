@@ -1,6 +1,6 @@
 {
   "playlistId": "PLP3kvqg_Ut865ulMjJ1a0qVQgS-3lVnX9",
-  "generatedAt": "2026-02-27T12:54:38.080239Z",
+  "generatedAt": "2026-02-28T01:43:04.052695Z",
   "items": [
     {
       "id": "fHC5KZtcljo",
@@ -1456,6 +1456,15 @@
       "title": "The Smashing Pumpkins Bullet with Butterfly Wings Guitar Lesson + Tutorial",
       "url": "https://www.youtube.com/watch?v=c2WPRihQ4bY",
       "thumbnail": "https://i.ytimg.com/vi/c2WPRihQ4bY/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD6OhGyf-sKX-F0RkLngOM95OQ--w",
+      "type": "youtube_video",
+      "categories": [],
+      "lang": null
+    },
+    {
+      "id": "sKfBEkOneWQ",
+      "title": "Jeff Buckley • Lover, You Should've Come Over • Guitar Tutorial",
+      "url": "https://www.youtube.com/watch?v=sKfBEkOneWQ",
+      "thumbnail": "https://i.ytimg.com/vi/sKfBEkOneWQ/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCAsXccJQqmjpozyxIbkLIQYHFqtw",
       "type": "youtube_video",
       "categories": [],
       "lang": null
