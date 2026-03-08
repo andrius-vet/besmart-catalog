@@ -1,6 +1,6 @@
 {
   "playlistId": "PLJ9pJMZ_ZCLfLEM6OYrQHZ0QsZu-zkPeo",
-  "generatedAt": "2026-03-08T01:54:21.517093Z",
+  "generatedAt": "2026-03-08T12:42:21.635671Z",
   "items": [
     {
       "id": "CZlIfnhqk-w",
@@ -196,6 +196,15 @@
       "title": "With Or Without You - U2 Beginner Guitar Lesson [Guitar Tutorial + Play Along]",
       "url": "https://www.youtube.com/watch?v=ghyhCjUYx3s",
       "thumbnail": "https://i.ytimg.com/vi/ghyhCjUYx3s/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCyN4nJu4CIaWYrFMuZSj67Iyj17g",
+      "type": "youtube_video",
+      "categories": [],
+      "lang": null
+    },
+    {
+      "id": "_PsInAVdNps",
+      "title": "Massachusetts - The Bee Gees Acoustic Guitar Lesson [Guitar Tutorial PLUS Play Along]",
+      "url": "https://www.youtube.com/watch?v=_PsInAVdNps",
+      "thumbnail": "https://i.ytimg.com/vi/_PsInAVdNps/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCIM2i6MWbIwEaTXL2tOmfscBRYGg",
       "type": "youtube_video",
       "categories": [],
       "lang": null
