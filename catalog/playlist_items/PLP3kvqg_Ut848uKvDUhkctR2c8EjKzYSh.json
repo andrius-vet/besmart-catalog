@@ -1,6 +1,6 @@
 {
   "playlistId": "PLP3kvqg_Ut848uKvDUhkctR2c8EjKzYSh",
-  "generatedAt": "2026-03-30T13:14:37.758051Z",
+  "generatedAt": "2026-03-31T02:07:04.075583Z",
   "items": [
     {
       "id": "jba8MTJQs2g",
@@ -1240,6 +1240,15 @@
       "title": "The SECRET To Greta Van Fleet's Licks",
       "url": "https://www.youtube.com/watch?v=vsz6PlK3VVo",
       "thumbnail": "https://i.ytimg.com/vi/vsz6PlK3VVo/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDKG_o4ZwaoUuLq7ARN8jYite-t-w",
+      "type": "youtube_video",
+      "categories": [],
+      "lang": null
+    },
+    {
+      "id": "fwGLjkcGaCo",
+      "title": "Bruno Mars Risk It All | Guitar Tutorial with Jazzy Chord Movements",
+      "url": "https://www.youtube.com/watch?v=fwGLjkcGaCo",
+      "thumbnail": "https://i.ytimg.com/vi/fwGLjkcGaCo/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBxeFEO5dhM5mecG8d-BOX9jzijeg",
       "type": "youtube_video",
       "categories": [],
       "lang": null

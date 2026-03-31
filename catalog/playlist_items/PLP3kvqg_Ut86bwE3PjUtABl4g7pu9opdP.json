@@ -1,6 +1,6 @@
 {
   "playlistId": "PLP3kvqg_Ut86bwE3PjUtABl4g7pu9opdP",
-  "generatedAt": "2026-03-30T13:14:48.770205Z",
+  "generatedAt": "2026-03-31T02:07:13.241853Z",
   "items": [
     {
       "id": "4IcSpp7P48c",
@@ -1195,6 +1195,15 @@
       "title": "Rick Springfield Jessie's Girl Guitar Lesson + Tutorial",
       "url": "https://www.youtube.com/watch?v=1n7gEVm9Sz4",
       "thumbnail": "https://i.ytimg.com/vi/1n7gEVm9Sz4/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDgBkQ5Q3L6wiaEQRiVHC27nr2DUQ",
+      "type": "youtube_video",
+      "categories": [],
+      "lang": null
+    },
+    {
+      "id": "KqE_f44f1xs",
+      "title": "Learn Prince Raspberry Beret • Guitar Lesson + Full Tutorial",
+      "url": "https://www.youtube.com/watch?v=KqE_f44f1xs",
+      "thumbnail": "https://i.ytimg.com/vi/KqE_f44f1xs/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCDrcqrLYR7xtYPP6VOZy7cTdUEOQ",
       "type": "youtube_video",
       "categories": [],
       "lang": null
