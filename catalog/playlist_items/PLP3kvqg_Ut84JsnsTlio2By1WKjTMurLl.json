@@ -1,6 +1,6 @@
 {
   "playlistId": "PLP3kvqg_Ut84JsnsTlio2By1WKjTMurLl",
-  "generatedAt": "2026-04-10T13:04:04.380594Z",
+  "generatedAt": "2026-04-11T02:01:14.418702Z",
   "items": [
     {
       "id": "KqE_f44f1xs",
@@ -1222,6 +1222,15 @@
       "title": "Blow Everyone's Mind with These Blues Bending Techniques!",
       "url": "https://www.youtube.com/watch?v=XcSjZBlb_bA",
       "thumbnail": "https://i.ytimg.com/vi/XcSjZBlb_bA/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCG3kDFiewclN-LV-C92HTdC0dxog",
+      "type": "youtube_video",
+      "categories": [],
+      "lang": null
+    },
+    {
+      "id": "uPDR8EIRUeA",
+      "title": "Jimi Hendrix Wait Until Tomorrow Guitar Lesson + Tutorial",
+      "url": "https://www.youtube.com/watch?v=uPDR8EIRUeA",
+      "thumbnail": "https://i.ytimg.com/vi/uPDR8EIRUeA/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLB3qb8ZvYWCKevV_QCnN6o8uq370g",
       "type": "youtube_video",
       "categories": [],
       "lang": null
