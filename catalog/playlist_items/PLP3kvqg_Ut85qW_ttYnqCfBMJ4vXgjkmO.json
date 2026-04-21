@@ -1,12 +1,93 @@
 {
   "playlistId": "PLP3kvqg_Ut85qW_ttYnqCfBMJ4vXgjkmO",
-  "generatedAt": "2026-04-20T13:24:01.451815Z",
+  "generatedAt": "2026-04-21T02:23:51.746314Z",
   "items": [
+    {
+      "id": "F4h0U5TTHCU",
+      "title": "I Once Played Guitar With Tracy Chapman",
+      "url": "https://www.youtube.com/watch?v=F4h0U5TTHCU",
+      "thumbnail": "https://i.ytimg.com/vi/F4h0U5TTHCU/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDaEqNFEUL8hwdtD81bOl04KGH4Yg",
+      "type": "youtube_video",
+      "categories": [],
+      "lang": null
+    },
+    {
+      "id": "KG_D4em4gi4",
+      "title": "I Have a Confession: I Never Practice Guitar.",
+      "url": "https://www.youtube.com/watch?v=KG_D4em4gi4",
+      "thumbnail": "https://i.ytimg.com/vi/KG_D4em4gi4/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCxHy3u_9Jfl1TwDG8VZlUoTf4exQ",
+      "type": "youtube_video",
+      "categories": [],
+      "lang": null
+    },
+    {
+      "id": "tG5-Kok6qaM",
+      "title": "How I (Accidentally) Became Lynyrd Skynyrd",
+      "url": "https://www.youtube.com/watch?v=tG5-Kok6qaM",
+      "thumbnail": "https://i.ytimg.com/vi/tG5-Kok6qaM/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLB4w_u5WqEpH62wi7k9Vn7qv_4a3A",
+      "type": "youtube_video",
+      "categories": [],
+      "lang": null
+    },
+    {
+      "id": "-vbVhLbSBII",
+      "title": "Weirdest Gig of My Life: The Night I Got Attacked on Stage",
+      "url": "https://www.youtube.com/watch?v=-vbVhLbSBII",
+      "thumbnail": "https://i.ytimg.com/vi/-vbVhLbSBII/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCUYi9d9zzyYfKxGifPUyNZGy0hug",
+      "type": "youtube_video",
+      "categories": [],
+      "lang": null
+    },
     {
       "id": "oHVAJ8tD170",
       "title": "Why I Started Wearing a Fedora (My Most Vulnerable Story Yet)",
       "url": "https://www.youtube.com/watch?v=oHVAJ8tD170",
       "thumbnail": "https://i.ytimg.com/vi/oHVAJ8tD170/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAJ6zNQ5GvSkP7VxUvQFg25nYRfMw",
+      "type": "youtube_video",
+      "categories": [],
+      "lang": null
+    },
+    {
+      "id": "zowyMiiJmKs",
+      "title": "How I Accidentally Built a YouTube Guitar Career",
+      "url": "https://www.youtube.com/watch?v=zowyMiiJmKs",
+      "thumbnail": "https://i.ytimg.com/vi/zowyMiiJmKs/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAlpdQ7WGF4fpMvrVfoIz7xsslLJg",
+      "type": "youtube_video",
+      "categories": [],
+      "lang": null
+    },
+    {
+      "id": "MHkp3Q_xD_o",
+      "title": "How I Learned Guitar Without Natural Musical Talent",
+      "url": "https://www.youtube.com/watch?v=MHkp3Q_xD_o",
+      "thumbnail": "https://i.ytimg.com/vi/MHkp3Q_xD_o/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCHXJOtjh9RDxKAkdNd4gjnQzceCg",
+      "type": "youtube_video",
+      "categories": [],
+      "lang": null
+    },
+    {
+      "id": "yaEeBeZkvcc",
+      "title": "Howard Stern Called Me... Then I Met Slash the Same Day",
+      "url": "https://www.youtube.com/watch?v=yaEeBeZkvcc",
+      "thumbnail": "https://i.ytimg.com/vi/yaEeBeZkvcc/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD1WTbFnOG74LmyZO7FYstZE4b-2g",
+      "type": "youtube_video",
+      "categories": [],
+      "lang": null
+    },
+    {
+      "id": "jQcgqsVaIdQ",
+      "title": "I Joined Band of Gringos for an EPIC Surprise Jam!",
+      "url": "https://www.youtube.com/watch?v=jQcgqsVaIdQ",
+      "thumbnail": "https://i.ytimg.com/vi/jQcgqsVaIdQ/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCFMd1uzDYuNabpf9IUBgV7-HlPPQ",
+      "type": "youtube_video",
+      "categories": [],
+      "lang": null
+    },
+    {
+      "id": "BJ0mCZ4FBjY",
+      "title": "I Traveled Across the Globe to Rock Dubai! Marty Music & Friends Live Concert",
+      "url": "https://www.youtube.com/watch?v=BJ0mCZ4FBjY",
+      "thumbnail": "https://i.ytimg.com/vi/BJ0mCZ4FBjY/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCts6lPA5otaDdSzc6TPtgVJ6zEhw",
       "type": "youtube_video",
       "categories": [],
       "lang": null
