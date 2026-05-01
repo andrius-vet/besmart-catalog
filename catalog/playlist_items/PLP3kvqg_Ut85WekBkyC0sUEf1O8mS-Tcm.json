@@ -1,6 +1,6 @@
 {
   "playlistId": "PLP3kvqg_Ut85WekBkyC0sUEf1O8mS-Tcm",
-  "generatedAt": "2026-04-30T13:49:34.267539Z",
+  "generatedAt": "2026-05-01T02:48:16.840258Z",
   "items": [
     {
       "id": "KmrT04VwdsE",
@@ -898,6 +898,168 @@
       "title": "My FAVORITE Riffs Of The 2010's",
       "url": "https://www.youtube.com/watch?v=8aiQGuBM5D0",
       "thumbnail": "https://i.ytimg.com/vi/8aiQGuBM5D0/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCiXx4T0lopbX_iHSvX1wINstIlJg",
+      "type": "youtube_video",
+      "categories": [],
+      "lang": null
+    },
+    {
+      "id": "50xyrW369yc",
+      "title": "Greta Van Fleet Edge Of Darkness Guitar Lesson + Tutorial",
+      "url": "https://www.youtube.com/watch?v=50xyrW369yc",
+      "thumbnail": "https://i.ytimg.com/vi/50xyrW369yc/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAQPGXOkc5JCqyn2Wu0f7EBQhMYlg",
+      "type": "youtube_video",
+      "categories": [],
+      "lang": null
+    },
+    {
+      "id": "ofourTAfWi0",
+      "title": "Foo Fighters Walk Guitar Lesson + Tutorial",
+      "url": "https://www.youtube.com/watch?v=ofourTAfWi0",
+      "thumbnail": "https://i.ytimg.com/vi/ofourTAfWi0/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAsB9WmKuqpJmXmfzyAV0HWRID3gQ",
+      "type": "youtube_video",
+      "categories": [],
+      "lang": null
+    },
+    {
+      "id": "gQf_6tJYNpM",
+      "title": "Jason Mraz I Won't Give Up Guitar Lesson + Tutorial",
+      "url": "https://www.youtube.com/watch?v=gQf_6tJYNpM",
+      "thumbnail": "https://i.ytimg.com/vi/gQf_6tJYNpM/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAbQqAHS9PUScOPySzbjGfSylZ4EA",
+      "type": "youtube_video",
+      "categories": [],
+      "lang": null
+    },
+    {
+      "id": "58BO8j7a-hU",
+      "title": "Arctic Monkeys Do I Wanna Know? Guitar Lesson + Tutorial",
+      "url": "https://www.youtube.com/watch?v=58BO8j7a-hU",
+      "thumbnail": "https://i.ytimg.com/vi/58BO8j7a-hU/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLC0KoJ7RzBskCNbUc1-Xczb3eFz1A",
+      "type": "youtube_video",
+      "categories": [],
+      "lang": null
+    },
+    {
+      "id": "NgQMkkM28EA",
+      "title": "Greta Van Fleet You're The One Guitar Lesson + Tutorial",
+      "url": "https://www.youtube.com/watch?v=NgQMkkM28EA",
+      "thumbnail": "https://i.ytimg.com/vi/NgQMkkM28EA/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBImhaWlEdZtK8Px3Fzs437qTncNA",
+      "type": "youtube_video",
+      "categories": [],
+      "lang": null
+    },
+    {
+      "id": "vCojc3aQL2E",
+      "title": "Childish Gambino Redbone Guitar Lesson + Tutorial",
+      "url": "https://www.youtube.com/watch?v=vCojc3aQL2E",
+      "thumbnail": "https://i.ytimg.com/vi/vCojc3aQL2E/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAxbp9rM6gIJgyX9VO_PguIqyZzKQ",
+      "type": "youtube_video",
+      "categories": [],
+      "lang": null
+    },
+    {
+      "id": "CgOpeNF0Bek",
+      "title": "Kacey Musgraves Follow Your Arrow Guitar Lesson + Tutorial",
+      "url": "https://www.youtube.com/watch?v=CgOpeNF0Bek",
+      "thumbnail": "https://i.ytimg.com/vi/CgOpeNF0Bek/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAJ_NmGIQ_XFE10fNJHW76D8JZiqA",
+      "type": "youtube_video",
+      "categories": [],
+      "lang": null
+    },
+    {
+      "id": "B_L9P4s4z_c",
+      "title": "3 Doors Down It's Not My Time Guitar Lesson + Tutorial",
+      "url": "https://www.youtube.com/watch?v=B_L9P4s4z_c",
+      "thumbnail": "https://i.ytimg.com/vi/B_L9P4s4z_c/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAkiC-x_xPUakejgHq2ckgn_1aEmg",
+      "type": "youtube_video",
+      "categories": [],
+      "lang": null
+    },
+    {
+      "id": "pjtXAAZ8CM0",
+      "title": "Zac Brown Band Loving You Easy Guitar Lesson + Tutorial",
+      "url": "https://www.youtube.com/watch?v=pjtXAAZ8CM0",
+      "thumbnail": "https://i.ytimg.com/vi/pjtXAAZ8CM0/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCol-ELnL2ca-crzMHjQylM_A2Q2w",
+      "type": "youtube_video",
+      "categories": [],
+      "lang": null
+    },
+    {
+      "id": "M9iUsJ4tnT4",
+      "title": "Sam Smith Kids Again Guitar Lesson + Tutorial",
+      "url": "https://www.youtube.com/watch?v=M9iUsJ4tnT4",
+      "thumbnail": "https://i.ytimg.com/vi/M9iUsJ4tnT4/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCbYHD8luHFYua6GzZPwMi_UC3www",
+      "type": "youtube_video",
+      "categories": [],
+      "lang": null
+    },
+    {
+      "id": "X6rUBciSzcU",
+      "title": "AC/DC Through The Mists Of Time Guitar Lesson + Tutorial",
+      "url": "https://www.youtube.com/watch?v=X6rUBciSzcU",
+      "thumbnail": "https://i.ytimg.com/vi/X6rUBciSzcU/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAtGz9hXC7eZcWKO9EPTHJu_B5fow",
+      "type": "youtube_video",
+      "categories": [],
+      "lang": null
+    },
+    {
+      "id": "aWN0CfxD3x8",
+      "title": "Machine Gun Kelly (with YUNGBLUD & Travis Barker) I Think I'm OKAY Guitar Lesson + Tutorial",
+      "url": "https://www.youtube.com/watch?v=aWN0CfxD3x8",
+      "thumbnail": "https://i.ytimg.com/vi/aWN0CfxD3x8/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBmc7GvrzsXtWrRP3Q7EXTPBlcNHA",
+      "type": "youtube_video",
+      "categories": [],
+      "lang": null
+    },
+    {
+      "id": "eV7jnGAiFXM",
+      "title": "Daft Punk feat. Pharrell Williams Get Lucky Guitar Lesson + Tutorial",
+      "url": "https://www.youtube.com/watch?v=eV7jnGAiFXM",
+      "thumbnail": "https://i.ytimg.com/vi/eV7jnGAiFXM/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCMIUE7Tsb3wKCLRaG2G9R5oMXbjQ",
+      "type": "youtube_video",
+      "categories": [],
+      "lang": null
+    },
+    {
+      "id": "MSJ6De26MGI",
+      "title": "Jason Isbell and the 400 Unit Hope the High Road Guitar Lesson + Tutorial",
+      "url": "https://www.youtube.com/watch?v=MSJ6De26MGI",
+      "thumbnail": "https://i.ytimg.com/vi/MSJ6De26MGI/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCPFV8HCoTMJDd1_4kvsqRLXf3aKA",
+      "type": "youtube_video",
+      "categories": [],
+      "lang": null
+    },
+    {
+      "id": "ebo8xPoLVnM",
+      "title": "Jack White Lazaretto Guitar Lesson + Tutorial",
+      "url": "https://www.youtube.com/watch?v=ebo8xPoLVnM",
+      "thumbnail": "https://i.ytimg.com/vi/ebo8xPoLVnM/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAhqZuRJ660oyO0UchmvVijAy7jXQ",
+      "type": "youtube_video",
+      "categories": [],
+      "lang": null
+    },
+    {
+      "id": "v2NxtZqJga4",
+      "title": "The Shins Simple Song Guitar Lesson + Tutorial",
+      "url": "https://www.youtube.com/watch?v=v2NxtZqJga4",
+      "thumbnail": "https://i.ytimg.com/vi/v2NxtZqJga4/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBqm3b-QA4jGTIcaL7AbOOyyr05rw",
+      "type": "youtube_video",
+      "categories": [],
+      "lang": null
+    },
+    {
+      "id": "qIP9rHmBTmk",
+      "title": "The Black Keys Gold On The Ceiling Guitar Lesson + Tutorial",
+      "url": "https://www.youtube.com/watch?v=qIP9rHmBTmk",
+      "thumbnail": "https://i.ytimg.com/vi/qIP9rHmBTmk/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDpRsn1YmuZXRAFn6PiFXGwergJtw",
+      "type": "youtube_video",
+      "categories": [],
+      "lang": null
+    },
+    {
+      "id": "m0WpIAhzLDA",
+      "title": "How to Play \"New Light\" by John Mayer on Guitar",
+      "url": "https://www.youtube.com/watch?v=m0WpIAhzLDA",
+      "thumbnail": "https://i.ytimg.com/vi/m0WpIAhzLDA/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCNz89S5bKT_NRVr9k1II97KjuaLQ",
       "type": "youtube_video",
       "categories": [],
       "lang": null
