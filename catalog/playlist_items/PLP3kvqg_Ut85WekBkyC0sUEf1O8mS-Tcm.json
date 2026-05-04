@@ -1,6 +1,6 @@
 {
   "playlistId": "PLP3kvqg_Ut85WekBkyC0sUEf1O8mS-Tcm",
-  "generatedAt": "2026-05-04T02:38:06.561808Z",
+  "generatedAt": "2026-05-04T13:53:30.775121Z",
   "items": [
     {
       "id": "KmrT04VwdsE",
@@ -1060,6 +1060,15 @@
       "title": "How to Play \"New Light\" by John Mayer on Guitar",
       "url": "https://www.youtube.com/watch?v=m0WpIAhzLDA",
       "thumbnail": "https://i.ytimg.com/vi/m0WpIAhzLDA/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCNz89S5bKT_NRVr9k1II97KjuaLQ",
+      "type": "youtube_video",
+      "categories": [],
+      "lang": null
+    },
+    {
+      "id": "feLr1bNbf7Y",
+      "title": "Taylor Swift All Too Well Guitar Lesson + Tutorial",
+      "url": "https://www.youtube.com/watch?v=feLr1bNbf7Y",
+      "thumbnail": "https://i.ytimg.com/vi/feLr1bNbf7Y/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCqfB6N4TxRJ8B_ZDfMi9opwsUuXA",
       "type": "youtube_video",
       "categories": [],
       "lang": null

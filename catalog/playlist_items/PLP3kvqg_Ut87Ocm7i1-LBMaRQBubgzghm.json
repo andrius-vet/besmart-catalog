@@ -1,6 +1,6 @@
 {
   "playlistId": "PLP3kvqg_Ut87Ocm7i1-LBMaRQBubgzghm",
-  "generatedAt": "2026-05-04T02:38:13.123113Z",
+  "generatedAt": "2026-05-04T13:53:41.777429Z",
   "items": [
     {
       "id": "Ag5ptbIJ_3g",
@@ -2068,6 +2068,51 @@
       "title": "Bob Seger Old Time Rock & Roll Guitar Lesson + Tutorial",
       "url": "https://www.youtube.com/watch?v=KERvEjnwKDo",
       "thumbnail": "https://i.ytimg.com/vi/KERvEjnwKDo/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDe_mH7-gCwUD4xM_ov4kLZKqq2Jg",
+      "type": "youtube_video",
+      "categories": [],
+      "lang": null
+    },
+    {
+      "id": "8jMB9X45SNk",
+      "title": "How to Play David Bowie \"Rebel Rebel\" Guitar Lesson + Tutorial",
+      "url": "https://www.youtube.com/watch?v=8jMB9X45SNk",
+      "thumbnail": "https://i.ytimg.com/vi/8jMB9X45SNk/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLB5AnyhCWpnFo2bbbKm3ffjaiwumQ",
+      "type": "youtube_video",
+      "categories": [],
+      "lang": null
+    },
+    {
+      "id": "o17Pwp1rUP8",
+      "title": "Ted Nugent Stranglehold Guitar Lesson + Tutorial",
+      "url": "https://www.youtube.com/watch?v=o17Pwp1rUP8",
+      "thumbnail": "https://i.ytimg.com/vi/o17Pwp1rUP8/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLByoTPrxrbce1ak4vQ2LS4Z8IMlvQ",
+      "type": "youtube_video",
+      "categories": [],
+      "lang": null
+    },
+    {
+      "id": "Vh464Q-f9ns",
+      "title": "Van Halen You Really Got Me Guitar Lesson + Tutorial",
+      "url": "https://www.youtube.com/watch?v=Vh464Q-f9ns",
+      "thumbnail": "https://i.ytimg.com/vi/Vh464Q-f9ns/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLB2Kt7VL6OrDBxvBei1uPZ0Cz5PPQ",
+      "type": "youtube_video",
+      "categories": [],
+      "lang": null
+    },
+    {
+      "id": "EFl4QaMERgg",
+      "title": "Led Zeppelin D'yer Mak'er Guitar Lesson + Tutorial",
+      "url": "https://www.youtube.com/watch?v=EFl4QaMERgg",
+      "thumbnail": "https://i.ytimg.com/vi/EFl4QaMERgg/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBZD4Q3_t7UociQrh93BAUkSgBmOQ",
+      "type": "youtube_video",
+      "categories": [],
+      "lang": null
+    },
+    {
+      "id": "COYdXhlJUyU",
+      "title": "The Rolling Stones Beast of Burden Guitar Lesson + Tutorial",
+      "url": "https://www.youtube.com/watch?v=COYdXhlJUyU",
+      "thumbnail": "https://i.ytimg.com/vi/COYdXhlJUyU/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLASxhULSHdanAlB5fZgJzPw2ej0HQ",
       "type": "youtube_video",
       "categories": [],
       "lang": null

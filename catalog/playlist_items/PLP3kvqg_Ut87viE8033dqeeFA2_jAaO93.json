@@ -1,6 +1,6 @@
 {
   "playlistId": "PLP3kvqg_Ut87viE8033dqeeFA2_jAaO93",
-  "generatedAt": "2026-05-04T02:38:14.394596Z",
+  "generatedAt": "2026-05-04T13:53:42.958607Z",
   "items": [
     {
       "id": "lfHXSdBPVBM",
@@ -835,6 +835,24 @@
       "title": "The Beach Boys Surfin' USA Guitar Lesson + Tutorial",
       "url": "https://www.youtube.com/watch?v=iRT34Jsh4ek",
       "thumbnail": "https://i.ytimg.com/vi/iRT34Jsh4ek/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLB5AVeKd7P2liNazxJUZZm32mT5GA",
+      "type": "youtube_video",
+      "categories": [],
+      "lang": null
+    },
+    {
+      "id": "ZbYW3qlrlHE",
+      "title": "The Beatles Twist and Shout Guitar Lesson + Tutorial",
+      "url": "https://www.youtube.com/watch?v=ZbYW3qlrlHE",
+      "thumbnail": "https://i.ytimg.com/vi/ZbYW3qlrlHE/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLB_lp14doGYl-HoyBJJU7GtO6orLA",
+      "type": "youtube_video",
+      "categories": [],
+      "lang": null
+    },
+    {
+      "id": "ChJc6qCOm1E",
+      "title": "The Beatles I Want To Hold Your Hand Guitar Lesson + Tutorial",
+      "url": "https://www.youtube.com/watch?v=ChJc6qCOm1E",
+      "thumbnail": "https://i.ytimg.com/vi/ChJc6qCOm1E/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD4pUmZRlWJjmkNAopzUqnDfWr9HQ",
       "type": "youtube_video",
       "categories": [],
       "lang": null
