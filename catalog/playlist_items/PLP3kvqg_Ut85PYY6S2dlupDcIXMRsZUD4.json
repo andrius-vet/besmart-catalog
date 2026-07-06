@@ -1,6 +1,6 @@
 {
   "playlistId": "PLP3kvqg_Ut85PYY6S2dlupDcIXMRsZUD4",
-  "generatedAt": "2026-07-06T02:53:18.571601Z",
+  "generatedAt": "2026-07-06T15:24:57.034681Z",
   "items": [
     {
       "id": "21E-FFLtuvQ",
@@ -525,15 +525,6 @@
       "lang": null
     },
     {
-      "id": "QdbYhT_P0s4",
-      "title": "How to Play Jimi Hendrix Style Double Stops on Guitar - Lead Guitar Lesson",
-      "url": "https://www.youtube.com/watch?v=QdbYhT_P0s4",
-      "thumbnail": "https://i.ytimg.com/vi/QdbYhT_P0s4/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCSlsM6bjcY26wgGT-t9vOTL0i3Ug",
-      "type": "youtube_video",
-      "categories": [],
-      "lang": null
-    },
-    {
       "id": "3VvVOIQlOoY",
       "title": "Cream Strange Brew Guitar Lesson + Tutorial",
       "url": "https://www.youtube.com/watch?v=3VvVOIQlOoY",
@@ -543,10 +534,10 @@
       "lang": null
     },
     {
-      "id": "EOOa7nd8mO4",
-      "title": "Jerry Garcia Solo Concept Lead Guitar Lesson - Country Blues",
-      "url": "https://www.youtube.com/watch?v=EOOa7nd8mO4",
-      "thumbnail": "https://i.ytimg.com/vi/EOOa7nd8mO4/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDeavMybCE_E1Lq8NiGQwAsQgubfQ",
+      "id": "QdbYhT_P0s4",
+      "title": "How to Play Jimi Hendrix Style Double Stops on Guitar - Lead Guitar Lesson",
+      "url": "https://www.youtube.com/watch?v=QdbYhT_P0s4",
+      "thumbnail": "https://i.ytimg.com/vi/QdbYhT_P0s4/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCSlsM6bjcY26wgGT-t9vOTL0i3Ug",
       "type": "youtube_video",
       "categories": [],
       "lang": null
@@ -556,6 +547,15 @@
       "title": "Learn Albert King Born Under A Bad Sign Guitar Lesson + Tutorial",
       "url": "https://www.youtube.com/watch?v=mN6pAWlBs1I",
       "thumbnail": "https://i.ytimg.com/vi/mN6pAWlBs1I/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBJSFjYAfALQuGxnmmd-EV-DCF1Gg",
+      "type": "youtube_video",
+      "categories": [],
+      "lang": null
+    },
+    {
+      "id": "EOOa7nd8mO4",
+      "title": "Jerry Garcia Solo Concept Lead Guitar Lesson - Country Blues",
+      "url": "https://www.youtube.com/watch?v=EOOa7nd8mO4",
+      "thumbnail": "https://i.ytimg.com/vi/EOOa7nd8mO4/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDeavMybCE_E1Lq8NiGQwAsQgubfQ",
       "type": "youtube_video",
       "categories": [],
       "lang": null

@@ -1,6 +1,6 @@
 {
   "playlistId": "PLP3kvqg_Ut84SdgE4V0Cn6Hb7Rvxrd_A3",
-  "generatedAt": "2026-07-06T02:53:44.808052Z",
+  "generatedAt": "2026-07-06T15:25:25.634463Z",
   "items": [
     {
       "id": "HNSaXAe8tyg",
@@ -498,15 +498,6 @@
       "lang": null
     },
     {
-      "id": "Mxv1YUzkl1c",
-      "title": "Elvis Presley Hound Dog Guitar Lesson + Tutorial",
-      "url": "https://www.youtube.com/watch?v=Mxv1YUzkl1c",
-      "thumbnail": "https://i.ytimg.com/vi/Mxv1YUzkl1c/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDWGTB8IRijJBZd8oqN8jcyQ5VnsA",
-      "type": "youtube_video",
-      "categories": [],
-      "lang": null
-    },
-    {
       "id": "9QPZUf41FT4",
       "title": "The FASTEST Way to Learn Guitar (5-Minute Daily Routine)",
       "url": "https://www.youtube.com/watch?v=9QPZUf41FT4",
@@ -516,10 +507,28 @@
       "lang": null
     },
     {
+      "id": "Mxv1YUzkl1c",
+      "title": "Elvis Presley Hound Dog Guitar Lesson + Tutorial",
+      "url": "https://www.youtube.com/watch?v=Mxv1YUzkl1c",
+      "thumbnail": "https://i.ytimg.com/vi/Mxv1YUzkl1c/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDWGTB8IRijJBZd8oqN8jcyQ5VnsA",
+      "type": "youtube_video",
+      "categories": [],
+      "lang": null
+    },
+    {
       "id": "suFlkK-rsB0",
       "title": "The Troggs Wild Thing Guitar Lesson + Tutorial",
       "url": "https://www.youtube.com/watch?v=suFlkK-rsB0",
       "thumbnail": "https://i.ytimg.com/vi/suFlkK-rsB0/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBGTHXm6X0HVS9j0YMRy1nf7dcrEg",
+      "type": "youtube_video",
+      "categories": [],
+      "lang": null
+    },
+    {
+      "id": "Z6E7SK3aQIg",
+      "title": "Beginner Electric Lesson 1.2: The 3 Chords Every Beginner Should Learn",
+      "url": "https://www.youtube.com/watch?v=Z6E7SK3aQIg",
+      "thumbnail": "https://i.ytimg.com/vi/Z6E7SK3aQIg/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDKHfXyZp5obG-R3F1XRJMySAQfcw",
       "type": "youtube_video",
       "categories": [],
       "lang": null
@@ -538,15 +547,6 @@
       "title": "Frozen Let It Go Guitar Lesson + Tutorial",
       "url": "https://www.youtube.com/watch?v=JhyXWQaUW3U",
       "thumbnail": "https://i.ytimg.com/vi/JhyXWQaUW3U/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCm4JtIOvblwuakp_skCbaKmWPlzw",
-      "type": "youtube_video",
-      "categories": [],
-      "lang": null
-    },
-    {
-      "id": "Z6E7SK3aQIg",
-      "title": "Beginner Electric Lesson 1.2: The 3 Chords Every Beginner Should Learn",
-      "url": "https://www.youtube.com/watch?v=Z6E7SK3aQIg",
-      "thumbnail": "https://i.ytimg.com/vi/Z6E7SK3aQIg/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDKHfXyZp5obG-R3F1XRJMySAQfcw",
       "type": "youtube_video",
       "categories": [],
       "lang": null
@@ -993,15 +993,6 @@
       "lang": null
     },
     {
-      "id": "8SbHY_MFJnw",
-      "title": "How To Solo On Guitar - Blues Techniques For Beginners - E Minor Pentatonic Scale For Soloing",
-      "url": "https://www.youtube.com/watch?v=8SbHY_MFJnw",
-      "thumbnail": "https://i.ytimg.com/vi/8SbHY_MFJnw/hqdefault.jpg?sqp=-oaymwE2CNACELwBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhlIFsoUzAP&rs=AOn4CLAkAG1QQaVf952gRzkdm_1b5dKCZw",
-      "type": "youtube_video",
-      "categories": [],
-      "lang": null
-    },
-    {
       "id": "BR7iHayA4VU",
       "title": "Barre Chords Get Easier When You Do THIS!",
       "url": "https://www.youtube.com/watch?v=BR7iHayA4VU",
@@ -1015,6 +1006,15 @@
       "title": "Chappell Roan Pink Pony Club Guitar Lesson + Tutorial",
       "url": "https://www.youtube.com/watch?v=qHxEgccWIGw",
       "thumbnail": "https://i.ytimg.com/vi/qHxEgccWIGw/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDAGfieg09cXWjDrhqB856DqTqhDQ",
+      "type": "youtube_video",
+      "categories": [],
+      "lang": null
+    },
+    {
+      "id": "8SbHY_MFJnw",
+      "title": "How To Solo On Guitar - Blues Techniques For Beginners - E Minor Pentatonic Scale For Soloing",
+      "url": "https://www.youtube.com/watch?v=8SbHY_MFJnw",
+      "thumbnail": "https://i.ytimg.com/vi/8SbHY_MFJnw/hqdefault.jpg?sqp=-oaymwE2CNACELwBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhlIFsoUzAP&rs=AOn4CLAkAG1QQaVf952gRzkdm_1b5dKCZw",
       "type": "youtube_video",
       "categories": [],
       "lang": null
@@ -1200,15 +1200,6 @@
       "lang": null
     },
     {
-      "id": "qLxq_dzKUFY",
-      "title": "Post Malone I Had Some Help Guitar Lesson + Tutorial",
-      "url": "https://www.youtube.com/watch?v=qLxq_dzKUFY",
-      "thumbnail": "https://i.ytimg.com/vi/qLxq_dzKUFY/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLC4c_tDB10rL5ZhS_M3INqlFrXu8A",
-      "type": "youtube_video",
-      "categories": [],
-      "lang": null
-    },
-    {
       "id": "XNPap3UsgyI",
       "title": "Come As You Are – EASY Nirvana Riff You Can Learn NOW",
       "url": "https://www.youtube.com/watch?v=XNPap3UsgyI",
@@ -1218,10 +1209,10 @@
       "lang": null
     },
     {
-      "id": "7T1xXNnB8zY",
-      "title": "Smells Like Teen Spirit Guitar SOLO Breakdown (Quick + Dirty)",
-      "url": "https://www.youtube.com/watch?v=7T1xXNnB8zY",
-      "thumbnail": "https://i.ytimg.com/vi/7T1xXNnB8zY/hqdefault.jpg?sqp=-oaymwE2CNACELwBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgBtgiAAoAPigIMCAAQARhHIFgoZTAP&rs=AOn4CLCOORXSYN92DqOAYIl9qp1lmBOQFg",
+      "id": "qLxq_dzKUFY",
+      "title": "Post Malone I Had Some Help Guitar Lesson + Tutorial",
+      "url": "https://www.youtube.com/watch?v=qLxq_dzKUFY",
+      "thumbnail": "https://i.ytimg.com/vi/qLxq_dzKUFY/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLC4c_tDB10rL5ZhS_M3INqlFrXu8A",
       "type": "youtube_video",
       "categories": [],
       "lang": null
@@ -1231,6 +1222,15 @@
       "title": "Your First Guitar Solo Lesson 1: Easiest Way to Start Soloing",
       "url": "https://www.youtube.com/watch?v=xJH21UfcgVU",
       "thumbnail": "https://i.ytimg.com/vi/xJH21UfcgVU/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLA9yFlYK45eXmXuM0vZsxQTIaUnPw",
+      "type": "youtube_video",
+      "categories": [],
+      "lang": null
+    },
+    {
+      "id": "7T1xXNnB8zY",
+      "title": "Smells Like Teen Spirit Guitar SOLO Breakdown (Quick + Dirty)",
+      "url": "https://www.youtube.com/watch?v=7T1xXNnB8zY",
+      "thumbnail": "https://i.ytimg.com/vi/7T1xXNnB8zY/hqdefault.jpg?sqp=-oaymwE2CNACELwBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgBtgiAAoAPigIMCAAQARhHIFgoZTAP&rs=AOn4CLCOORXSYN92DqOAYIl9qp1lmBOQFg",
       "type": "youtube_video",
       "categories": [],
       "lang": null
@@ -1308,19 +1308,19 @@
       "lang": null
     },
     {
-      "id": "XzhqTHSUznw",
-      "title": "Billy Idol Dancing With Myself Guitar Lesson + Tutorial",
-      "url": "https://www.youtube.com/watch?v=XzhqTHSUznw",
-      "thumbnail": "https://i.ytimg.com/vi/XzhqTHSUznw/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBrX7TEV6gVZ_nmF10O-8AuzJv2nQ",
+      "id": "onnOLK2I4Fg",
+      "title": "“Everybody Wants to Rule the World” Easy Acoustic Lesson",
+      "url": "https://www.youtube.com/watch?v=onnOLK2I4Fg",
+      "thumbnail": "https://i.ytimg.com/vi/onnOLK2I4Fg/hqdefault.jpg?sqp=-oaymwE2CNACELwBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgBtgiAAoAPigIMCAAQARhHIFooZTAP&rs=AOn4CLDOE5akInRztynYCFZfb4yBofqnYg",
       "type": "youtube_video",
       "categories": [],
       "lang": null
     },
     {
-      "id": "onnOLK2I4Fg",
-      "title": "“Everybody Wants to Rule the World” Easy Acoustic Lesson",
-      "url": "https://www.youtube.com/watch?v=onnOLK2I4Fg",
-      "thumbnail": "https://i.ytimg.com/vi/onnOLK2I4Fg/hqdefault.jpg?sqp=-oaymwE2CNACELwBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgBtgiAAoAPigIMCAAQARhHIFooZTAP&rs=AOn4CLDOE5akInRztynYCFZfb4yBofqnYg",
+      "id": "XzhqTHSUznw",
+      "title": "Billy Idol Dancing With Myself Guitar Lesson + Tutorial",
+      "url": "https://www.youtube.com/watch?v=XzhqTHSUznw",
+      "thumbnail": "https://i.ytimg.com/vi/XzhqTHSUznw/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBrX7TEV6gVZ_nmF10O-8AuzJv2nQ",
       "type": "youtube_video",
       "categories": [],
       "lang": null
@@ -1335,19 +1335,19 @@
       "lang": null
     },
     {
-      "id": "cK-GbPt80C4",
-      "title": "This ONE Chord Plays Every Nirvana & Green Day Song",
-      "url": "https://www.youtube.com/watch?v=cK-GbPt80C4",
-      "thumbnail": "https://i.ytimg.com/vi/cK-GbPt80C4/hqdefault.jpg?sqp=-oaymwE2CNACELwBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgBtgiAAoAPigIMCAAQARhMIGEoZTAP&rs=AOn4CLDEpyVXPoXS-rEcu_JP85WskhY6Vg",
+      "id": "1988Wd10i-E",
+      "title": "Beginner’s Guide to Tuning Your Guitar: Easy Tips for Perfect Sound",
+      "url": "https://www.youtube.com/watch?v=1988Wd10i-E",
+      "thumbnail": "https://i.ytimg.com/vi/1988Wd10i-E/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLA7tmCvvIVrkjabh0DQYV3nYb2BoQ",
       "type": "youtube_video",
       "categories": [],
       "lang": null
     },
     {
-      "id": "1988Wd10i-E",
-      "title": "Beginner’s Guide to Tuning Your Guitar: Easy Tips for Perfect Sound",
-      "url": "https://www.youtube.com/watch?v=1988Wd10i-E",
-      "thumbnail": "https://i.ytimg.com/vi/1988Wd10i-E/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLA7tmCvvIVrkjabh0DQYV3nYb2BoQ",
+      "id": "cK-GbPt80C4",
+      "title": "This ONE Chord Plays Every Nirvana & Green Day Song",
+      "url": "https://www.youtube.com/watch?v=cK-GbPt80C4",
+      "thumbnail": "https://i.ytimg.com/vi/cK-GbPt80C4/hqdefault.jpg?sqp=-oaymwE2CNACELwBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgBtgiAAoAPigIMCAAQARhMIGEoZTAP&rs=AOn4CLDEpyVXPoXS-rEcu_JP85WskhY6Vg",
       "type": "youtube_video",
       "categories": [],
       "lang": null
@@ -1371,19 +1371,19 @@
       "lang": null
     },
     {
-      "id": "DRsYlOsv6Jg",
-      "title": "THIS Nirvana Riff Is Easier Than You Think—LITHIUM Lesson",
-      "url": "https://www.youtube.com/watch?v=DRsYlOsv6Jg",
-      "thumbnail": "https://i.ytimg.com/vi/DRsYlOsv6Jg/hqdefault.jpg?sqp=-oaymwE2CNACELwBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgBtgiAAoAPigIMCAAQARhIIFYoZTAP&rs=AOn4CLCl5zSvXjLFMS3l_Yz-LUYFvGguBg",
+      "id": "M-UsCpY0VRs",
+      "title": "Cyndi Lauper Girls Just Wanna Have Fun Guitar Lesson + Tutorial",
+      "url": "https://www.youtube.com/watch?v=M-UsCpY0VRs",
+      "thumbnail": "https://i.ytimg.com/vi/M-UsCpY0VRs/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD0gD9Qtnd2ALIkAYGKV6IQTnVrOw",
       "type": "youtube_video",
       "categories": [],
       "lang": null
     },
     {
-      "id": "M-UsCpY0VRs",
-      "title": "Cyndi Lauper Girls Just Wanna Have Fun Guitar Lesson + Tutorial",
-      "url": "https://www.youtube.com/watch?v=M-UsCpY0VRs",
-      "thumbnail": "https://i.ytimg.com/vi/M-UsCpY0VRs/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD0gD9Qtnd2ALIkAYGKV6IQTnVrOw",
+      "id": "DRsYlOsv6Jg",
+      "title": "THIS Nirvana Riff Is Easier Than You Think—LITHIUM Lesson",
+      "url": "https://www.youtube.com/watch?v=DRsYlOsv6Jg",
+      "thumbnail": "https://i.ytimg.com/vi/DRsYlOsv6Jg/hqdefault.jpg?sqp=-oaymwE2CNACELwBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgBtgiAAoAPigIMCAAQARhIIFYoZTAP&rs=AOn4CLCl5zSvXjLFMS3l_Yz-LUYFvGguBg",
       "type": "youtube_video",
       "categories": [],
       "lang": null
@@ -1524,28 +1524,28 @@
       "lang": null
     },
     {
-      "id": "gcUGg96RM8k",
-      "title": "The Rolling Stones Dead Flowers Guitar Lesson + Tutorial",
-      "url": "https://www.youtube.com/watch?v=gcUGg96RM8k",
-      "thumbnail": "https://i.ytimg.com/vi/gcUGg96RM8k/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLARBqYK5p-W-YhFBQiV14KEBOsXMA",
-      "type": "youtube_video",
-      "categories": [],
-      "lang": null
-    },
-    {
-      "id": "gcUGg96RM8k",
-      "title": "The Rolling Stones Dead Flowers Guitar Lesson + Tutorial",
-      "url": "https://www.youtube.com/watch?v=gcUGg96RM8k",
-      "thumbnail": "https://i.ytimg.com/vi/gcUGg96RM8k/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLARBqYK5p-W-YhFBQiV14KEBOsXMA",
-      "type": "youtube_video",
-      "categories": [],
-      "lang": null
-    },
-    {
       "id": "lvkFFyCXjYc",
       "title": "Barre Chords for Beginners: Comfortably Numb Made Easy",
       "url": "https://www.youtube.com/watch?v=lvkFFyCXjYc",
       "thumbnail": "https://i.ytimg.com/vi/lvkFFyCXjYc/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDY8vRC3OGS8b8XFt3wryU1IgrsOQ",
+      "type": "youtube_video",
+      "categories": [],
+      "lang": null
+    },
+    {
+      "id": "gcUGg96RM8k",
+      "title": "The Rolling Stones Dead Flowers Guitar Lesson + Tutorial",
+      "url": "https://www.youtube.com/watch?v=gcUGg96RM8k",
+      "thumbnail": "https://i.ytimg.com/vi/gcUGg96RM8k/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLARBqYK5p-W-YhFBQiV14KEBOsXMA",
+      "type": "youtube_video",
+      "categories": [],
+      "lang": null
+    },
+    {
+      "id": "gcUGg96RM8k",
+      "title": "The Rolling Stones Dead Flowers Guitar Lesson + Tutorial",
+      "url": "https://www.youtube.com/watch?v=gcUGg96RM8k",
+      "thumbnail": "https://i.ytimg.com/vi/gcUGg96RM8k/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLARBqYK5p-W-YhFBQiV14KEBOsXMA",
       "type": "youtube_video",
       "categories": [],
       "lang": null
@@ -1569,19 +1569,19 @@
       "lang": null
     },
     {
-      "id": "7qRstz12-2Q",
-      "title": "Billie Eilish Bad Guy Guitar Lesson + Tutorial",
-      "url": "https://www.youtube.com/watch?v=7qRstz12-2Q",
-      "thumbnail": "https://i.ytimg.com/vi/7qRstz12-2Q/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCuQrJ7CPURO0_ZBiuujECKLm_-Aw",
+      "id": "mEXo4a4TQnA",
+      "title": "Jim Croce Bad Bad Leroy Brown Guitar Lesson + Tutorial",
+      "url": "https://www.youtube.com/watch?v=mEXo4a4TQnA",
+      "thumbnail": "https://i.ytimg.com/vi/mEXo4a4TQnA/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBlUy2PwlJOGSowuptr5opfASPoIg",
       "type": "youtube_video",
       "categories": [],
       "lang": null
     },
     {
-      "id": "mEXo4a4TQnA",
-      "title": "Jim Croce Bad Bad Leroy Brown Guitar Lesson + Tutorial",
-      "url": "https://www.youtube.com/watch?v=mEXo4a4TQnA",
-      "thumbnail": "https://i.ytimg.com/vi/mEXo4a4TQnA/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBlUy2PwlJOGSowuptr5opfASPoIg",
+      "id": "7qRstz12-2Q",
+      "title": "Billie Eilish Bad Guy Guitar Lesson + Tutorial",
+      "url": "https://www.youtube.com/watch?v=7qRstz12-2Q",
+      "thumbnail": "https://i.ytimg.com/vi/7qRstz12-2Q/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCuQrJ7CPURO0_ZBiuujECKLm_-Aw",
       "type": "youtube_video",
       "categories": [],
       "lang": null
@@ -1650,15 +1650,6 @@
       "lang": null
     },
     {
-      "id": "7aKXNjZY6rs",
-      "title": "U2 Beautiful Day Guitar Lesson + Tutorial",
-      "url": "https://www.youtube.com/watch?v=7aKXNjZY6rs",
-      "thumbnail": "https://i.ytimg.com/vi/7aKXNjZY6rs/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDJ3kjowcHm2dzbxmw9JIYvyD2DwA",
-      "type": "youtube_video",
-      "categories": [],
-      "lang": null
-    },
-    {
       "id": "HfhZbd5w-iY",
       "title": "Learn Power Chords with Smells Like Teen Spirit by Nirvana",
       "url": "https://www.youtube.com/watch?v=HfhZbd5w-iY",
@@ -1677,6 +1668,15 @@
       "lang": null
     },
     {
+      "id": "7aKXNjZY6rs",
+      "title": "U2 Beautiful Day Guitar Lesson + Tutorial",
+      "url": "https://www.youtube.com/watch?v=7aKXNjZY6rs",
+      "thumbnail": "https://i.ytimg.com/vi/7aKXNjZY6rs/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDJ3kjowcHm2dzbxmw9JIYvyD2DwA",
+      "type": "youtube_video",
+      "categories": [],
+      "lang": null
+    },
+    {
       "id": "JE0Du5UTM_A",
       "title": "Olivia Rodrigo Enough For You Guitar Lesson + Tutorial",
       "url": "https://www.youtube.com/watch?v=JE0Du5UTM_A",
@@ -1686,19 +1686,19 @@
       "lang": null
     },
     {
-      "id": "4uTlVaiJJVw",
-      "title": "Billy Joel It's Still Rock and Roll to Me Guitar Lesson + Tutorial",
-      "url": "https://www.youtube.com/watch?v=4uTlVaiJJVw",
-      "thumbnail": "https://i.ytimg.com/vi/4uTlVaiJJVw/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAGuK9FEHOFa8zGQv5sk50WqAimVA",
+      "id": "bOmRY782-GE",
+      "title": "5 Licks to Unlock the Whole Fretboard • Master the Blues in E",
+      "url": "https://www.youtube.com/watch?v=bOmRY782-GE",
+      "thumbnail": "https://i.ytimg.com/vi/bOmRY782-GE/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCEyRtw42TtLAqzncLfWF_EtzVZEQ",
       "type": "youtube_video",
       "categories": [],
       "lang": null
     },
     {
-      "id": "bOmRY782-GE",
-      "title": "5 Licks to Unlock the Whole Fretboard • Master the Blues in E",
-      "url": "https://www.youtube.com/watch?v=bOmRY782-GE",
-      "thumbnail": "https://i.ytimg.com/vi/bOmRY782-GE/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCEyRtw42TtLAqzncLfWF_EtzVZEQ",
+      "id": "4uTlVaiJJVw",
+      "title": "Billy Joel It's Still Rock and Roll to Me Guitar Lesson + Tutorial",
+      "url": "https://www.youtube.com/watch?v=4uTlVaiJJVw",
+      "thumbnail": "https://i.ytimg.com/vi/4uTlVaiJJVw/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAGuK9FEHOFa8zGQv5sk50WqAimVA",
       "type": "youtube_video",
       "categories": [],
       "lang": null
@@ -1848,19 +1848,19 @@
       "lang": null
     },
     {
-      "id": "eK0-l5lbGXI",
-      "title": "How to Play the Blues on Guitar with Just 3 Fingers",
-      "url": "https://www.youtube.com/watch?v=eK0-l5lbGXI",
-      "thumbnail": "https://i.ytimg.com/vi/eK0-l5lbGXI/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLA33FNv4w83XOy5W69Xs6Vor8bX3Q",
+      "id": "jw1HKQpUQFY",
+      "title": "The Ultimate Beginner's Guide to Guitar Strumming Patterns",
+      "url": "https://www.youtube.com/watch?v=jw1HKQpUQFY",
+      "thumbnail": "https://i.ytimg.com/vi/jw1HKQpUQFY/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAuXB4Gg_pamCvV1uYy7nyn-ITL_Q",
       "type": "youtube_video",
       "categories": [],
       "lang": null
     },
     {
-      "id": "jw1HKQpUQFY",
-      "title": "The Ultimate Beginner's Guide to Guitar Strumming Patterns",
-      "url": "https://www.youtube.com/watch?v=jw1HKQpUQFY",
-      "thumbnail": "https://i.ytimg.com/vi/jw1HKQpUQFY/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAuXB4Gg_pamCvV1uYy7nyn-ITL_Q",
+      "id": "eK0-l5lbGXI",
+      "title": "How to Play the Blues on Guitar with Just 3 Fingers",
+      "url": "https://www.youtube.com/watch?v=eK0-l5lbGXI",
+      "thumbnail": "https://i.ytimg.com/vi/eK0-l5lbGXI/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLA33FNv4w83XOy5W69Xs6Vor8bX3Q",
       "type": "youtube_video",
       "categories": [],
       "lang": null
@@ -2046,19 +2046,19 @@
       "lang": null
     },
     {
-      "id": "gjofp4C0AH4",
-      "title": "Van Morrison Domino Guitar Lesson + Tutorial",
-      "url": "https://www.youtube.com/watch?v=gjofp4C0AH4",
-      "thumbnail": "https://i.ytimg.com/vi/gjofp4C0AH4/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBasucScmXFtBJShtjbEwoyR1EM-g",
+      "id": "gWPm06-_-IE",
+      "title": "Rainbow Kitten Surprise Devil Like Me Guitar Lesson + Tutorial",
+      "url": "https://www.youtube.com/watch?v=gWPm06-_-IE",
+      "thumbnail": "https://i.ytimg.com/vi/gWPm06-_-IE/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBPwF0QE6y58bqmzbgkbW9sNeUmTg",
       "type": "youtube_video",
       "categories": [],
       "lang": null
     },
     {
-      "id": "gWPm06-_-IE",
-      "title": "Rainbow Kitten Surprise Devil Like Me Guitar Lesson + Tutorial",
-      "url": "https://www.youtube.com/watch?v=gWPm06-_-IE",
-      "thumbnail": "https://i.ytimg.com/vi/gWPm06-_-IE/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBPwF0QE6y58bqmzbgkbW9sNeUmTg",
+      "id": "gjofp4C0AH4",
+      "title": "Van Morrison Domino Guitar Lesson + Tutorial",
+      "url": "https://www.youtube.com/watch?v=gjofp4C0AH4",
+      "thumbnail": "https://i.ytimg.com/vi/gjofp4C0AH4/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBasucScmXFtBJShtjbEwoyR1EM-g",
       "type": "youtube_video",
       "categories": [],
       "lang": null
@@ -2163,19 +2163,19 @@
       "lang": null
     },
     {
-      "id": "ITWBrC3POTg",
-      "title": "Taylor Swift Cruel Summer Guitar Lesson + Tutorial",
-      "url": "https://www.youtube.com/watch?v=ITWBrC3POTg",
-      "thumbnail": "https://i.ytimg.com/vi/ITWBrC3POTg/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCaOK-mQrr0rE5hCQ9XywpwLZLCcA",
+      "id": "b6vTDxBQi_c",
+      "title": "Elvis Costello Watching The Detectives Guitar Lesson + Tutorial",
+      "url": "https://www.youtube.com/watch?v=b6vTDxBQi_c",
+      "thumbnail": "https://i.ytimg.com/vi/b6vTDxBQi_c/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCuKyRlUTuW69jA_s2VfwwdcvNvQA",
       "type": "youtube_video",
       "categories": [],
       "lang": null
     },
     {
-      "id": "b6vTDxBQi_c",
-      "title": "Elvis Costello Watching The Detectives Guitar Lesson + Tutorial",
-      "url": "https://www.youtube.com/watch?v=b6vTDxBQi_c",
-      "thumbnail": "https://i.ytimg.com/vi/b6vTDxBQi_c/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCuKyRlUTuW69jA_s2VfwwdcvNvQA",
+      "id": "ITWBrC3POTg",
+      "title": "Taylor Swift Cruel Summer Guitar Lesson + Tutorial",
+      "url": "https://www.youtube.com/watch?v=ITWBrC3POTg",
+      "thumbnail": "https://i.ytimg.com/vi/ITWBrC3POTg/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCaOK-mQrr0rE5hCQ9XywpwLZLCcA",
       "type": "youtube_video",
       "categories": [],
       "lang": null
