@@ -1,6 +1,6 @@
 {
   "playlistId": "PLP3kvqg_Ut865ulMjJ1a0qVQgS-3lVnX9",
-  "generatedAt": "2026-07-11T02:24:23.196981Z",
+  "generatedAt": "2026-07-11T13:12:16.861399Z",
   "items": [
     {
       "id": "fHC5KZtcljo",
@@ -1195,6 +1195,15 @@
       "title": "Van Halen Panama Guitar Lesson + Tutorial",
       "url": "https://www.youtube.com/watch?v=3rbbuMQKPK4",
       "thumbnail": "https://i.ytimg.com/vi/3rbbuMQKPK4/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDHP1AA0syeQqGZEKf3ZjjXeIaC1A",
+      "type": "youtube_video",
+      "categories": [],
+      "lang": null
+    },
+    {
+      "id": "DBvkMvJr0Yc",
+      "title": "Pantera Cowboys From Hell Guitar Lesson + Tutorial",
+      "url": "https://www.youtube.com/watch?v=DBvkMvJr0Yc",
+      "thumbnail": "https://i.ytimg.com/vi/DBvkMvJr0Yc/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDNGxmybIooCOlLTXf8f-L1XCmMfQ",
       "type": "youtube_video",
       "categories": [],
       "lang": null
