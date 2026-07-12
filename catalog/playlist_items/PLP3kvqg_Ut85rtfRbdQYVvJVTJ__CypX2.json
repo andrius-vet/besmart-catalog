@@ -1,6 +1,6 @@
 {
   "playlistId": "PLP3kvqg_Ut85rtfRbdQYVvJVTJ__CypX2",
-  "generatedAt": "2026-07-11T13:11:22.604016Z",
+  "generatedAt": "2026-07-12T02:27:53.020010Z",
   "items": [
     {
       "id": "oEp3RNg3UPU",
@@ -277,6 +277,15 @@
       "title": "Embellish Your Rhythms + Chords Like Hendrix",
       "url": "https://www.youtube.com/watch?v=t5YwI-ka80c",
       "thumbnail": "https://i.ytimg.com/vi/t5YwI-ka80c/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLB_EO0xoKs15asFcSj8V9DpxFWjKw",
+      "type": "youtube_video",
+      "categories": [],
+      "lang": null
+    },
+    {
+      "id": "uR54JnIvbfM",
+      "title": "Connecting Chords + the Pentatonic Like Hendrix And Mayer",
+      "url": "https://www.youtube.com/watch?v=uR54JnIvbfM",
+      "thumbnail": "https://i.ytimg.com/vi/uR54JnIvbfM/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBYqPoU8iKrkYMNTl2KjrKSbDmMzQ",
       "type": "youtube_video",
       "categories": [],
       "lang": null
