@@ -1,6 +1,6 @@
 {
   "playlistId": "PLP3kvqg_Ut8516hb7HHLrR1xpXbUgPJsX",
-  "generatedAt": "2026-07-14T13:27:43.556257Z",
+  "generatedAt": "2026-07-15T02:07:05.235940Z",
   "items": [
     {
       "id": "KnmdyejQYsk",
@@ -205,6 +205,15 @@
       "title": "Garry Tallent of The E Street Band | Marty's Guitar Tours",
       "url": "https://www.youtube.com/watch?v=d9V8kpjaIDI",
       "thumbnail": "https://i.ytimg.com/vi/d9V8kpjaIDI/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBx9iX1GCCmHOed4E0HaKd71Qv2Iw",
+      "type": "youtube_video",
+      "categories": [],
+      "lang": null
+    },
+    {
+      "id": "eVmzAQd97oc",
+      "title": "Drew Ramsey's Inspirational Guitars | Marty's Guitar Tours",
+      "url": "https://www.youtube.com/watch?v=eVmzAQd97oc",
+      "thumbnail": "https://i.ytimg.com/vi/eVmzAQd97oc/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLB-OzcgMY3LbcrUOhBIK9PQsxpGtw",
       "type": "youtube_video",
       "categories": [],
       "lang": null
