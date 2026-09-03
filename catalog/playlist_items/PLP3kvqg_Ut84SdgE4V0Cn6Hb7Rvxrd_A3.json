@@ -1,6 +1,6 @@
 {
   "playlistId": "PLP3kvqg_Ut84SdgE4V0Cn6Hb7Rvxrd_A3",
-  "generatedAt": "2026-09-02T15:55:47.631961Z",
+  "generatedAt": "2026-09-03T02:49:42.454076Z",
   "items": [
     {
       "id": "HNSaXAe8tyg",
@@ -417,6 +417,15 @@
       "lang": null
     },
     {
+      "id": "9QPZUf41FT4",
+      "title": "The FASTEST Way to Learn Guitar (5-Minute Daily Routine)",
+      "url": "https://www.youtube.com/watch?v=9QPZUf41FT4",
+      "thumbnail": "https://i.ytimg.com/vi/9QPZUf41FT4/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD4-HXTnanmh4f0q-uDXbByW6of1g",
+      "type": "youtube_video",
+      "categories": [],
+      "lang": null
+    },
+    {
       "id": "uOiqqzjW5V4",
       "title": "Coldplay Clocks Guitar Lesson + Tutorial",
       "url": "https://www.youtube.com/watch?v=uOiqqzjW5V4",
@@ -430,15 +439,6 @@
       "title": "Blues Rock Soloing For Beginner Guitar - Beginner Blues Lick - E Blues",
       "url": "https://www.youtube.com/watch?v=9JJkngla0gE",
       "thumbnail": "https://i.ytimg.com/vi/9JJkngla0gE/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAZv4jomrAMj74g_Suv_jxVy0-aZg",
-      "type": "youtube_video",
-      "categories": [],
-      "lang": null
-    },
-    {
-      "id": "9QPZUf41FT4",
-      "title": "The FASTEST Way to Learn Guitar (5-Minute Daily Routine)",
-      "url": "https://www.youtube.com/watch?v=9QPZUf41FT4",
-      "thumbnail": "https://i.ytimg.com/vi/9QPZUf41FT4/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD4-HXTnanmh4f0q-uDXbByW6of1g",
       "type": "youtube_video",
       "categories": [],
       "lang": null
@@ -768,19 +768,19 @@
       "lang": null
     },
     {
-      "id": "0nZQPfolSFY",
-      "title": "Led Zeppelin’s “Kashmir” Made Super Easy on Guitar",
-      "url": "https://www.youtube.com/watch?v=0nZQPfolSFY",
-      "thumbnail": "https://i.ytimg.com/vi/0nZQPfolSFY/hqdefault.jpg?sqp=-oaymwE2CNACELwBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgBtgiAAoAPigIMCAAQARg_IFEoZTAP&rs=AOn4CLDRi3h7CVlFqZzJbs5o6fWGU4_PCg",
+      "id": "jrnGrtDvvnU",
+      "title": "10 Easy Iconic Guitar Riffs for Beginners",
+      "url": "https://www.youtube.com/watch?v=jrnGrtDvvnU",
+      "thumbnail": "https://i.ytimg.com/vi/jrnGrtDvvnU/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLC-A2EcEXAmpH7yZ5a_sjvOLUrR6w",
       "type": "youtube_video",
       "categories": [],
       "lang": null
     },
     {
-      "id": "jrnGrtDvvnU",
-      "title": "10 Easy Iconic Guitar Riffs for Beginners",
-      "url": "https://www.youtube.com/watch?v=jrnGrtDvvnU",
-      "thumbnail": "https://i.ytimg.com/vi/jrnGrtDvvnU/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLC-A2EcEXAmpH7yZ5a_sjvOLUrR6w",
+      "id": "0nZQPfolSFY",
+      "title": "Led Zeppelin’s “Kashmir” Made Super Easy on Guitar",
+      "url": "https://www.youtube.com/watch?v=0nZQPfolSFY",
+      "thumbnail": "https://i.ytimg.com/vi/0nZQPfolSFY/hqdefault.jpg?sqp=-oaymwE2CNACELwBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgBtgiAAoAPigIMCAAQARg_IFEoZTAP&rs=AOn4CLDRi3h7CVlFqZzJbs5o6fWGU4_PCg",
       "type": "youtube_video",
       "categories": [],
       "lang": null
@@ -840,6 +840,24 @@
       "lang": null
     },
     {
+      "id": "oGdw1zzsJBI",
+      "title": "Commodores Easy Guitar Lesson + Tutorial",
+      "url": "https://www.youtube.com/watch?v=oGdw1zzsJBI",
+      "thumbnail": "https://i.ytimg.com/vi/oGdw1zzsJBI/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAtQ5ec3SEMv-DmjtmoKGFu3jLoGQ",
+      "type": "youtube_video",
+      "categories": [],
+      "lang": null
+    },
+    {
+      "id": "oGdw1zzsJBI",
+      "title": "Commodores Easy Guitar Lesson + Tutorial",
+      "url": "https://www.youtube.com/watch?v=oGdw1zzsJBI",
+      "thumbnail": "https://i.ytimg.com/vi/oGdw1zzsJBI/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAtQ5ec3SEMv-DmjtmoKGFu3jLoGQ",
+      "type": "youtube_video",
+      "categories": [],
+      "lang": null
+    },
+    {
       "id": "4aYuuDLAv80",
       "title": "Your Very First Electric Fingerpicking Lesson",
       "url": "https://www.youtube.com/watch?v=4aYuuDLAv80",
@@ -853,24 +871,6 @@
       "title": "Billie Eilish Your Power Guitar Lesson + Tutorial",
       "url": "https://www.youtube.com/watch?v=MGNTa9eurlY",
       "thumbnail": "https://i.ytimg.com/vi/MGNTa9eurlY/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCRjoDe-GOFAZk5PoyD61FHWpLJnQ",
-      "type": "youtube_video",
-      "categories": [],
-      "lang": null
-    },
-    {
-      "id": "oGdw1zzsJBI",
-      "title": "Commodores Easy Guitar Lesson + Tutorial",
-      "url": "https://www.youtube.com/watch?v=oGdw1zzsJBI",
-      "thumbnail": "https://i.ytimg.com/vi/oGdw1zzsJBI/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAtQ5ec3SEMv-DmjtmoKGFu3jLoGQ",
-      "type": "youtube_video",
-      "categories": [],
-      "lang": null
-    },
-    {
-      "id": "oGdw1zzsJBI",
-      "title": "Commodores Easy Guitar Lesson + Tutorial",
-      "url": "https://www.youtube.com/watch?v=oGdw1zzsJBI",
-      "thumbnail": "https://i.ytimg.com/vi/oGdw1zzsJBI/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAtQ5ec3SEMv-DmjtmoKGFu3jLoGQ",
       "type": "youtube_video",
       "categories": [],
       "lang": null
@@ -912,19 +912,19 @@
       "lang": null
     },
     {
-      "id": "uvjeG1gdYk4",
-      "title": "Beginner Fingerpicking Lesson: Start Fingerstyle Guitar Today!",
-      "url": "https://www.youtube.com/watch?v=uvjeG1gdYk4",
-      "thumbnail": "https://i.ytimg.com/vi/uvjeG1gdYk4/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLA4uybwPxdwKV93Kskv8G0W58sE1Q",
+      "id": "kOhkJcQaJ5k",
+      "title": "Top 10 Guitar Songs for Jamming (Must-Know for Any Player)",
+      "url": "https://www.youtube.com/watch?v=kOhkJcQaJ5k",
+      "thumbnail": "https://i.ytimg.com/vi/kOhkJcQaJ5k/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDuR9Z60uTFaJOwlIsFaFZu8XTjhA",
       "type": "youtube_video",
       "categories": [],
       "lang": null
     },
     {
-      "id": "kOhkJcQaJ5k",
-      "title": "Top 10 Guitar Songs for Jamming (Must-Know for Any Player)",
-      "url": "https://www.youtube.com/watch?v=kOhkJcQaJ5k",
-      "thumbnail": "https://i.ytimg.com/vi/kOhkJcQaJ5k/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDuR9Z60uTFaJOwlIsFaFZu8XTjhA",
+      "id": "uvjeG1gdYk4",
+      "title": "Beginner Fingerpicking Lesson: Start Fingerstyle Guitar Today!",
+      "url": "https://www.youtube.com/watch?v=uvjeG1gdYk4",
+      "thumbnail": "https://i.ytimg.com/vi/uvjeG1gdYk4/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLA4uybwPxdwKV93Kskv8G0W58sE1Q",
       "type": "youtube_video",
       "categories": [],
       "lang": null
@@ -1020,19 +1020,19 @@
       "lang": null
     },
     {
-      "id": "8SbHY_MFJnw",
-      "title": "How To Solo On Guitar - Blues Techniques For Beginners - E Minor Pentatonic Scale For Soloing",
-      "url": "https://www.youtube.com/watch?v=8SbHY_MFJnw",
-      "thumbnail": "https://i.ytimg.com/vi/8SbHY_MFJnw/hqdefault.jpg?sqp=-oaymwE2CNACELwBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhlIFsoUzAP&rs=AOn4CLAkAG1QQaVf952gRzkdm_1b5dKCZw",
+      "id": "i8nq3XM-VAs",
+      "title": "Play Nirvana’s Breed on Guitar Like It’s 1991",
+      "url": "https://www.youtube.com/watch?v=i8nq3XM-VAs",
+      "thumbnail": "https://i.ytimg.com/vi/i8nq3XM-VAs/hqdefault.jpg?sqp=-oaymwE2CNACELwBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgBtgiAAoAPigIMCAAQARhPIFwoZTAP&rs=AOn4CLAZs7HkzZxIlG3Qf1o6xkiA3j1aaw",
       "type": "youtube_video",
       "categories": [],
       "lang": null
     },
     {
-      "id": "i8nq3XM-VAs",
-      "title": "Play Nirvana’s Breed on Guitar Like It’s 1991",
-      "url": "https://www.youtube.com/watch?v=i8nq3XM-VAs",
-      "thumbnail": "https://i.ytimg.com/vi/i8nq3XM-VAs/hqdefault.jpg?sqp=-oaymwE2CNACELwBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgBtgiAAoAPigIMCAAQARhPIFwoZTAP&rs=AOn4CLAZs7HkzZxIlG3Qf1o6xkiA3j1aaw",
+      "id": "8SbHY_MFJnw",
+      "title": "How To Solo On Guitar - Blues Techniques For Beginners - E Minor Pentatonic Scale For Soloing",
+      "url": "https://www.youtube.com/watch?v=8SbHY_MFJnw",
+      "thumbnail": "https://i.ytimg.com/vi/8SbHY_MFJnw/hqdefault.jpg?sqp=-oaymwE2CNACELwBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhlIFsoUzAP&rs=AOn4CLAkAG1QQaVf952gRzkdm_1b5dKCZw",
       "type": "youtube_video",
       "categories": [],
       "lang": null
@@ -1065,19 +1065,19 @@
       "lang": null
     },
     {
-      "id": "3yNf-M3r9qE",
-      "title": "How To Tune a Ukulele",
-      "url": "https://www.youtube.com/watch?v=3yNf-M3r9qE",
-      "thumbnail": "https://i.ytimg.com/vi/3yNf-M3r9qE/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDAmzcue6b5y1JCfMvb_2FJgBNH7Q",
+      "id": "xJH21UfcgVU",
+      "title": "Your First Guitar Solo Lesson 1: Easiest Way to Start Soloing",
+      "url": "https://www.youtube.com/watch?v=xJH21UfcgVU",
+      "thumbnail": "https://i.ytimg.com/vi/xJH21UfcgVU/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLA9yFlYK45eXmXuM0vZsxQTIaUnPw",
       "type": "youtube_video",
       "categories": [],
       "lang": null
     },
     {
-      "id": "xJH21UfcgVU",
-      "title": "Your First Guitar Solo Lesson 1: Easiest Way to Start Soloing",
-      "url": "https://www.youtube.com/watch?v=xJH21UfcgVU",
-      "thumbnail": "https://i.ytimg.com/vi/xJH21UfcgVU/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLA9yFlYK45eXmXuM0vZsxQTIaUnPw",
+      "id": "3yNf-M3r9qE",
+      "title": "How To Tune a Ukulele",
+      "url": "https://www.youtube.com/watch?v=3yNf-M3r9qE",
+      "thumbnail": "https://i.ytimg.com/vi/3yNf-M3r9qE/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDAmzcue6b5y1JCfMvb_2FJgBNH7Q",
       "type": "youtube_video",
       "categories": [],
       "lang": null
@@ -1164,15 +1164,6 @@
       "lang": null
     },
     {
-      "id": "fGhGLI_2Apo",
-      "title": "Jimi Hendrix Manic Depression Guitar Lesson + Tutorial",
-      "url": "https://www.youtube.com/watch?v=fGhGLI_2Apo",
-      "thumbnail": "https://i.ytimg.com/vi/fGhGLI_2Apo/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBzRO2H1LYoByzqIb4P_TkfNoSICw",
-      "type": "youtube_video",
-      "categories": [],
-      "lang": null
-    },
-    {
       "id": "YCpnPnx-fiE",
       "title": "Easy BOB DYLAN (Like a Rolling Stone) Guitar Chords for Beginners!",
       "url": "https://www.youtube.com/watch?v=YCpnPnx-fiE",
@@ -1182,10 +1173,19 @@
       "lang": null
     },
     {
-      "id": "pEDcULw5OX8",
-      "title": "Dave Matthews Band Space Between Guitar Lesson + Tutorial",
-      "url": "https://www.youtube.com/watch?v=pEDcULw5OX8",
-      "thumbnail": "https://i.ytimg.com/vi/pEDcULw5OX8/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD2n4gWV8BCi28qxBmopIbI4pm1aA",
+      "id": "fGhGLI_2Apo",
+      "title": "Jimi Hendrix Manic Depression Guitar Lesson + Tutorial",
+      "url": "https://www.youtube.com/watch?v=fGhGLI_2Apo",
+      "thumbnail": "https://i.ytimg.com/vi/fGhGLI_2Apo/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBzRO2H1LYoByzqIb4P_TkfNoSICw",
+      "type": "youtube_video",
+      "categories": [],
+      "lang": null
+    },
+    {
+      "id": "onnOLK2I4Fg",
+      "title": "“Everybody Wants to Rule the World” Easy Acoustic Lesson",
+      "url": "https://www.youtube.com/watch?v=onnOLK2I4Fg",
+      "thumbnail": "https://i.ytimg.com/vi/onnOLK2I4Fg/hqdefault.jpg?sqp=-oaymwE2CNACELwBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgBtgiAAoAPigIMCAAQARhHIFooZTAP&rs=AOn4CLDOE5akInRztynYCFZfb4yBofqnYg",
       "type": "youtube_video",
       "categories": [],
       "lang": null
@@ -1200,10 +1200,10 @@
       "lang": null
     },
     {
-      "id": "onnOLK2I4Fg",
-      "title": "“Everybody Wants to Rule the World” Easy Acoustic Lesson",
-      "url": "https://www.youtube.com/watch?v=onnOLK2I4Fg",
-      "thumbnail": "https://i.ytimg.com/vi/onnOLK2I4Fg/hqdefault.jpg?sqp=-oaymwE2CNACELwBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgBtgiAAoAPigIMCAAQARhHIFooZTAP&rs=AOn4CLDOE5akInRztynYCFZfb4yBofqnYg",
+      "id": "pEDcULw5OX8",
+      "title": "Dave Matthews Band Space Between Guitar Lesson + Tutorial",
+      "url": "https://www.youtube.com/watch?v=pEDcULw5OX8",
+      "thumbnail": "https://i.ytimg.com/vi/pEDcULw5OX8/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD2n4gWV8BCi28qxBmopIbI4pm1aA",
       "type": "youtube_video",
       "categories": [],
       "lang": null
@@ -1227,10 +1227,28 @@
       "lang": null
     },
     {
+      "id": "xfo9HSqgaIg",
+      "title": "Barre Chords Killing Your Hands? Try These 5 Simple Hacks!",
+      "url": "https://www.youtube.com/watch?v=xfo9HSqgaIg",
+      "thumbnail": "https://i.ytimg.com/vi/xfo9HSqgaIg/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD1SWHG6KBW_oiBkA1ON2QWZaZkiQ",
+      "type": "youtube_video",
+      "categories": [],
+      "lang": null
+    },
+    {
       "id": "qLxq_dzKUFY",
       "title": "Post Malone I Had Some Help Guitar Lesson + Tutorial",
       "url": "https://www.youtube.com/watch?v=qLxq_dzKUFY",
       "thumbnail": "https://i.ytimg.com/vi/qLxq_dzKUFY/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLC4c_tDB10rL5ZhS_M3INqlFrXu8A",
+      "type": "youtube_video",
+      "categories": [],
+      "lang": null
+    },
+    {
+      "id": "1988Wd10i-E",
+      "title": "Beginner’s Guide to Tuning Your Guitar: Easy Tips for Perfect Sound",
+      "url": "https://www.youtube.com/watch?v=1988Wd10i-E",
+      "thumbnail": "https://i.ytimg.com/vi/1988Wd10i-E/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLA7tmCvvIVrkjabh0DQYV3nYb2BoQ",
       "type": "youtube_video",
       "categories": [],
       "lang": null
@@ -1245,24 +1263,6 @@
       "lang": null
     },
     {
-      "id": "icGNfekxIvw",
-      "title": "Taylor Swift Cardigan Guitar Lesson",
-      "url": "https://www.youtube.com/watch?v=icGNfekxIvw",
-      "thumbnail": "https://i.ytimg.com/vi/icGNfekxIvw/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDmvUP26eKmexfUEf_zJHPVXTD7XQ",
-      "type": "youtube_video",
-      "categories": [],
-      "lang": null
-    },
-    {
-      "id": "xfo9HSqgaIg",
-      "title": "Barre Chords Killing Your Hands? Try These 5 Simple Hacks!",
-      "url": "https://www.youtube.com/watch?v=xfo9HSqgaIg",
-      "thumbnail": "https://i.ytimg.com/vi/xfo9HSqgaIg/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD1SWHG6KBW_oiBkA1ON2QWZaZkiQ",
-      "type": "youtube_video",
-      "categories": [],
-      "lang": null
-    },
-    {
       "id": "2nJNs78mYY8",
       "title": "Learn How to Play FAST CAR by Tracy Chapman",
       "url": "https://www.youtube.com/watch?v=2nJNs78mYY8",
@@ -1272,10 +1272,10 @@
       "lang": null
     },
     {
-      "id": "1988Wd10i-E",
-      "title": "Beginner’s Guide to Tuning Your Guitar: Easy Tips for Perfect Sound",
-      "url": "https://www.youtube.com/watch?v=1988Wd10i-E",
-      "thumbnail": "https://i.ytimg.com/vi/1988Wd10i-E/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLA7tmCvvIVrkjabh0DQYV3nYb2BoQ",
+      "id": "icGNfekxIvw",
+      "title": "Taylor Swift Cardigan Guitar Lesson",
+      "url": "https://www.youtube.com/watch?v=icGNfekxIvw",
+      "thumbnail": "https://i.ytimg.com/vi/icGNfekxIvw/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDmvUP26eKmexfUEf_zJHPVXTD7XQ",
       "type": "youtube_video",
       "categories": [],
       "lang": null
@@ -1335,19 +1335,19 @@
       "lang": null
     },
     {
-      "id": "XzhqTHSUznw",
-      "title": "Billy Idol Dancing With Myself Guitar Lesson + Tutorial",
-      "url": "https://www.youtube.com/watch?v=XzhqTHSUznw",
-      "thumbnail": "https://i.ytimg.com/vi/XzhqTHSUznw/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBrX7TEV6gVZ_nmF10O-8AuzJv2nQ",
+      "id": "pjQzJvUHe64",
+      "title": "How to Play Satisfaction FAST (Rolling Stones Riff)",
+      "url": "https://www.youtube.com/watch?v=pjQzJvUHe64",
+      "thumbnail": "https://i.ytimg.com/vi/pjQzJvUHe64/hqdefault.jpg?sqp=-oaymwE2CNACELwBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgBtgiAAoAPigIMCAAQARhRIF0oZTAP&rs=AOn4CLC8_ZvnOt7JP02X5gldLJ0DmLjtPg",
       "type": "youtube_video",
       "categories": [],
       "lang": null
     },
     {
-      "id": "pjQzJvUHe64",
-      "title": "How to Play Satisfaction FAST (Rolling Stones Riff)",
-      "url": "https://www.youtube.com/watch?v=pjQzJvUHe64",
-      "thumbnail": "https://i.ytimg.com/vi/pjQzJvUHe64/hqdefault.jpg?sqp=-oaymwE2CNACELwBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgBtgiAAoAPigIMCAAQARhRIF0oZTAP&rs=AOn4CLC8_ZvnOt7JP02X5gldLJ0DmLjtPg",
+      "id": "XzhqTHSUznw",
+      "title": "Billy Idol Dancing With Myself Guitar Lesson + Tutorial",
+      "url": "https://www.youtube.com/watch?v=XzhqTHSUznw",
+      "thumbnail": "https://i.ytimg.com/vi/XzhqTHSUznw/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBrX7TEV6gVZ_nmF10O-8AuzJv2nQ",
       "type": "youtube_video",
       "categories": [],
       "lang": null
@@ -1362,19 +1362,19 @@
       "lang": null
     },
     {
-      "id": "cK-GbPt80C4",
-      "title": "This ONE Chord Plays Every Nirvana & Green Day Song",
-      "url": "https://www.youtube.com/watch?v=cK-GbPt80C4",
-      "thumbnail": "https://i.ytimg.com/vi/cK-GbPt80C4/hqdefault.jpg?sqp=-oaymwE2CNACELwBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgBtgiAAoAPigIMCAAQARhMIGEoZTAP&rs=AOn4CLDEpyVXPoXS-rEcu_JP85WskhY6Vg",
+      "id": "M-UsCpY0VRs",
+      "title": "Cyndi Lauper Girls Just Wanna Have Fun Guitar Lesson + Tutorial",
+      "url": "https://www.youtube.com/watch?v=M-UsCpY0VRs",
+      "thumbnail": "https://i.ytimg.com/vi/M-UsCpY0VRs/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD0gD9Qtnd2ALIkAYGKV6IQTnVrOw",
       "type": "youtube_video",
       "categories": [],
       "lang": null
     },
     {
-      "id": "M-UsCpY0VRs",
-      "title": "Cyndi Lauper Girls Just Wanna Have Fun Guitar Lesson + Tutorial",
-      "url": "https://www.youtube.com/watch?v=M-UsCpY0VRs",
-      "thumbnail": "https://i.ytimg.com/vi/M-UsCpY0VRs/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD0gD9Qtnd2ALIkAYGKV6IQTnVrOw",
+      "id": "cK-GbPt80C4",
+      "title": "This ONE Chord Plays Every Nirvana & Green Day Song",
+      "url": "https://www.youtube.com/watch?v=cK-GbPt80C4",
+      "thumbnail": "https://i.ytimg.com/vi/cK-GbPt80C4/hqdefault.jpg?sqp=-oaymwE2CNACELwBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgBtgiAAoAPigIMCAAQARhMIGEoZTAP&rs=AOn4CLDEpyVXPoXS-rEcu_JP85WskhY6Vg",
       "type": "youtube_video",
       "categories": [],
       "lang": null
@@ -1425,19 +1425,19 @@
       "lang": null
     },
     {
-      "id": "np7mq27_qJ4",
-      "title": "The Beatles Ob-La-Di, Ob-La-Da Guitar Lesson + Tutorial",
-      "url": "https://www.youtube.com/watch?v=np7mq27_qJ4",
-      "thumbnail": "https://i.ytimg.com/vi/np7mq27_qJ4/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLB4TT683I925QiS2AcJcpVZ3fEVYQ",
+      "id": "aNyGYG1WyLE",
+      "title": "How to Play Nirvana’s Lounge Act in UNDER 3 Minutes",
+      "url": "https://www.youtube.com/watch?v=aNyGYG1WyLE",
+      "thumbnail": "https://i.ytimg.com/vi/aNyGYG1WyLE/hqdefault.jpg?sqp=-oaymwE2CNACELwBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgBtgiAAoAPigIMCAAQARhPIFwoZTAP&rs=AOn4CLDN0hE4RUlLBEaw1haWM4zxqbbGMg",
       "type": "youtube_video",
       "categories": [],
       "lang": null
     },
     {
-      "id": "aNyGYG1WyLE",
-      "title": "How to Play Nirvana’s Lounge Act in UNDER 3 Minutes",
-      "url": "https://www.youtube.com/watch?v=aNyGYG1WyLE",
-      "thumbnail": "https://i.ytimg.com/vi/aNyGYG1WyLE/hqdefault.jpg?sqp=-oaymwE2CNACELwBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgBtgiAAoAPigIMCAAQARhPIFwoZTAP&rs=AOn4CLDN0hE4RUlLBEaw1haWM4zxqbbGMg",
+      "id": "np7mq27_qJ4",
+      "title": "The Beatles Ob-La-Di, Ob-La-Da Guitar Lesson + Tutorial",
+      "url": "https://www.youtube.com/watch?v=np7mq27_qJ4",
+      "thumbnail": "https://i.ytimg.com/vi/np7mq27_qJ4/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLB4TT683I925QiS2AcJcpVZ3fEVYQ",
       "type": "youtube_video",
       "categories": [],
       "lang": null
@@ -1461,19 +1461,19 @@
       "lang": null
     },
     {
-      "id": "HFdmfLmZQ1M",
-      "title": "Blondie Heart of Glass Guitar Lesson + Tutorial",
-      "url": "https://www.youtube.com/watch?v=HFdmfLmZQ1M",
-      "thumbnail": "https://i.ytimg.com/vi/HFdmfLmZQ1M/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLA4ug7iN5TH8vn1rjoOel26jzgBjQ",
+      "id": "fCNdZByIEnE",
+      "title": "5 Essential Guitar Pedals for the Beginner’s Pedalboard",
+      "url": "https://www.youtube.com/watch?v=fCNdZByIEnE",
+      "thumbnail": "https://i.ytimg.com/vi/fCNdZByIEnE/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLC25o660YH68Rn4VQRiNs_zGCh7fQ",
       "type": "youtube_video",
       "categories": [],
       "lang": null
     },
     {
-      "id": "fCNdZByIEnE",
-      "title": "5 Essential Guitar Pedals for the Beginner’s Pedalboard",
-      "url": "https://www.youtube.com/watch?v=fCNdZByIEnE",
-      "thumbnail": "https://i.ytimg.com/vi/fCNdZByIEnE/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLC25o660YH68Rn4VQRiNs_zGCh7fQ",
+      "id": "HFdmfLmZQ1M",
+      "title": "Blondie Heart of Glass Guitar Lesson + Tutorial",
+      "url": "https://www.youtube.com/watch?v=HFdmfLmZQ1M",
+      "thumbnail": "https://i.ytimg.com/vi/HFdmfLmZQ1M/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLA4ug7iN5TH8vn1rjoOel26jzgBjQ",
       "type": "youtube_video",
       "categories": [],
       "lang": null
@@ -1497,19 +1497,19 @@
       "lang": null
     },
     {
-      "id": "vsiSoq0gZmY",
-      "title": "Myles Smith Stargazing Guitar Lesson + Tutorial",
-      "url": "https://www.youtube.com/watch?v=vsiSoq0gZmY",
-      "thumbnail": "https://i.ytimg.com/vi/vsiSoq0gZmY/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAdAyL1WjED4VCpLNBZdNoxKjWqJg",
+      "id": "lvkFFyCXjYc",
+      "title": "Barre Chords for Beginners: Comfortably Numb Made Easy",
+      "url": "https://www.youtube.com/watch?v=lvkFFyCXjYc",
+      "thumbnail": "https://i.ytimg.com/vi/lvkFFyCXjYc/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDY8vRC3OGS8b8XFt3wryU1IgrsOQ",
       "type": "youtube_video",
       "categories": [],
       "lang": null
     },
     {
-      "id": "lvkFFyCXjYc",
-      "title": "Barre Chords for Beginners: Comfortably Numb Made Easy",
-      "url": "https://www.youtube.com/watch?v=lvkFFyCXjYc",
-      "thumbnail": "https://i.ytimg.com/vi/lvkFFyCXjYc/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDY8vRC3OGS8b8XFt3wryU1IgrsOQ",
+      "id": "vsiSoq0gZmY",
+      "title": "Myles Smith Stargazing Guitar Lesson + Tutorial",
+      "url": "https://www.youtube.com/watch?v=vsiSoq0gZmY",
+      "thumbnail": "https://i.ytimg.com/vi/vsiSoq0gZmY/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAdAyL1WjED4VCpLNBZdNoxKjWqJg",
       "type": "youtube_video",
       "categories": [],
       "lang": null
@@ -1551,19 +1551,19 @@
       "lang": null
     },
     {
-      "id": "PCDIwfHk4ec",
-      "title": "Top 5 Easy Nirvana Riffs You Can Play Right Now",
-      "url": "https://www.youtube.com/watch?v=PCDIwfHk4ec",
-      "thumbnail": "https://i.ytimg.com/vi/PCDIwfHk4ec/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD-RXE8I_RRgSPgzMrkIZUYGXCjBw",
+      "id": "bOmRY782-GE",
+      "title": "5 Licks to Unlock the Whole Fretboard • Master the Blues in E",
+      "url": "https://www.youtube.com/watch?v=bOmRY782-GE",
+      "thumbnail": "https://i.ytimg.com/vi/bOmRY782-GE/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCEyRtw42TtLAqzncLfWF_EtzVZEQ",
       "type": "youtube_video",
       "categories": [],
       "lang": null
     },
     {
-      "id": "bOmRY782-GE",
-      "title": "5 Licks to Unlock the Whole Fretboard • Master the Blues in E",
-      "url": "https://www.youtube.com/watch?v=bOmRY782-GE",
-      "thumbnail": "https://i.ytimg.com/vi/bOmRY782-GE/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCEyRtw42TtLAqzncLfWF_EtzVZEQ",
+      "id": "PCDIwfHk4ec",
+      "title": "Top 5 Easy Nirvana Riffs You Can Play Right Now",
+      "url": "https://www.youtube.com/watch?v=PCDIwfHk4ec",
+      "thumbnail": "https://i.ytimg.com/vi/PCDIwfHk4ec/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD-RXE8I_RRgSPgzMrkIZUYGXCjBw",
       "type": "youtube_video",
       "categories": [],
       "lang": null
@@ -1587,19 +1587,19 @@
       "lang": null
     },
     {
-      "id": "K0lfUrIo_kQ",
-      "title": "Eric Church Hell Of A View Guitar Lesson + Tutorial",
-      "url": "https://www.youtube.com/watch?v=K0lfUrIo_kQ",
-      "thumbnail": "https://i.ytimg.com/vi/K0lfUrIo_kQ/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLB2SJ29zm620xxj8b0QRYcUZNKHCw",
+      "id": "xpW0o2elU68",
+      "title": "Grateful Dead Guitar Lesson in 3 Minutes? Yes Please",
+      "url": "https://www.youtube.com/watch?v=xpW0o2elU68",
+      "thumbnail": "https://i.ytimg.com/vi/xpW0o2elU68/hqdefault.jpg?sqp=-oaymwE2CNACELwBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgBtgiAAoAPigIMCAAQARg-IFgoZTAP&rs=AOn4CLB31rcj9Qc6BchNQjbHtQX7Cuy_NA",
       "type": "youtube_video",
       "categories": [],
       "lang": null
     },
     {
-      "id": "xpW0o2elU68",
-      "title": "Grateful Dead Guitar Lesson in 3 Minutes? Yes Please",
-      "url": "https://www.youtube.com/watch?v=xpW0o2elU68",
-      "thumbnail": "https://i.ytimg.com/vi/xpW0o2elU68/hqdefault.jpg?sqp=-oaymwE2CNACELwBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgBtgiAAoAPigIMCAAQARg-IFgoZTAP&rs=AOn4CLB31rcj9Qc6BchNQjbHtQX7Cuy_NA",
+      "id": "K0lfUrIo_kQ",
+      "title": "Eric Church Hell Of A View Guitar Lesson + Tutorial",
+      "url": "https://www.youtube.com/watch?v=K0lfUrIo_kQ",
+      "thumbnail": "https://i.ytimg.com/vi/K0lfUrIo_kQ/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLB2SJ29zm620xxj8b0QRYcUZNKHCw",
       "type": "youtube_video",
       "categories": [],
       "lang": null
@@ -1650,19 +1650,19 @@
       "lang": null
     },
     {
-      "id": "SXmOlk5hDWU",
-      "title": "Learn Grunge Guitar in 3 Minutes: Nirvana's On a Plain",
-      "url": "https://www.youtube.com/watch?v=SXmOlk5hDWU",
-      "thumbnail": "https://i.ytimg.com/vi/SXmOlk5hDWU/hqdefault.jpg?sqp=-oaymwE2CNACELwBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgBtgiAAoAPigIMCAAQARg9IF4ocjAP&rs=AOn4CLCoYkZmW8yMFtl-xiObgWri_YcFBg",
+      "id": "HTMza58f2jA",
+      "title": "Van Morrison’s “Brown Eyed Girl” on Guitar... Made Easy",
+      "url": "https://www.youtube.com/watch?v=HTMza58f2jA",
+      "thumbnail": "https://i.ytimg.com/vi/HTMza58f2jA/hqdefault.jpg?sqp=-oaymwE2CNACELwBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgBtgiAAoAPigIMCAAQARhyIFUoPDAP&rs=AOn4CLDaMuMKui3KO0YHkux7ZctEdmm8DQ",
       "type": "youtube_video",
       "categories": [],
       "lang": null
     },
     {
-      "id": "HTMza58f2jA",
-      "title": "Van Morrison’s “Brown Eyed Girl” on Guitar... Made Easy",
-      "url": "https://www.youtube.com/watch?v=HTMza58f2jA",
-      "thumbnail": "https://i.ytimg.com/vi/HTMza58f2jA/hqdefault.jpg?sqp=-oaymwE2CNACELwBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgBtgiAAoAPigIMCAAQARhyIFUoPDAP&rs=AOn4CLDaMuMKui3KO0YHkux7ZctEdmm8DQ",
+      "id": "SXmOlk5hDWU",
+      "title": "Learn Grunge Guitar in 3 Minutes: Nirvana's On a Plain",
+      "url": "https://www.youtube.com/watch?v=SXmOlk5hDWU",
+      "thumbnail": "https://i.ytimg.com/vi/SXmOlk5hDWU/hqdefault.jpg?sqp=-oaymwE2CNACELwBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgBtgiAAoAPigIMCAAQARg9IF4ocjAP&rs=AOn4CLCoYkZmW8yMFtl-xiObgWri_YcFBg",
       "type": "youtube_video",
       "categories": [],
       "lang": null
@@ -1686,24 +1686,6 @@
       "lang": null
     },
     {
-      "id": "JE0Du5UTM_A",
-      "title": "Olivia Rodrigo Enough For You Guitar Lesson + Tutorial",
-      "url": "https://www.youtube.com/watch?v=JE0Du5UTM_A",
-      "thumbnail": "https://i.ytimg.com/vi/JE0Du5UTM_A/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBtaI66patr0c0JGG_7pLZwIGuIRw",
-      "type": "youtube_video",
-      "categories": [],
-      "lang": null
-    },
-    {
-      "id": "4uTlVaiJJVw",
-      "title": "Billy Joel It's Still Rock and Roll to Me Guitar Lesson + Tutorial",
-      "url": "https://www.youtube.com/watch?v=4uTlVaiJJVw",
-      "thumbnail": "https://i.ytimg.com/vi/4uTlVaiJJVw/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAGuK9FEHOFa8zGQv5sk50WqAimVA",
-      "type": "youtube_video",
-      "categories": [],
-      "lang": null
-    },
-    {
       "id": "Y35TEVUL0n0",
       "title": "Play POLLY by Nirvana Like a Pro in MINUTES with Just a Few Chords",
       "url": "https://www.youtube.com/watch?v=Y35TEVUL0n0",
@@ -1713,10 +1695,28 @@
       "lang": null
     },
     {
+      "id": "JE0Du5UTM_A",
+      "title": "Olivia Rodrigo Enough For You Guitar Lesson + Tutorial",
+      "url": "https://www.youtube.com/watch?v=JE0Du5UTM_A",
+      "thumbnail": "https://i.ytimg.com/vi/JE0Du5UTM_A/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBtaI66patr0c0JGG_7pLZwIGuIRw",
+      "type": "youtube_video",
+      "categories": [],
+      "lang": null
+    },
+    {
       "id": "pqQDIKNIfpc",
       "title": "Beginner Metal Guitar Lesson 2 – Picking, Palm Muting, Tremolo & More!",
       "url": "https://www.youtube.com/watch?v=pqQDIKNIfpc",
       "thumbnail": "https://i.ytimg.com/vi/pqQDIKNIfpc/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDugBlphcbDG9ZnxWLkKZye0yRMnA",
+      "type": "youtube_video",
+      "categories": [],
+      "lang": null
+    },
+    {
+      "id": "4uTlVaiJJVw",
+      "title": "Billy Joel It's Still Rock and Roll to Me Guitar Lesson + Tutorial",
+      "url": "https://www.youtube.com/watch?v=4uTlVaiJJVw",
+      "thumbnail": "https://i.ytimg.com/vi/4uTlVaiJJVw/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAGuK9FEHOFa8zGQv5sk50WqAimVA",
       "type": "youtube_video",
       "categories": [],
       "lang": null
@@ -1740,19 +1740,19 @@
       "lang": null
     },
     {
-      "id": "55XtQcXHxxc",
-      "title": "The Secret Chord Every Beginner Needs!",
-      "url": "https://www.youtube.com/watch?v=55XtQcXHxxc",
-      "thumbnail": "https://i.ytimg.com/vi/55XtQcXHxxc/hqdefault.jpg?sqp=-oaymwE2CNACELwBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgBtgiAAoAPigIMCAAQARhHIFYoZTAP&rs=AOn4CLB90WXrAfm7iLLB0-K2uko-DyUwaQ",
+      "id": "FoYdpMY5-q8",
+      "title": "The Beatles Yellow Submarine Guitar Lesson + Tutorial",
+      "url": "https://www.youtube.com/watch?v=FoYdpMY5-q8",
+      "thumbnail": "https://i.ytimg.com/vi/FoYdpMY5-q8/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBomDs1iEZH29sw_DLdsqOA7vesUw",
       "type": "youtube_video",
       "categories": [],
       "lang": null
     },
     {
-      "id": "FoYdpMY5-q8",
-      "title": "The Beatles Yellow Submarine Guitar Lesson + Tutorial",
-      "url": "https://www.youtube.com/watch?v=FoYdpMY5-q8",
-      "thumbnail": "https://i.ytimg.com/vi/FoYdpMY5-q8/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBomDs1iEZH29sw_DLdsqOA7vesUw",
+      "id": "55XtQcXHxxc",
+      "title": "The Secret Chord Every Beginner Needs!",
+      "url": "https://www.youtube.com/watch?v=55XtQcXHxxc",
+      "thumbnail": "https://i.ytimg.com/vi/55XtQcXHxxc/hqdefault.jpg?sqp=-oaymwE2CNACELwBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgBtgiAAoAPigIMCAAQARhHIFYoZTAP&rs=AOn4CLB90WXrAfm7iLLB0-K2uko-DyUwaQ",
       "type": "youtube_video",
       "categories": [],
       "lang": null
@@ -1767,19 +1767,19 @@
       "lang": null
     },
     {
-      "id": "mS5DzEywAM4",
-      "title": "You’re 3 Minutes from Playing In Bloom by Nirvana",
-      "url": "https://www.youtube.com/watch?v=mS5DzEywAM4",
-      "thumbnail": "https://i.ytimg.com/vi/mS5DzEywAM4/hqdefault.jpg?sqp=-oaymwE2CNACELwBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgBtgiAAoAPigIMCAAQARhHIFcoZTAP&rs=AOn4CLATsVp9hUY-VDFrk5Nd_QEE6FKG8g",
+      "id": "XTygYN9LgLA",
+      "title": "Tears for Fears Mad World Guitar Lesson + Tutorial",
+      "url": "https://www.youtube.com/watch?v=XTygYN9LgLA",
+      "thumbnail": "https://i.ytimg.com/vi/XTygYN9LgLA/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAd2nBvKNPsEOfnOoTJ-wLQ9Psj0A",
       "type": "youtube_video",
       "categories": [],
       "lang": null
     },
     {
-      "id": "XTygYN9LgLA",
-      "title": "Tears for Fears Mad World Guitar Lesson + Tutorial",
-      "url": "https://www.youtube.com/watch?v=XTygYN9LgLA",
-      "thumbnail": "https://i.ytimg.com/vi/XTygYN9LgLA/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAd2nBvKNPsEOfnOoTJ-wLQ9Psj0A",
+      "id": "mS5DzEywAM4",
+      "title": "You’re 3 Minutes from Playing In Bloom by Nirvana",
+      "url": "https://www.youtube.com/watch?v=mS5DzEywAM4",
+      "thumbnail": "https://i.ytimg.com/vi/mS5DzEywAM4/hqdefault.jpg?sqp=-oaymwE2CNACELwBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgBtgiAAoAPigIMCAAQARhHIFcoZTAP&rs=AOn4CLATsVp9hUY-VDFrk5Nd_QEE6FKG8g",
       "type": "youtube_video",
       "categories": [],
       "lang": null
@@ -1794,19 +1794,19 @@
       "lang": null
     },
     {
-      "id": "BOc-sLdkgCY",
-      "title": "Chappell Roan Good Luck, Babe! Guitar Lesson + Tutorial",
-      "url": "https://www.youtube.com/watch?v=BOc-sLdkgCY",
-      "thumbnail": "https://i.ytimg.com/vi/BOc-sLdkgCY/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDmwHILLrpvT7wUeWBQ77OdIq2rgg",
+      "id": "4j5xH0hv8Q4",
+      "title": "Bob Dylan Simple Twist of Fate Guitar Lesson + Tutorial",
+      "url": "https://www.youtube.com/watch?v=4j5xH0hv8Q4",
+      "thumbnail": "https://i.ytimg.com/vi/4j5xH0hv8Q4/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDmNzQI2bC14Zud1APfdr9-PzAVKw",
       "type": "youtube_video",
       "categories": [],
       "lang": null
     },
     {
-      "id": "4j5xH0hv8Q4",
-      "title": "Bob Dylan Simple Twist of Fate Guitar Lesson + Tutorial",
-      "url": "https://www.youtube.com/watch?v=4j5xH0hv8Q4",
-      "thumbnail": "https://i.ytimg.com/vi/4j5xH0hv8Q4/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDmNzQI2bC14Zud1APfdr9-PzAVKw",
+      "id": "BOc-sLdkgCY",
+      "title": "Chappell Roan Good Luck, Babe! Guitar Lesson + Tutorial",
+      "url": "https://www.youtube.com/watch?v=BOc-sLdkgCY",
+      "thumbnail": "https://i.ytimg.com/vi/BOc-sLdkgCY/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDmwHILLrpvT7wUeWBQ77OdIq2rgg",
       "type": "youtube_video",
       "categories": [],
       "lang": null
@@ -1866,6 +1866,24 @@
       "lang": null
     },
     {
+      "id": "TnVS99MHXts",
+      "title": "Learn How To Play Guitar Fast: Beginner Tips, Easy Riffs and First Chords",
+      "url": "https://www.youtube.com/watch?v=TnVS99MHXts",
+      "thumbnail": "https://i.ytimg.com/vi/TnVS99MHXts/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAwdYMk8-hlv-N72dg-BIytF0Rbnw",
+      "type": "youtube_video",
+      "categories": [],
+      "lang": null
+    },
+    {
+      "id": "TnVS99MHXts",
+      "title": "Learn How To Play Guitar Fast: Beginner Tips, Easy Riffs and First Chords",
+      "url": "https://www.youtube.com/watch?v=TnVS99MHXts",
+      "thumbnail": "https://i.ytimg.com/vi/TnVS99MHXts/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAwdYMk8-hlv-N72dg-BIytF0Rbnw",
+      "type": "youtube_video",
+      "categories": [],
+      "lang": null
+    },
+    {
       "id": "eK0-l5lbGXI",
       "title": "How to Play the Blues on Guitar with Just 3 Fingers",
       "url": "https://www.youtube.com/watch?v=eK0-l5lbGXI",
@@ -1875,46 +1893,28 @@
       "lang": null
     },
     {
-      "id": "TnVS99MHXts",
-      "title": "Learn How To Play Guitar Fast: Beginner Tips, Easy Riffs and First Chords",
-      "url": "https://www.youtube.com/watch?v=TnVS99MHXts",
-      "thumbnail": "https://i.ytimg.com/vi/TnVS99MHXts/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAwdYMk8-hlv-N72dg-BIytF0Rbnw",
-      "type": "youtube_video",
-      "categories": [],
-      "lang": null
-    },
-    {
-      "id": "TnVS99MHXts",
-      "title": "Learn How To Play Guitar Fast: Beginner Tips, Easy Riffs and First Chords",
-      "url": "https://www.youtube.com/watch?v=TnVS99MHXts",
-      "thumbnail": "https://i.ytimg.com/vi/TnVS99MHXts/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAwdYMk8-hlv-N72dg-BIytF0Rbnw",
-      "type": "youtube_video",
-      "categories": [],
-      "lang": null
-    },
-    {
-      "id": "G1nwfcmigg0",
-      "title": "How to Get Better at Acoustic Guitar: Learn Chord Transitions Fast",
-      "url": "https://www.youtube.com/watch?v=G1nwfcmigg0",
-      "thumbnail": "https://i.ytimg.com/vi/G1nwfcmigg0/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDJ4Bqt0S32A2wiP3txw7UWL1DnEQ",
-      "type": "youtube_video",
-      "categories": [],
-      "lang": null
-    },
-    {
-      "id": "G1nwfcmigg0",
-      "title": "How to Get Better at Acoustic Guitar: Learn Chord Transitions Fast",
-      "url": "https://www.youtube.com/watch?v=G1nwfcmigg0",
-      "thumbnail": "https://i.ytimg.com/vi/G1nwfcmigg0/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDJ4Bqt0S32A2wiP3txw7UWL1DnEQ",
-      "type": "youtube_video",
-      "categories": [],
-      "lang": null
-    },
-    {
       "id": "PwenPRaFMjY",
       "title": "You Look Like You Love Me Ella Langley & Riley Green • Guitar Lesson + Tutorial",
       "url": "https://www.youtube.com/watch?v=PwenPRaFMjY",
       "thumbnail": "https://i.ytimg.com/vi/PwenPRaFMjY/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDvdF8kk-7qKzizzrm193smzvNZvQ",
+      "type": "youtube_video",
+      "categories": [],
+      "lang": null
+    },
+    {
+      "id": "G1nwfcmigg0",
+      "title": "How to Get Better at Acoustic Guitar: Learn Chord Transitions Fast",
+      "url": "https://www.youtube.com/watch?v=G1nwfcmigg0",
+      "thumbnail": "https://i.ytimg.com/vi/G1nwfcmigg0/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDJ4Bqt0S32A2wiP3txw7UWL1DnEQ",
+      "type": "youtube_video",
+      "categories": [],
+      "lang": null
+    },
+    {
+      "id": "G1nwfcmigg0",
+      "title": "How to Get Better at Acoustic Guitar: Learn Chord Transitions Fast",
+      "url": "https://www.youtube.com/watch?v=G1nwfcmigg0",
+      "thumbnail": "https://i.ytimg.com/vi/G1nwfcmigg0/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDJ4Bqt0S32A2wiP3txw7UWL1DnEQ",
       "type": "youtube_video",
       "categories": [],
       "lang": null
@@ -1992,10 +1992,10 @@
       "lang": null
     },
     {
-      "id": "egJqpIK_MNA",
-      "title": "How to Play Lorde Solar Power - Guitar Lesson",
-      "url": "https://www.youtube.com/watch?v=egJqpIK_MNA",
-      "thumbnail": "https://i.ytimg.com/vi/egJqpIK_MNA/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLByniJmgetBhtzBxeb-Nhr8C9EWtQ",
+      "id": "fLd76ZrMOeE",
+      "title": "Learn Every Power Chord Position Everywhere — Easy Method",
+      "url": "https://www.youtube.com/watch?v=fLd76ZrMOeE",
+      "thumbnail": "https://i.ytimg.com/vi/fLd76ZrMOeE/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDJt1YpFrl5buIXCygnTt5R9Lmlkg",
       "type": "youtube_video",
       "categories": [],
       "lang": null
@@ -2010,10 +2010,10 @@
       "lang": null
     },
     {
-      "id": "fLd76ZrMOeE",
-      "title": "Learn Every Power Chord Position Everywhere — Easy Method",
-      "url": "https://www.youtube.com/watch?v=fLd76ZrMOeE",
-      "thumbnail": "https://i.ytimg.com/vi/fLd76ZrMOeE/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDJt1YpFrl5buIXCygnTt5R9Lmlkg",
+      "id": "egJqpIK_MNA",
+      "title": "How to Play Lorde Solar Power - Guitar Lesson",
+      "url": "https://www.youtube.com/watch?v=egJqpIK_MNA",
+      "thumbnail": "https://i.ytimg.com/vi/egJqpIK_MNA/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLByniJmgetBhtzBxeb-Nhr8C9EWtQ",
       "type": "youtube_video",
       "categories": [],
       "lang": null
@@ -2199,19 +2199,19 @@
       "lang": null
     },
     {
-      "id": "xGME414lJT0",
-      "title": "Sasha Sloan (feat. Sam Hunt) When Was It Over Guitar Lesson + Tutorial",
-      "url": "https://www.youtube.com/watch?v=xGME414lJT0",
-      "thumbnail": "https://i.ytimg.com/vi/xGME414lJT0/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBe_Pcgax03n_NRdT1GlE4gTh1xFg",
+      "id": "nJsDkhzA7P0",
+      "title": "Learn Nirvana’s “Stay Away” in 3 Minutes or Less",
+      "url": "https://www.youtube.com/watch?v=nJsDkhzA7P0",
+      "thumbnail": "https://i.ytimg.com/vi/nJsDkhzA7P0/hqdefault.jpg?sqp=-oaymwE2CNACELwBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgBtgiAAoAPigIMCAAQARhBIE8oZTAP&rs=AOn4CLDQQote43uxmrY2vTBT9MB9zvujiA",
       "type": "youtube_video",
       "categories": [],
       "lang": null
     },
     {
-      "id": "nJsDkhzA7P0",
-      "title": "Learn Nirvana’s “Stay Away” in 3 Minutes or Less",
-      "url": "https://www.youtube.com/watch?v=nJsDkhzA7P0",
-      "thumbnail": "https://i.ytimg.com/vi/nJsDkhzA7P0/hqdefault.jpg?sqp=-oaymwE2CNACELwBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgBtgiAAoAPigIMCAAQARhBIE8oZTAP&rs=AOn4CLDQQote43uxmrY2vTBT9MB9zvujiA",
+      "id": "xGME414lJT0",
+      "title": "Sasha Sloan (feat. Sam Hunt) When Was It Over Guitar Lesson + Tutorial",
+      "url": "https://www.youtube.com/watch?v=xGME414lJT0",
+      "thumbnail": "https://i.ytimg.com/vi/xGME414lJT0/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBe_Pcgax03n_NRdT1GlE4gTh1xFg",
       "type": "youtube_video",
       "categories": [],
       "lang": null
@@ -2289,28 +2289,28 @@
       "lang": null
     },
     {
+      "id": "xBvqYS9otiQ",
+      "title": "Beginner Guitar Lesson For Acoustic Embellishments",
+      "url": "https://www.youtube.com/watch?v=xBvqYS9otiQ",
+      "thumbnail": "https://i.ytimg.com/vi/xBvqYS9otiQ/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAdHjtgABnem1iBhOnss9qhkdu8YQ",
+      "type": "youtube_video",
+      "categories": [],
+      "lang": null
+    },
+    {
+      "id": "xBvqYS9otiQ",
+      "title": "Beginner Guitar Lesson For Acoustic Embellishments",
+      "url": "https://www.youtube.com/watch?v=xBvqYS9otiQ",
+      "thumbnail": "https://i.ytimg.com/vi/xBvqYS9otiQ/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAdHjtgABnem1iBhOnss9qhkdu8YQ",
+      "type": "youtube_video",
+      "categories": [],
+      "lang": null
+    },
+    {
       "id": "DiKpcQkSisA",
       "title": "Tom Petty And The Heartbreakers Don't Come Around Here No More • Guitar Lesson + Tutorial",
       "url": "https://www.youtube.com/watch?v=DiKpcQkSisA",
       "thumbnail": "https://i.ytimg.com/vi/DiKpcQkSisA/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCtbcu0jpYy1MSpcCUsuVqA9avMpA",
-      "type": "youtube_video",
-      "categories": [],
-      "lang": null
-    },
-    {
-      "id": "xBvqYS9otiQ",
-      "title": "Beginner Guitar Lesson For Acoustic Embellishments",
-      "url": "https://www.youtube.com/watch?v=xBvqYS9otiQ",
-      "thumbnail": "https://i.ytimg.com/vi/xBvqYS9otiQ/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAdHjtgABnem1iBhOnss9qhkdu8YQ",
-      "type": "youtube_video",
-      "categories": [],
-      "lang": null
-    },
-    {
-      "id": "xBvqYS9otiQ",
-      "title": "Beginner Guitar Lesson For Acoustic Embellishments",
-      "url": "https://www.youtube.com/watch?v=xBvqYS9otiQ",
-      "thumbnail": "https://i.ytimg.com/vi/xBvqYS9otiQ/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAdHjtgABnem1iBhOnss9qhkdu8YQ",
       "type": "youtube_video",
       "categories": [],
       "lang": null
