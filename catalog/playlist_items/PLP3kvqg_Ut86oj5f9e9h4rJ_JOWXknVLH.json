@@ -1,6 +1,6 @@
 {
   "playlistId": "PLP3kvqg_Ut86oj5f9e9h4rJ_JOWXknVLH",
-  "generatedAt": "2026-09-24T16:27:34.719015Z",
+  "generatedAt": "2026-09-25T03:18:51.025794Z",
   "items": [
     {
       "id": "DPm6VQgVy_Y",
@@ -358,6 +358,15 @@
       "title": "Bruno Mars Risk It All | Guitar Tutorial with Jazzy Chord Movements",
       "url": "https://www.youtube.com/watch?v=fwGLjkcGaCo",
       "thumbnail": "https://i.ytimg.com/vi/fwGLjkcGaCo/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBxeFEO5dhM5mecG8d-BOX9jzijeg",
+      "type": "youtube_video",
+      "categories": [],
+      "lang": null
+    },
+    {
+      "id": "tm4FmfqYJhs",
+      "title": "Easy Delta Blues Guitar Techniques in Drop D Tuning",
+      "url": "https://www.youtube.com/watch?v=tm4FmfqYJhs",
+      "thumbnail": "https://i.ytimg.com/vi/tm4FmfqYJhs/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDIrRylbnO_SRB9nmNEU-DiUrJDtA",
       "type": "youtube_video",
       "categories": [],
       "lang": null

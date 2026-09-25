@@ -1,6 +1,6 @@
 {
   "playlistId": "PLP3kvqg_Ut848uKvDUhkctR2c8EjKzYSh",
-  "generatedAt": "2026-09-24T16:27:58.202218Z",
+  "generatedAt": "2026-09-25T03:19:11.765097Z",
   "items": [
     {
       "id": "jba8MTJQs2g",
@@ -1267,6 +1267,15 @@
       "title": "Taylor Swift All Too Well Guitar Lesson + Tutorial",
       "url": "https://www.youtube.com/watch?v=feLr1bNbf7Y",
       "thumbnail": "https://i.ytimg.com/vi/feLr1bNbf7Y/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCqfB6N4TxRJ8B_ZDfMi9opwsUuXA",
+      "type": "youtube_video",
+      "categories": [],
+      "lang": null
+    },
+    {
+      "id": "AfZ5__qyVEo",
+      "title": "Harry Styles Sign of the Times – Easy Acoustic Guitar (Project Hail Mary)",
+      "url": "https://www.youtube.com/watch?v=AfZ5__qyVEo",
+      "thumbnail": "https://i.ytimg.com/vi/AfZ5__qyVEo/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCk-9Vrt--lgnwg7HXl8ploXcfURw",
       "type": "youtube_video",
       "categories": [],
       "lang": null

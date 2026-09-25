@@ -1,6 +1,6 @@
 {
   "playlistId": "PLP3kvqg_Ut85rIRwgz6RYeFIsKpUsKPfG",
-  "generatedAt": "2026-09-24T16:27:55.733687Z",
+  "generatedAt": "2026-09-25T03:19:09.533982Z",
   "items": [
     {
       "id": "C1xQg3MarOI",
@@ -502,6 +502,24 @@
       "title": "Beyoncé Texas Hold 'Em Guitar Lesson + Tutorial",
       "url": "https://www.youtube.com/watch?v=v6x0kLUyIAA",
       "thumbnail": "https://i.ytimg.com/vi/v6x0kLUyIAA/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDRPgbYdpAFIkxf0smFvNUzC2jGFQ",
+      "type": "youtube_video",
+      "categories": [],
+      "lang": null
+    },
+    {
+      "id": "s_M5Cd-moQY",
+      "title": "Learn Glen Campbell \"Wichita Lineman\" on Guitar • Full Breakdown Tutorial",
+      "url": "https://www.youtube.com/watch?v=s_M5Cd-moQY",
+      "thumbnail": "https://i.ytimg.com/vi/s_M5Cd-moQY/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCA_6WRjBHN8ewTPa1dIRkWpqR13w",
+      "type": "youtube_video",
+      "categories": [],
+      "lang": null
+    },
+    {
+      "id": "MnWEwTg1SGM",
+      "title": "I Taught \"Folsom Prison Blues\" on Johnny Cash's Actual Acoustic",
+      "url": "https://www.youtube.com/watch?v=MnWEwTg1SGM",
+      "thumbnail": "https://i.ytimg.com/vi/MnWEwTg1SGM/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCl9bviv5bdJu9nl1bfWAODFCQxQw",
       "type": "youtube_video",
       "categories": [],
       "lang": null

@@ -1,6 +1,6 @@
 {
   "playlistId": "PLP3kvqg_Ut86sabHCmWiDLIVzG_HZqu2T",
-  "generatedAt": "2026-09-24T16:27:05.621033Z",
+  "generatedAt": "2026-09-25T03:18:23.374551Z",
   "items": [
     {
       "id": "LbMzStHsw3w",
@@ -250,6 +250,15 @@
       "title": "Learn Power Chords with Smells Like Teen Spirit by Nirvana",
       "url": "https://www.youtube.com/watch?v=HfhZbd5w-iY",
       "thumbnail": "https://i.ytimg.com/vi/HfhZbd5w-iY/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLC8jOSECuACkVTSQzkYfllmXTddpg",
+      "type": "youtube_video",
+      "categories": [],
+      "lang": null
+    },
+    {
+      "id": "tGrBvuAXw-E",
+      "title": "I Taught Three Nirvana Riffs on Kurt Cobain's Acoustic Guitar!",
+      "url": "https://www.youtube.com/watch?v=tGrBvuAXw-E",
+      "thumbnail": "https://i.ytimg.com/vi/tGrBvuAXw-E/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBelHRP5VBX2BcBFd7MLXjqgCu7Bg",
       "type": "youtube_video",
       "categories": [],
       "lang": null
