@@ -1,6 +1,6 @@
 {
   "playlistId": "PLP3kvqg_Ut87viE8033dqeeFA2_jAaO93",
-  "generatedAt": "2026-09-30T17:35:03.134004Z",
+  "generatedAt": "2026-10-01T04:00:33.321183Z",
   "items": [
     {
       "id": "lfHXSdBPVBM",
@@ -871,6 +871,15 @@
       "title": "Learn Glen Campbell \"Wichita Lineman\" on Guitar • Full Breakdown Tutorial",
       "url": "https://www.youtube.com/watch?v=s_M5Cd-moQY",
       "thumbnail": "https://i.ytimg.com/vi/s_M5Cd-moQY/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCA_6WRjBHN8ewTPa1dIRkWpqR13w",
+      "type": "youtube_video",
+      "categories": [],
+      "lang": null
+    },
+    {
+      "id": "7O-Z-1Bfh8s",
+      "title": "Master Mustang Sally on Guitar | Full Tutorial",
+      "url": "https://www.youtube.com/watch?v=7O-Z-1Bfh8s",
+      "thumbnail": "https://i.ytimg.com/vi/7O-Z-1Bfh8s/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAGKy71QMXoRI7ofAZFh3sXnSJHaA",
       "type": "youtube_video",
       "categories": [],
       "lang": null

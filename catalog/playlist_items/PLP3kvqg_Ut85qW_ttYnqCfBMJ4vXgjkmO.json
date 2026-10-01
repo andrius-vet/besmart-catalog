@@ -1,6 +1,6 @@
 {
   "playlistId": "PLP3kvqg_Ut85qW_ttYnqCfBMJ4vXgjkmO",
-  "generatedAt": "2026-09-30T17:33:40.739111Z",
+  "generatedAt": "2026-10-01T03:59:40.272209Z",
   "items": [
     {
       "id": "MHkp3Q_xD_o",
@@ -34,6 +34,15 @@
       "title": "Howard Stern Called Me... Then I Met Slash the Same Day",
       "url": "https://www.youtube.com/watch?v=yaEeBeZkvcc",
       "thumbnail": "https://i.ytimg.com/vi/yaEeBeZkvcc/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD1WTbFnOG74LmyZO7FYstZE4b-2g",
+      "type": "youtube_video",
+      "categories": [],
+      "lang": null
+    },
+    {
+      "id": "Spd74b73vqQ",
+      "title": "The Absolute Worst Way to Learn Guitar (Don't Make This Mistake)",
+      "url": "https://www.youtube.com/watch?v=Spd74b73vqQ",
+      "thumbnail": "https://i.ytimg.com/vi/Spd74b73vqQ/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAWkKRRRuqFrQFNBCtzXGLQAKIFRQ",
       "type": "youtube_video",
       "categories": [],
       "lang": null

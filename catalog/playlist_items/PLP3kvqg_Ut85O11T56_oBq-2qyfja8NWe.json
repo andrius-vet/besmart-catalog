@@ -1,6 +1,6 @@
 {
   "playlistId": "PLP3kvqg_Ut85O11T56_oBq-2qyfja8NWe",
-  "generatedAt": "2026-09-30T17:34:18.173131Z",
+  "generatedAt": "2026-10-01T04:00:00.516212Z",
   "items": [
     {
       "id": "HNSaXAe8tyg",
@@ -70,6 +70,15 @@
       "title": "Beginner Acoustic Guitar Lesson 8 - The D minor Chord",
       "url": "https://www.youtube.com/watch?v=GlN76a1_Hig",
       "thumbnail": "https://i.ytimg.com/vi/GlN76a1_Hig/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBNc974zEOSuoE6b0e1s-51C4ABCg",
+      "type": "youtube_video",
+      "categories": [],
+      "lang": null
+    },
+    {
+      "id": "g_WjACh3chw",
+      "title": "5 Strum Patterns Every Beginner Guitarist Should Learn!",
+      "url": "https://www.youtube.com/watch?v=g_WjACh3chw",
+      "thumbnail": "https://i.ytimg.com/vi/g_WjACh3chw/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDi4kOLj-fwkw8AfaH2I6E3B64mag",
       "type": "youtube_video",
       "categories": [],
       "lang": null

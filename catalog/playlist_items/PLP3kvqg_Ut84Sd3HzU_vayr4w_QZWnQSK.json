@@ -1,6 +1,6 @@
 {
   "playlistId": "PLP3kvqg_Ut84Sd3HzU_vayr4w_QZWnQSK",
-  "generatedAt": "2026-09-30T17:34:31.703578Z",
+  "generatedAt": "2026-10-01T04:00:10.619006Z",
   "items": [
     {
       "id": "TVJeLvKLZ4M",
@@ -196,6 +196,15 @@
       "title": "100 Cringey Guitarist Cliches ROUND 3",
       "url": "https://www.youtube.com/watch?v=T4_ubckklU8",
       "thumbnail": "https://i.ytimg.com/vi/T4_ubckklU8/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBtcI0l3OCPyB0OyytUPa1pBBpyZg",
+      "type": "youtube_video",
+      "categories": [],
+      "lang": null
+    },
+    {
+      "id": "Spd74b73vqQ",
+      "title": "The Absolute Worst Way to Learn Guitar (Don't Make This Mistake)",
+      "url": "https://www.youtube.com/watch?v=Spd74b73vqQ",
+      "thumbnail": "https://i.ytimg.com/vi/Spd74b73vqQ/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAWkKRRRuqFrQFNBCtzXGLQAKIFRQ",
       "type": "youtube_video",
       "categories": [],
       "lang": null
