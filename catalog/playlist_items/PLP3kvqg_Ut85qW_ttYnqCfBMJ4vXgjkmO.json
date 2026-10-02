@@ -1,6 +1,6 @@
 {
   "playlistId": "PLP3kvqg_Ut85qW_ttYnqCfBMJ4vXgjkmO",
-  "generatedAt": "2026-10-01T17:57:43.723676Z",
+  "generatedAt": "2026-10-02T03:55:59.944271Z",
   "items": [
     {
       "id": "MHkp3Q_xD_o",
@@ -88,6 +88,15 @@
       "title": "How I Accidentally Built a YouTube Guitar Career",
       "url": "https://www.youtube.com/watch?v=zowyMiiJmKs",
       "thumbnail": "https://i.ytimg.com/vi/zowyMiiJmKs/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAlpdQ7WGF4fpMvrVfoIz7xsslLJg",
+      "type": "youtube_video",
+      "categories": [],
+      "lang": null
+    },
+    {
+      "id": "Mjye2tJtfAw",
+      "title": "How I Ended Up Playing Red Rocks With Slightly Stoopid",
+      "url": "https://www.youtube.com/watch?v=Mjye2tJtfAw",
+      "thumbnail": "https://i.ytimg.com/vi/Mjye2tJtfAw/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCgdWXfslctN_1rfO9JXymohUIFTw",
       "type": "youtube_video",
       "categories": [],
       "lang": null

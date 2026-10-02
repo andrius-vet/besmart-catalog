@@ -1,6 +1,6 @@
 {
   "playlistId": "PLP3kvqg_Ut84ebWwjS1jSvz0gD8KLc9XO",
-  "generatedAt": "2026-10-01T17:59:00.487783Z",
+  "generatedAt": "2026-10-02T03:57:11.395566Z",
   "items": [
     {
       "id": "1LjtJBtZxNM",
@@ -1542,6 +1542,15 @@
       "lang": null
     },
     {
+      "id": "T4zq7nSot9E",
+      "title": "5 Iconic Songs You Can Play Right Now • Tom Petty, Johnny Cash & More",
+      "url": "https://www.youtube.com/watch?v=T4zq7nSot9E",
+      "thumbnail": "https://i.ytimg.com/vi/T4zq7nSot9E/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAeYGhxztJsEfwRAIUyNixFpuqF9w",
+      "type": "youtube_video",
+      "categories": [],
+      "lang": null
+    },
+    {
       "id": "fwGLjkcGaCo",
       "title": "Bruno Mars Risk It All | Guitar Tutorial with Jazzy Chord Movements",
       "url": "https://www.youtube.com/watch?v=fwGLjkcGaCo",
@@ -1708,6 +1717,15 @@
       "title": "Harry Styles Sign of the Times – Easy Acoustic Guitar (Project Hail Mary)",
       "url": "https://www.youtube.com/watch?v=AfZ5__qyVEo",
       "thumbnail": "https://i.ytimg.com/vi/AfZ5__qyVEo/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCk-9Vrt--lgnwg7HXl8ploXcfURw",
+      "type": "youtube_video",
+      "categories": [],
+      "lang": null
+    },
+    {
+      "id": "0yR-YegbEHE",
+      "title": "5 Foo Fighters Riffs You Can Play Right Now • Everlong, My Hero & More",
+      "url": "https://www.youtube.com/watch?v=0yR-YegbEHE",
+      "thumbnail": "https://i.ytimg.com/vi/0yR-YegbEHE/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBc7zIy03X91MSY9G-NpmRSVDuc-A",
       "type": "youtube_video",
       "categories": [],
       "lang": null

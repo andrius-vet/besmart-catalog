@@ -1,6 +1,6 @@
 {
   "playlistId": "PLP3kvqg_Ut85O11T56_oBq-2qyfja8NWe",
-  "generatedAt": "2026-10-01T17:58:12.737406Z",
+  "generatedAt": "2026-10-02T03:56:27.033183Z",
   "items": [
     {
       "id": "HNSaXAe8tyg",
@@ -79,6 +79,15 @@
       "title": "5 Strum Patterns Every Beginner Guitarist Should Learn!",
       "url": "https://www.youtube.com/watch?v=g_WjACh3chw",
       "thumbnail": "https://i.ytimg.com/vi/g_WjACh3chw/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDi4kOLj-fwkw8AfaH2I6E3B64mag",
+      "type": "youtube_video",
+      "categories": [],
+      "lang": null
+    },
+    {
+      "id": "T4zq7nSot9E",
+      "title": "5 Iconic Songs You Can Play Right Now • Tom Petty, Johnny Cash & More",
+      "url": "https://www.youtube.com/watch?v=T4zq7nSot9E",
+      "thumbnail": "https://i.ytimg.com/vi/T4zq7nSot9E/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAeYGhxztJsEfwRAIUyNixFpuqF9w",
       "type": "youtube_video",
       "categories": [],
       "lang": null
