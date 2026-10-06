@@ -1,6 +1,6 @@
 {
   "playlistId": "PLP3kvqg_Ut85PYY6S2dlupDcIXMRsZUD4",
-  "generatedAt": "2026-10-05T03:55:00.521869Z",
+  "generatedAt": "2026-10-06T04:43:45.463993Z",
   "items": [
     {
       "id": "21E-FFLtuvQ",
@@ -516,6 +516,15 @@
       "lang": null
     },
     {
+      "id": "9sKFM4y8GZs",
+      "title": "How to Play “Before You Accuse Me” by Eric Clapton – Blues Guitar Lesson",
+      "url": "https://www.youtube.com/watch?v=9sKFM4y8GZs",
+      "thumbnail": "https://i.ytimg.com/vi/9sKFM4y8GZs/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCEqUam4CQQ9WmVWUzTv8X18cFMmw",
+      "type": "youtube_video",
+      "categories": [],
+      "lang": null
+    },
+    {
       "id": "JhpiPq9cLik",
       "title": "Stevie Ray Vaughan Inspired Blues Guitar Lick - Blues Rock Lead Guitar Lessons",
       "url": "https://www.youtube.com/watch?v=JhpiPq9cLik",
@@ -529,15 +538,6 @@
       "title": "Jimi Hendrix's Secret Major Chords",
       "url": "https://www.youtube.com/watch?v=MpixCIDzwII",
       "thumbnail": "https://i.ytimg.com/vi/MpixCIDzwII/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDXKPdLFqcGtDsX6GWRONSY-XOL9A",
-      "type": "youtube_video",
-      "categories": [],
-      "lang": null
-    },
-    {
-      "id": "9sKFM4y8GZs",
-      "title": "How to Play “Before You Accuse Me” by Eric Clapton – Blues Guitar Lesson",
-      "url": "https://www.youtube.com/watch?v=9sKFM4y8GZs",
-      "thumbnail": "https://i.ytimg.com/vi/9sKFM4y8GZs/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCEqUam4CQQ9WmVWUzTv8X18cFMmw",
       "type": "youtube_video",
       "categories": [],
       "lang": null
@@ -570,19 +570,19 @@
       "lang": null
     },
     {
-      "id": "OPnXHLiOANU",
-      "title": "Trey Anastasio Inspired Blues Rock Lick",
-      "url": "https://www.youtube.com/watch?v=OPnXHLiOANU",
-      "thumbnail": "https://i.ytimg.com/vi/OPnXHLiOANU/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDzyjHaRCNas23nkWMbbJssTZ_beg",
+      "id": "AJ1kNigKwP0",
+      "title": "Open E Blues Scale • 5 Tips For Faster Licks",
+      "url": "https://www.youtube.com/watch?v=AJ1kNigKwP0",
+      "thumbnail": "https://i.ytimg.com/vi/AJ1kNigKwP0/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAkIFYa9G5ni5wqbBZtCDC_EB7UIg",
       "type": "youtube_video",
       "categories": [],
       "lang": null
     },
     {
-      "id": "AJ1kNigKwP0",
-      "title": "Open E Blues Scale • 5 Tips For Faster Licks",
-      "url": "https://www.youtube.com/watch?v=AJ1kNigKwP0",
-      "thumbnail": "https://i.ytimg.com/vi/AJ1kNigKwP0/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAkIFYa9G5ni5wqbBZtCDC_EB7UIg",
+      "id": "OPnXHLiOANU",
+      "title": "Trey Anastasio Inspired Blues Rock Lick",
+      "url": "https://www.youtube.com/watch?v=OPnXHLiOANU",
+      "thumbnail": "https://i.ytimg.com/vi/OPnXHLiOANU/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDzyjHaRCNas23nkWMbbJssTZ_beg",
       "type": "youtube_video",
       "categories": [],
       "lang": null
