@@ -1,6 +1,6 @@
 {
   "playlistId": "PLP3kvqg_Ut84jcab0nZqsHqHRBm3c8zwL",
-  "generatedAt": "2026-10-15T16:16:14.005151Z",
+  "generatedAt": "2026-10-16T03:01:36.426869Z",
   "items": [
     {
       "id": "iGleR_5yiaE",
@@ -2500,6 +2500,15 @@
       "title": "5 Famous Movie Themes You Can Play on Guitar Right Now",
       "url": "https://www.youtube.com/watch?v=JVap0ug2xKo",
       "thumbnail": "https://i.ytimg.com/vi/JVap0ug2xKo/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCss113Fr5SVoWnbKGfV7emYerAOw",
+      "type": "youtube_video",
+      "categories": [],
+      "lang": null
+    },
+    {
+      "id": "3j1eqFG6fyo",
+      "title": "5 Famous Guitar Riffs You Can Play on One String",
+      "url": "https://www.youtube.com/watch?v=3j1eqFG6fyo",
+      "thumbnail": "https://i.ytimg.com/vi/3j1eqFG6fyo/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLC21PKjVR4FwKmw6Lgrxa0lAj9Gpg",
       "type": "youtube_video",
       "categories": [],
       "lang": null

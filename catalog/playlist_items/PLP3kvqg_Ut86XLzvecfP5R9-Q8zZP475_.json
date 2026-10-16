@@ -1,6 +1,6 @@
 {
   "playlistId": "PLP3kvqg_Ut86XLzvecfP5R9-Q8zZP475_",
-  "generatedAt": "2026-10-15T16:15:59.268900Z",
+  "generatedAt": "2026-10-16T03:01:21.498804Z",
   "items": [
     {
       "id": "WbTj59s2cKw",
@@ -493,6 +493,24 @@
       "title": "I Played a Show at NYC's OLDEST Rock Club! Marty Music & Friends Live Concert",
       "url": "https://www.youtube.com/watch?v=w3rcixULzEk",
       "thumbnail": "https://i.ytimg.com/vi/w3rcixULzEk/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCrioN7iPrv9bnFE-Fc9rK7KHv8PA",
+      "type": "youtube_video",
+      "categories": [],
+      "lang": null
+    },
+    {
+      "id": "vuQ2-9GmlKg",
+      "title": "Playing Led Zeppelin Live at East Iris Studios: Your Time Is Gonna Come",
+      "url": "https://www.youtube.com/watch?v=vuQ2-9GmlKg",
+      "thumbnail": "https://i.ytimg.com/vi/vuQ2-9GmlKg/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDhxRVU2a2-d4HAUGB1YyTbxtcAPg",
+      "type": "youtube_video",
+      "categories": [],
+      "lang": null
+    },
+    {
+      "id": "AaNxWY5AXMc",
+      "title": "Playing The Black Crowes Live at East Iris Studios: Jealous Again",
+      "url": "https://www.youtube.com/watch?v=AaNxWY5AXMc",
+      "thumbnail": "https://i.ytimg.com/vi/AaNxWY5AXMc/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAn9i2JxZERSNvYo7qEAfhqDrQqtg",
       "type": "youtube_video",
       "categories": [],
       "lang": null
