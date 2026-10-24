@@ -1,6 +1,6 @@
 {
   "playlistId": "PLP3kvqg_Ut87viE8033dqeeFA2_jAaO93",
-  "generatedAt": "2026-10-23T16:25:22.488463Z",
+  "generatedAt": "2026-10-24T03:10:35.323349Z",
   "items": [
     {
       "id": "lfHXSdBPVBM",
@@ -880,6 +880,15 @@
       "title": "Master Mustang Sally on Guitar | Full Tutorial",
       "url": "https://www.youtube.com/watch?v=7O-Z-1Bfh8s",
       "thumbnail": "https://i.ytimg.com/vi/7O-Z-1Bfh8s/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAGKy71QMXoRI7ofAZFh3sXnSJHaA",
+      "type": "youtube_video",
+      "categories": [],
+      "lang": null
+    },
+    {
+      "id": "iZhLM2IOcMM",
+      "title": "How to Play “Green River” by Creedence Clearwater Revival • Full Breakdown",
+      "url": "https://www.youtube.com/watch?v=iZhLM2IOcMM",
+      "thumbnail": "https://i.ytimg.com/vi/iZhLM2IOcMM/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDOh91C_atbK6QTFBp0keMz7PV4IQ",
       "type": "youtube_video",
       "categories": [],
       "lang": null
