@@ -1,6 +1,6 @@
 {
   "playlistId": "PLP3kvqg_Ut85PYY6S2dlupDcIXMRsZUD4",
-  "generatedAt": "2026-11-08T17:34:34.675776Z",
+  "generatedAt": "2026-11-09T04:31:34.497117Z",
   "items": [
     {
       "id": "21E-FFLtuvQ",
@@ -444,6 +444,15 @@
       "lang": null
     },
     {
+      "id": "6uw0P8fgWAs",
+      "title": "How to Play the \"Life By the Drop\" Intro • Stevie Ray Vaughan (Guitar Lesson)",
+      "url": "https://www.youtube.com/watch?v=6uw0P8fgWAs",
+      "thumbnail": "https://i.ytimg.com/vi/6uw0P8fgWAs/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAG_eK26mrW69xznnw6gFINCh322A",
+      "type": "youtube_video",
+      "categories": [],
+      "lang": null
+    },
+    {
       "id": "_-4SqOU97fs",
       "title": "B.B. King & Eric Clapton Riding With The King Guitar Lesson + Tutorial",
       "url": "https://www.youtube.com/watch?v=_-4SqOU97fs",
@@ -457,15 +466,6 @@
       "title": "Eric Clapton Inspired Blues Guitar Lick and Concept - Blues Rock Guitar",
       "url": "https://www.youtube.com/watch?v=fc8W5RACA2o",
       "thumbnail": "https://i.ytimg.com/vi/fc8W5RACA2o/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBd2S9wRk-mrIbHQ2DqhHg02Dp8rA",
-      "type": "youtube_video",
-      "categories": [],
-      "lang": null
-    },
-    {
-      "id": "6uw0P8fgWAs",
-      "title": "How to Play the \"Life By the Drop\" Intro • Stevie Ray Vaughan (Guitar Lesson)",
-      "url": "https://www.youtube.com/watch?v=6uw0P8fgWAs",
-      "thumbnail": "https://i.ytimg.com/vi/6uw0P8fgWAs/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAG_eK26mrW69xznnw6gFINCh322A",
       "type": "youtube_video",
       "categories": [],
       "lang": null
@@ -507,19 +507,19 @@
       "lang": null
     },
     {
-      "id": "jUuSuybiRbc",
-      "title": "Marcus King Hard Working Man Guitar Lesson + Tutorial",
-      "url": "https://www.youtube.com/watch?v=jUuSuybiRbc",
-      "thumbnail": "https://i.ytimg.com/vi/jUuSuybiRbc/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAPFcidN1UQD0jsoQkDiMDfYOuvdw",
+      "id": "9sKFM4y8GZs",
+      "title": "How to Play “Before You Accuse Me” by Eric Clapton – Blues Guitar Lesson",
+      "url": "https://www.youtube.com/watch?v=9sKFM4y8GZs",
+      "thumbnail": "https://i.ytimg.com/vi/9sKFM4y8GZs/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCEqUam4CQQ9WmVWUzTv8X18cFMmw",
       "type": "youtube_video",
       "categories": [],
       "lang": null
     },
     {
-      "id": "9sKFM4y8GZs",
-      "title": "How to Play “Before You Accuse Me” by Eric Clapton – Blues Guitar Lesson",
-      "url": "https://www.youtube.com/watch?v=9sKFM4y8GZs",
-      "thumbnail": "https://i.ytimg.com/vi/9sKFM4y8GZs/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCEqUam4CQQ9WmVWUzTv8X18cFMmw",
+      "id": "jUuSuybiRbc",
+      "title": "Marcus King Hard Working Man Guitar Lesson + Tutorial",
+      "url": "https://www.youtube.com/watch?v=jUuSuybiRbc",
+      "thumbnail": "https://i.ytimg.com/vi/jUuSuybiRbc/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAPFcidN1UQD0jsoQkDiMDfYOuvdw",
       "type": "youtube_video",
       "categories": [],
       "lang": null
